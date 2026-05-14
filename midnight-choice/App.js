@@ -8,8 +8,9 @@ import {
   View,
 } from 'react-native';
 
-import QuestionsScreen from './components/QuestionsScreen';
-
+import QuestionsScreen from "./components/QuestionsScreen";
+import WaitScreen from './components/WaitScreen';
+import ResultsScreen from './components/ResultsScreen';
 export default function App() {
   const [stage, setStage] = useState('intro');
 
@@ -21,20 +22,44 @@ export default function App() {
     }, 2200);
   };
 
+  const handleQuestionsComplete = () => {
+    setStage('wait');
+  };
+
+
+  const handleWaitComplete = () => {
+    setStage('results');
+  };
+
+  if (stage === 'results') {
+    return <ResultsScreen />;
+  }
   if (stage === 'transition') {
     return (
-      <View style={styles.blackScreen}>
-        <StatusBar style="light" />
-      </View>
+        <View style={styles.blackScreen}>
+          <StatusBar style="light" />
+        </View>
     );
   }
 
   if (stage === 'questions') {
-    return <QuestionsScreen />;
+    return (
+        <QuestionsScreen
+            onComplete={handleQuestionsComplete}
+        />
+    );
+  }
+
+  if (stage === 'wait') {
+    return (
+        <WaitScreen
+            onFinish={handleWaitComplete}
+        />
+    );
   }
 
   return (
-    <IntroScreen onBegin={handleBegin} />
+      <IntroScreen onBegin={handleBegin} />
   );
 }
 
@@ -59,36 +84,36 @@ function IntroScreen({ onBegin }) {
   }, []);
 
   return (
-    <View style={styles.container}>
-      <Animated.Text
-        style={[
-          styles.title,
-          {
-            opacity: titleFade,
-          },
-        ]}
-      >
-        You might choose who you are today
-      </Animated.Text>
-
-      <Animated.View
-        style={{
-          opacity: buttonFade,
-          marginTop: 60,
-        }}
-      >
-        <TouchableOpacity
-          activeOpacity={0.7}
-          onPress={onBegin}
+      <View style={styles.container}>
+        <Animated.Text
+            style={[
+              styles.title,
+              {
+                opacity: titleFade,
+              },
+            ]}
         >
-          <Text style={styles.beginText}>
-            Begin...
-          </Text>
-        </TouchableOpacity>
-      </Animated.View>
+          You might choose who you are today
+        </Animated.Text>
 
-      <StatusBar style="light" />
-    </View>
+        <Animated.View
+            style={{
+              opacity: buttonFade,
+              marginTop: 60,
+            }}
+        >
+          <TouchableOpacity
+              activeOpacity={0.7}
+              onPress={onBegin}
+          >
+            <Text style={styles.beginText}>
+              Begin...
+            </Text>
+          </TouchableOpacity>
+        </Animated.View>
+
+        <StatusBar style="light" />
+      </View>
   );
 }
 
@@ -122,5 +147,3 @@ const styles = StyleSheet.create({
     fontWeight: '300',
   },
 });
-
-

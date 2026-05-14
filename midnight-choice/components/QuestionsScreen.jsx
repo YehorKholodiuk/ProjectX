@@ -120,12 +120,16 @@ const questions = [
   },
 ];
 
-export default function QuestionsScreen() {
+export default function QuestionsScreen({ onComplete }) {
   const [currentQuestion, setCurrentQuestion] = useState(0);
 
-  const addScores = useEmotionStore((state) => state.addScores);
+  const addScores = useEmotionStore(
+      (state) => state.addScores
+  );
 
-  const fadeAnim = useRef(new Animated.Value(0)).current;
+  const fadeAnim = useRef(
+      new Animated.Value(0)
+  ).current;
 
   useEffect(() => {
     fadeIn();
@@ -160,7 +164,7 @@ export default function QuestionsScreen() {
           fadeIn();
         }, 350);
       } else {
-        console.log('Questions completed');
+        onComplete();
       }
     });
   };
@@ -184,7 +188,9 @@ export default function QuestionsScreen() {
                 <TouchableOpacity
                     key={index}
                     activeOpacity={0.7}
-                    onPress={() => handleAnswer(answer.scores)}
+                    onPress={() =>
+                        handleAnswer(answer.scores)
+                    }
                     style={styles.answerButton}
                 >
                   <Text style={styles.answerText}>
@@ -231,4 +237,3 @@ const styles = StyleSheet.create({
     fontWeight: '300',
   },
 });
-
