@@ -1,0 +1,184 @@
+{
+  "films": [
+    {
+      "title": "Lost Highway",
+      "tags": {
+        "movement": 3,
+        "solitude": 4,
+        "warmth": 0,
+        "nostalgia": 1,
+        "night": 5,
+        "uncertainty": 5
+      }
+    },
+
+    {
+      "title": "Blade Runner",
+      "tags": {
+        "movement": 2,
+        "solitude": 5,
+        "warmth": 1,
+        "nostalgia": 3,
+        "night": 5,
+        "uncertainty": 4
+      }
+    },
+
+    {
+      "title": "Mulholland Drive",
+      "tags": {
+        "movement": 2,
+        "solitude": 3,
+        "warmth": 1,
+        "nostalgia": 2,
+        "night": 5,
+        "uncertainty": 5
+      }
+    },
+
+    {
+      "title": "Three Thousand Years of Longing",
+      "tags": {
+        "movement": 2,
+        "solitude": 2,
+        "warmth": 5,
+        "nostalgia": 4,
+        "night": 2,
+        "uncertainty": 2
+      }
+    },
+
+    {
+      "title": "The Devil Wears Prada",
+      "tags": {
+        "movement": 4,
+        "solitude": 1,
+        "warmth": 2,
+        "nostalgia": 1,
+        "night": 1,
+        "uncertainty": 2
+      }
+    }
+  ],
+
+  "music": [
+    {
+      "title": "Gravity of Love",
+      "artist": "Enigma",
+      "tags": {
+        "movement": 2,
+        "solitude": 3,
+        "warmth": 2,
+        "nostalgia": 4,
+        "night": 5,
+        "uncertainty": 2
+      }
+    },
+
+    {
+      "title": "Bella Stella",
+      "artist": "Highland",
+      "tags": {
+        "movement": 4,
+        "solitude": 1,
+        "warmth": 3,
+        "nostalgia": 3,
+        "night": 2,
+        "uncertainty": 1
+      }
+    },
+
+    {
+      "title": "Innuendo",
+      "artist": "Queen",
+      "tags": {
+        "movement": 3,
+        "solitude": 2,
+        "warmth": 1,
+        "nostalgia": 3,
+        "night": 4,
+        "uncertainty": 5
+      }
+    },
+
+    {
+      "title": "Shape of My Heart",
+      "artist": "Sting",
+      "tags": {
+        "movement": 1,
+        "solitude": 5,
+        "warmth": 2,
+        "nostalgia": 5,
+        "night": 4,
+        "uncertainty": 2
+      }
+    },
+
+    {
+      "title": "Hope for the Future",
+      "artist": "Paul McCartney",
+      "tags": {
+        "movement": 2,
+        "solitude": 1,
+        "warmth": 5,
+        "nostalgia": 3,
+        "night": 1,
+        "uncertainty": 1
+      }
+    }
+  ],
+
+  "books": [
+    {
+      "title": "Good Omens",
+      "author": "Terry Pratchett & Neil Gaiman",
+      "tags": {
+        "movement": 3,
+        "solitude": 1,
+        "warmth": 4,
+        "nostalgia": 2,
+        "night": 2,
+        "uncertainty": 2
+      }
+    },
+
+    {
+      "title": "The Horse and His Boy",
+      "author": "C.S. Lewis",
+      "tags": {
+        "movement": 4,
+        "solitude": 2,
+        "warmth": 5,
+        "nostalgia": 4,
+        "night": 1,
+        "uncertainty": 1
+      }
+    },
+
+    {
+      "title": "Make Your Bed",
+      "author": "William H. McRaven",
+      "tags": {
+        "movement": 5,
+        "solitude": 1,
+        "warmth": 2,
+        "nostalgia": 1,
+        "night": 1,
+        "uncertainty": 1
+      }
+    },
+
+    {
+      "title": "The Incredible Journey",
+      "author": "Sheila Burnford",
+      "tags": {
+        "movement": 5,
+        "solitude": 2,
+        "warmth": 5,
+        "nostalgia": 5,
+        "night": 1,
+        "uncertainty": 2
+      }
+    }
+  ]
+}
