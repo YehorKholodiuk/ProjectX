@@ -46,14 +46,9 @@ export const getRecommendations = (emotionalProfile) => {
         emotionalProfile
     );
 
-    const bestBook = findBestMatch(
-        mediaDatabase.books,
-        emotionalProfile
-    );
     return {
         film: bestFilm,
         music: bestMusic,
-        book: bestBook,
     };
 };
 

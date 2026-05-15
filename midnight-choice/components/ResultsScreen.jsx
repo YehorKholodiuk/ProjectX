@@ -69,26 +69,30 @@ export default function ResultsScreen({ onFinish }) {
                     </Text>
                 </View>
 
+
+
                 <View style={styles.section}>
                     <Text style={styles.label}>
-                        BOOK
+                        CONTINUE
                     </Text>
 
                     <Text
                         style={styles.title}
                         onPress={() =>
                             Linking.openURL(
-                                recommendations.book.openLibraryUrl
+                                'https://openlibrary.org/'
                             )
                         }
                     >
-                        {recommendations.book.title}
+                        Find a book for tonight
                     </Text>
 
                     <Text style={styles.subtitle}>
-                        {recommendations.book.author}
+                        Open Library
                     </Text>
                 </View>
+
+
             </Animated.View>
         </View>
     );
