@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import {
     Animated,
+    Linking,
     StyleSheet,
     Text,
     View,
@@ -21,14 +22,6 @@ export default function ResultsScreen({ onFinish }) {
     const fadeAnim = useRef(
         new Animated.Value(0)
     ).current;
-
-    useEffect(() => {
-        Animated.timing(fadeAnim, {
-            toValue: 1,
-            duration: 2500,
-            useNativeDriver: true,
-        }).start();
-    }, []);
 
     useEffect(() => {
         Animated.timing(fadeAnim, {
@@ -81,7 +74,14 @@ export default function ResultsScreen({ onFinish }) {
                         BOOK
                     </Text>
 
-                    <Text style={styles.title}>
+                    <Text
+                        style={styles.title}
+                        onPress={() =>
+                            Linking.openURL(
+                                recommendations.book.openLibraryUrl
+                            )
+                        }
+                    >
                         {recommendations.book.title}
                     </Text>
 
@@ -131,4 +131,6 @@ const styles = StyleSheet.create({
         letterSpacing: 1,
         fontWeight: '300',
     },
+
+
 });

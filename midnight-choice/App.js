@@ -8,10 +8,11 @@ import {
   View,
 } from 'react-native';
 
-import QuestionsScreen from "./components/QuestionsScreen";
+import QuestionsScreen from './components/QuestionsScreen';
 import WaitScreen from './components/WaitScreen';
 import ResultsScreen from './components/ResultsScreen';
 import FinalScreen from './components/FinalScreen';
+
 export default function App() {
   const [stage, setStage] = useState('intro');
 
@@ -27,7 +28,6 @@ export default function App() {
     setStage('wait');
   };
 
-
   const handleWaitComplete = () => {
     setStage('results');
   };
@@ -35,16 +35,6 @@ export default function App() {
   const handleResultsComplete = () => {
     setStage('final');
   };
-
-  if (stage === 'results') {
-    return (
-        <ResultsScreen
-            onFinish={handleResultsComplete}
-        />
-    );
-  }
-
-
 
   if (stage === 'transition') {
     return (
@@ -70,6 +60,13 @@ export default function App() {
     );
   }
 
+  if (stage === 'results') {
+    return (
+        <ResultsScreen
+            onFinish={handleResultsComplete}
+        />
+    );
+  }
 
   if (stage === 'final') {
     return <FinalScreen />;
@@ -81,8 +78,13 @@ export default function App() {
 }
 
 function IntroScreen({ onBegin }) {
-  const titleFade = React.useRef(new Animated.Value(0)).current;
-  const buttonFade = React.useRef(new Animated.Value(0)).current;
+  const titleFade = React.useRef(
+      new Animated.Value(0)
+  ).current;
+
+  const buttonFade = React.useRef(
+      new Animated.Value(0)
+  ).current;
 
   React.useEffect(() => {
     Animated.timing(titleFade, {

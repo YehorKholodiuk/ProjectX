@@ -7,13 +7,15 @@ import {
 } from 'react-native';
 
 export default function FinalScreen() {
-    const fadeAnim = useRef(
+    const opacity = useRef(
         new Animated.Value(0)
     ).current;
 
     useEffect(() => {
+        opacity.setValue(0);
+
         Animated.sequence([
-            Animated.timing(fadeAnim, {
+            Animated.timing(opacity, {
                 toValue: 1,
                 duration: 2200,
                 useNativeDriver: true,
@@ -21,9 +23,9 @@ export default function FinalScreen() {
 
             Animated.delay(2200),
 
-            Animated.timing(fadeAnim, {
+            Animated.timing(opacity, {
                 toValue: 0,
-                duration: 3000,
+                duration: 3200,
                 useNativeDriver: true,
             }),
         ]).start();
@@ -35,7 +37,7 @@ export default function FinalScreen() {
                 style={[
                     styles.text,
                     {
-                        opacity: fadeAnim,
+                        opacity,
                     },
                 ]}
             >
