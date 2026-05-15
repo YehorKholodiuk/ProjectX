@@ -9,7 +9,7 @@ import {
 import useEmotionStore from '../store/useEmotionStore';
 import { getRecommendations } from '../utils/recommendationEngine';
 
-export default function ResultsScreen() {
+export default function ResultsScreen({ onFinish }) {
     const emotionalProfile = useEmotionStore(
         (state) => state.emotionalProfile
     );
@@ -28,6 +28,20 @@ export default function ResultsScreen() {
             duration: 2500,
             useNativeDriver: true,
         }).start();
+    }, []);
+
+    useEffect(() => {
+        Animated.timing(fadeAnim, {
+            toValue: 1,
+            duration: 2500,
+            useNativeDriver: true,
+        }).start();
+
+        const timer = setTimeout(() => {
+            onFinish();
+        }, 7000);
+
+        return () => clearTimeout(timer);
     }, []);
 
     return (

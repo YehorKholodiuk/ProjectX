@@ -11,6 +11,7 @@ import {
 import QuestionsScreen from "./components/QuestionsScreen";
 import WaitScreen from './components/WaitScreen';
 import ResultsScreen from './components/ResultsScreen';
+import FinalScreen from './components/FinalScreen';
 export default function App() {
   const [stage, setStage] = useState('intro');
 
@@ -31,9 +32,20 @@ export default function App() {
     setStage('results');
   };
 
+  const handleResultsComplete = () => {
+    setStage('final');
+  };
+
   if (stage === 'results') {
-    return <ResultsScreen />;
+    return (
+        <ResultsScreen
+            onFinish={handleResultsComplete}
+        />
+    );
   }
+
+
+
   if (stage === 'transition') {
     return (
         <View style={styles.blackScreen}>
@@ -56,6 +68,11 @@ export default function App() {
             onFinish={handleWaitComplete}
         />
     );
+  }
+
+
+  if (stage === 'final') {
+    return <FinalScreen />;
   }
 
   return (
