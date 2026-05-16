@@ -1,4 +1,9 @@
-import React, { useEffect, useRef } from 'react';
+import React, {
+    useEffect,
+    useRef,
+    useState,
+} from 'react';
+
 import {
     Animated,
     Linking,
@@ -8,9 +13,16 @@ import {
 } from 'react-native';
 
 import useEmotionStore from '../store/useEmotionStore';
+
 import { getRecommendations } from '../utils/recommendationEngine';
 
-export default function ResultsScreen({ onFinish }) {
+import {
+    fetchBookRecommendation,
+} from '../utils/googleBooksService';
+
+export default function ResultsScreen({
+                                          onFinish,
+                                      }) {
     const emotionalProfile = useEmotionStore(
         (state) => state.emotionalProfile
     );
@@ -18,6 +30,8 @@ export default function ResultsScreen({ onFinish }) {
     const recommendations = getRecommendations(
         emotionalProfile
     );
+
+    const [book, setBook] = useState(null);
 
     const fadeAnim = useRef(
         new Animated.Value(0)
@@ -30,9 +44,20 @@ export default function ResultsScreen({ onFinish }) {
             useNativeDriver: true,
         }).start();
 
+        const loadBook = async () => {
+            const result =
+                await fetchBookRecommendation(
+                    emotionalProfile
+                );
+
+            setBook(result);
+        };
+
+        loadBook();
+
         const timer = setTimeout(() => {
             onFinish();
-        }, 7000);
+        }, 9000);
 
         return () => clearTimeout(timer);
     }, []);
@@ -69,30 +94,39 @@ export default function ResultsScreen({ onFinish }) {
                     </Text>
                 </View>
 
-
-
                 <View style={styles.section}>
                     <Text style={styles.label}>
-                        CONTINUE
+                        BOOK
                     </Text>
 
-                    <Text
-                        style={styles.title}
-                        onPress={() =>
-                            Linking.openURL(
-                                'https://openlibrary.org/'
-                            )
-                        }
-                    >
-                        Find a book for tonight
-                    </Text>
+                    {book ? (
+                        <>
+                            <Text style={styles.title}>
+                                {book.title}
+                            </Text>
 
-                    <Text style={styles.subtitle}>
-                        Open Library
-                    </Text>
+                            <Text style={styles.subtitle}>
+                                {book.author}
+                            </Text>
+
+                            <Text
+                                suppressHighlighting={true}
+                                style={styles.link}
+                                onPress={() =>
+                                    Linking.openURL(
+                                        book.previewLink
+                                    )
+                                }
+                            >
+                                Preview / View
+                            </Text>
+                        </>
+                    ) : (
+                        <Text style={styles.subtitle}>
+                            Searching through the night...
+                        </Text>
+                    )}
                 </View>
-
-
             </Animated.View>
         </View>
     );
@@ -136,5 +170,13 @@ const styles = StyleSheet.create({
         fontWeight: '300',
     },
 
-
+    link: {
+        color: '#999',
+        fontSize: 15,
+        marginTop: 18,
+        textAlign: 'center',
+        letterSpacing: 1.2,
+        textDecorationLine: 'underline',
+        fontWeight: '300',
+    },
 });

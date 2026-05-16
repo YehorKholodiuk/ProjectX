@@ -113,7 +113,6 @@
         "uncertainty": 2
       }
     },
-
     {
       "title": "Hope for the Future",
       "artist": "Paul McCartney",
@@ -126,60 +125,6 @@
         "uncertainty": 1
       }
     }
-  ],
-
-  "books": [
-    {
-      "title": "Good Omens",
-      "author": "Terry Pratchett & Neil Gaiman",
-      "openLibraryUrl": "https://openlibrary.org/works/OL14933414W/Good_Omens",
-      "tags": {
-        "movement": 3,
-        "solitude": 1,
-        "warmth": 4,
-        "nostalgia": 2,
-        "night": 2,
-        "uncertainty": 2
-      }
-    },
-
-    {
-      "title": "The Horse and His Boy",
-      "author": "C.S. Lewis",
-      "tags": {
-        "movement": 4,
-        "solitude": 2,
-        "warmth": 5,
-        "nostalgia": 4,
-        "night": 1,
-        "uncertainty": 1
-      }
-    },
-
-    {
-      "title": "Make Your Bed",
-      "author": "William H. McRaven",
-      "tags": {
-        "movement": 5,
-        "solitude": 1,
-        "warmth": 2,
-        "nostalgia": 1,
-        "night": 1,
-        "uncertainty": 1
-      }
-    },
-
-    {
-      "title": "The Incredible Journey",
-      "author": "Sheila Burnford",
-      "tags": {
-        "movement": 5,
-        "solitude": 2,
-        "warmth": 5,
-        "nostalgia": 5,
-        "night": 1,
-        "uncertainty": 2
-      }
-    }
   ]
-}
+
+    }
