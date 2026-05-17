@@ -88,14 +88,35 @@ export default function ResultsScreen({
                         MUSIC
                     </Text>
 
-                    <Text style={styles.title}>
-                        {recommendations.music.title}
-                    </Text>
+                    <TouchableOpacity
+                        activeOpacity={0.8}
+                        onPress={() =>
+                            Linking.openURL(
+                                recommendations.music.youtubeUrl
+                            )
+                        }
+                    >
+                        <>
+                            <Text style={styles.title}>
+                                {recommendations.music.title}
+                            </Text>
 
-                    <Text style={styles.subtitle}>
-                        {recommendations.music.artist}
-                    </Text>
+                            <Text style={styles.subtitle}>
+                                {recommendations.music.artist}
+                            </Text>
+
+                            <Text style={styles.link}>
+                                Listen on YouTube
+                            </Text>
+                        </>
+                    </TouchableOpacity>
                 </View>
+
+
+
+
+
+
 
                 <View style={styles.section}>
                     <Text style={styles.label}>
