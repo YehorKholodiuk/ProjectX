@@ -9,6 +9,7 @@ import {
     Linking,
     StyleSheet,
     Text,
+    TouchableOpacity,
     View,
 } from 'react-native';
 
@@ -49,6 +50,8 @@ export default function ResultsScreen({
                 await fetchBookRecommendation(
                     emotionalProfile
                 );
+
+            console.log(result);
 
             setBook(result);
         };
@@ -100,30 +103,32 @@ export default function ResultsScreen({
                     </Text>
 
                     {book ? (
-                        <>
-                            <Text style={styles.title}>
-                                {book.title}
-                            </Text>
+                        <TouchableOpacity
+                            activeOpacity={0.8}
+                            onPress={() =>
+                                Linking.openURL(
+                                    book.previewLink
+                                )
+                            }
+                        >
+                            <>
+                                <Text style={styles.title}>
+                                    {book.title}
+                                </Text>
 
-                            <Text style={styles.subtitle}>
-                                {book.author}
-                            </Text>
+                                <Text style={styles.subtitle}>
+                                    {book.author}
+                                </Text>
 
-                            <Text
-                                suppressHighlighting={true}
-                                style={styles.link}
-                                onPress={() =>
-                                    Linking.openURL(
-                                        book.previewLink
-                                    )
-                                }
-                            >
-                                Preview / View
-                            </Text>
-                        </>
+                                <Text style={styles.link}>
+                                    Preview / View
+                                </Text>
+                            </>
+                        </TouchableOpacity>
                     ) : (
                         <Text style={styles.subtitle}>
-                            Searching through the night...
+                            Searching through the
+                            night...
                         </Text>
                     )}
                 </View>
