@@ -747,7 +747,8 @@ const questions = [
 ];
 
 export default function QuestionsScreen({ onComplete }) {
-  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [currentQuestion, setCurrentQuestion] =
+      useState(0);
 
   const addScores = useEmotionStore(
       (state) => state.addScores
@@ -756,6 +757,18 @@ export default function QuestionsScreen({ onComplete }) {
   const fadeAnim = useRef(
       new Animated.Value(0)
   ).current;
+
+  // RANDOMIZE QUESTIONS
+
+  const shuffleArray = (array) => {
+    return [...array].sort(
+        () => Math.random() - 0.5
+    );
+  };
+
+  const [sessionQuestions] = useState(
+      shuffleArray(questions).slice(0, 5)
+  );
 
   useEffect(() => {
     fadeIn();
@@ -781,8 +794,13 @@ export default function QuestionsScreen({ onComplete }) {
     addScores(tags);
 
     fadeOut(() => {
-      if (currentQuestion < questions.length - 1) {
-        setCurrentQuestion((prev) => prev + 1);
+      if (
+          currentQuestion <
+          sessionQuestions.length - 1
+      ) {
+        setCurrentQuestion(
+            (prev) => prev + 1
+        );
 
         fadeAnim.setValue(0);
 
@@ -795,7 +813,8 @@ export default function QuestionsScreen({ onComplete }) {
     });
   };
 
-  const question = questions[currentQuestion];
+  const question =
+      sessionQuestions[currentQuestion];
 
   return (
       <View style={styles.container}>
@@ -810,26 +829,35 @@ export default function QuestionsScreen({ onComplete }) {
           </Text>
 
           <View style={styles.answersContainer}>
-            {question.answers.map((answer, index) => (
-                <TouchableOpacity
-                    key={index}
-                    activeOpacity={0.7}
-                    onPress={() =>
-                        handleAnswer(answer.tags)
-                    }
-                    style={styles.answerButton}
-                >
-                  <Text style={styles.answerText}>
-                    {answer.text}
-                  </Text>
-                </TouchableOpacity>
-            ))}
+            {question.answers.map(
+                (answer, index) => (
+                    <TouchableOpacity
+                        key={index}
+                        activeOpacity={0.7}
+                        onPress={() =>
+                            handleAnswer(
+                                answer.tags
+                            )
+                        }
+                        style={
+                          styles.answerButton
+                        }
+                    >
+                      <Text
+                          style={
+                            styles.answerText
+                          }
+                      >
+                        {answer.text}
+                      </Text>
+                    </TouchableOpacity>
+                )
+            )}
           </View>
         </Animated.View>
       </View>
   );
 }
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
