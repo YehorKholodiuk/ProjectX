@@ -656,6 +656,15 @@ const questions = [
           nostalgia: 1,
         },
       },
+
+      {
+        text: 'Watch the road a little longer',
+        tags: {
+          reflection: 3,
+          uncertainty: 2,
+          longing: 2,
+        },
+      }
     ],
   },
 
@@ -677,6 +686,15 @@ const questions = [
           warmth: 1,
         },
       },
+
+      {
+        text: 'They feel strangely familiar',
+        tags: {
+          nostalgia: 3,
+          dreamlike: 2,
+          solitude: 2,
+        },
+      }
     ],
   },
 
@@ -700,6 +718,14 @@ const questions = [
           uncertainty: 1,
         },
       },
+      {
+        text: 'Be remembered incorrectly',
+        tags: {
+          surreal: 3,
+          distance: 2,
+          uncertainty: 2,
+        },
+      }
     ],
   },
 
@@ -721,6 +747,15 @@ const questions = [
           night: 1,
         },
       },
+
+      {
+        text: 'It feels unfinished',
+        tags: {
+          uncertainty: 3,
+          longing: 2,
+          reflection: 2,
+        },
+      }
     ],
   },
 
@@ -742,6 +777,15 @@ const questions = [
           nostalgia: 2,
         },
       },
+
+      {
+        text: 'Wait until they disappear',
+        tags: {
+          solitude: 2,
+          reflection: 3,
+          night: 2,
+        },
+      }
     ],
   },
 ];
