@@ -77,56 +77,535 @@
     },
 
     {
-      "title": "Bella Stella",
-      "artist": "Highland",
+      "title": "Je te rends ton amour",
+      "artist": "Mylene Farmer",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Mylene+Farmer+Je+te+rends+ton+amour",
+      "tags": {
+        "vulnerability": 5,
+        "night": 4,
+        "longing": 4
+      }
+    },
+
+    {
+      "title": "Beyond My Control",
+      "artist": "Mylene Farmer",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Mylene+Farmer+Beyond+My+Control",
+      "tags": {
+        "emotional_rupture": 5,
+        "desire": 4,
+        "uncertainty": 4
+      }
+    },
+
+    {
+      "title": "House of Silence",
+      "artist": "Bad Boys Blue",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Bad+Boys+Blue+House+of+Silence",
+      "tags": {
+        "solitude": 5,
+        "night": 5,
+        "memory": 3
+      }
+    },
+    {
+      "title": "Fundamentum",
+      "artist": "Lesiem",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Lesiem+Fundamentum",
+      "tags": {
+        "transcendence": 5,
+        "ritual": 4,
+        "cosmic": 3
+      }
+    },
+
+    {
+      "title": "Southern Cross",
+      "artist": "Kheops",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Kheops+Southern+Cross",
+      "tags": {
+        "journey": 5,
+        "night": 3,
+        "movement": 4
+      }
+    },
+
+    {
+      "title": "Traveller",
+      "artist": "Talvin Singh",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Talvin+Singh+Traveller",
+      "tags": {
+        "journey": 5,
+        "uncertainty": 3,
+        "movement": 5
+      }
+    },
+
+    {
+      "title": "Twelve After Midnight",
+      "artist": "TAAW",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=TAAW+Twelve+After+Midnight",
+      "tags": {
+        "night": 5,
+        "solitude": 4,
+        "urban": 4
+      }
+    },
+
+    {
+      "title": "Everything Gonna Be Alright",
+      "artist": "ERA",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=ERA+Everything+Gonna+Be+Alright",
+      "tags": {
+        "hope": 5,
+        "transcendence": 4,
+        "release": 4
+      }
+    },
+
+    {
+      "title": "Dark Side Of Time",
+      "artist": "Eric Serra",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Eric+Serra+Dark+Side+Of+Time",
+      "tags": {
+        "uncertainty": 5,
+        "cinematic": 5,
+        "night": 4
+      }
+    },
+
+    {
+      "title": "Hey Little Angel",
+      "artist": "Eric Serra",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Eric+Serra+Hey+Little+Angel",
+      "tags": {
+        "fragility": 4,
+        "warmth": 3,
+        "memory": 3
+      }
+    },
+
+    {
+      "title": "Total Eclipse of the Moon",
+      "artist": "Enigma",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Enigma+Total+Eclipse+of+the+Moon",
+      "tags": {
+        "cosmic": 5,
+        "night": 5,
+        "transcendence": 4
+      }
+    },
+
+    {
+      "title": "Guardian Angel",
+      "artist": "Alphaville",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Alphaville+Guardian+Angel",
+      "tags": {
+        "protection": 4,
+        "hope": 4,
+        "distance": 3
+      }
+    },
+
+    {
+      "title": "Ghost Town",
+      "artist": "The Specials",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=The+Specials+Ghost+Town",
+      "tags": {
+        "urban": 5,
+        "solitude": 5,
+        "decay": 4
+      }
+    },
+
+    {
+      "title": "Rame (Slomo Version)",
+      "artist": "Snap! featuring Rukmani",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Snap+Rukmani+Rame+Slomo+Version",
       "tags": {
         "movement": 4,
-        "solitude": 1,
-        "warmth": 3,
-        "nostalgia": 3,
-        "night": 2,
-        "uncertainty": 1
+        "dreamlike": 4,
+        "ritual": 3
+      }
+    },
+    {
+      "title": "Blue Moon",
+      "artist": "Bad Boys Blue",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Bad+Boys+Blue+Blue+Moon",
+      "tags": {
+        "night": 5,
+        "memory": 4,
+        "longing": 3
       }
     },
 
     {
-      "title": "Innuendo",
-      "artist": "Queen",
+      "title": "Queen of Hearts",
+      "artist": "Bad Boys Blue",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Bad+Boys+Blue+Queen+of+Hearts",
       "tags": {
+        "desire": 4,
         "movement": 3,
-        "solitude": 2,
-        "warmth": 1,
-        "nostalgia": 3,
-        "night": 4,
-        "uncertainty": 5
+        "romance": 4
       }
     },
 
     {
-      "title": "Shape of My Heart",
-      "artist": "Sting",
-      "youtubeUrl": "https://www.youtube.com/results?search_query=Sting+Shape+of+My+Heart",
+      "title": "Turn Around",
+      "artist": "Enigma",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Enigma+Turn+Around",
       "tags": {
-        "movement": 1,
-        "solitude": 5,
-        "warmth": 2,
-        "nostalgia": 5,
-        "night": 4,
-        "uncertainty": 2
+        "transcendence": 5,
+        "movement": 4,
+        "release": 3
+      }
+    },
+
+    {
+      "title": "Release",
+      "artist": "Afro Celt Sound System feat. Sinead O'Connor",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Afro+Celt+Sound+System+Release+Sinead+OConnor",
+      "tags": {
+        "release": 5,
+        "hope": 4,
+        "journey": 3
+      }
+    },
+
+    {
+      "title": "On Track (Doug Laurent's First Journey)",
+      "artist": "YELLO",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=YELLO+On+Track+Doug+Laurents+First+Journey",
+      "tags": {
+        "journey": 5,
+        "movement": 5,
+        "curiosity": 3
+      }
+    },
+
+    {
+      "title": "Ballad For Space Lovers",
+      "artist": "Space",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Space+Ballad+For+Space+Lovers",
+      "tags": {
+        "cosmic": 5,
+        "distance": 5,
+        "dreamlike": 4
       }
     },
     {
-      "title": "Hope for the Future",
-      "artist": "Paul McCartney",
+      "title": "The Piano Beneath the Sea",
+      "artist": "Saint Preux",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Saint+Preux+The+Piano+Beneath+the+Sea",
       "tags": {
-        "movement": 2,
-        "solitude": 1,
+        "memory": 5,
+        "dreamlike": 4,
+        "fragility": 4
+      }
+    },
+
+    {
+      "title": "One Eye to Morocco",
+      "artist": "Ian Gillan",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Ian+Gillan+One+Eye+to+Morocco",
+      "tags": {
+        "journey": 4,
+        "freedom": 4,
+        "movement": 3
+      }
+    },
+    {
+      "title": "Heaven Knows",
+      "artist": "Robert Plant",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Robert+Plant+Heaven+Knows",
+      "tags": {
+        "uncertainty": 4,
+        "desire": 4,
+        "movement": 3
+      }
+    },
+    {
+      "title": "Life in Mono",
+      "artist": "Mono",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Mono+Life+in+Mono",
+      "tags": {
+        "dreamlike": 5,
+        "solitude": 5,
+        "memory": 4
+      }
+    },
+
+    {
+      "title": "Milk",
+      "artist": "Garbage",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Garbage+Milk",
+      "tags": {
+        "fragility": 5,
+        "night": 4,
+        "vulnerability": 4
+      }
+    },
+    {
+      "title": "Silicone",
+      "artist": "Mono",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Mono+Silicone",
+      "tags": {
+        "urban": 4,
+        "distance": 4,
+        "uncertainty": 3
+      }
+    },
+    {
+      "title": "You've Come A Long Way Baby",
+      "artist": "Army Of Lovers",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Army+Of+Lovers+Youve+Come+A+Long+Way+Baby",
+      "tags": {
+        "irony": 4,
+        "movement": 4,
+        "release": 3
+      }
+    },
+    {
+      "title": "She's Got a Gun",
+      "artist": "YELLO",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=YELLO+Shes+Got+a+Gun",
+      "tags": {
+        "danger": 5,
+        "noir": 5,
+        "surreal": 4
+      }
+    },
+    {
+      "title": "Let the Mountains Come to Me",
+      "artist": "Vacuum",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Vacuum+Let+the+Mountains+Come+to+Me",
+      "tags": {
+        "transcendence": 5,
+        "cosmic": 4,
+        "hope": 3
+      }
+    },
+    {
+      "title": "Chronologie 4",
+      "artist": "Jean Michel Jarre",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Jean+Michel+Jarre+Chronologie+4",
+      "tags": {
+        "movement": 5,
+        "future": 4,
+        "journey": 4
+      }
+    },
+    {
+      "title": "C'mon Down",
+      "artist": "Roger Taylor",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Roger+Taylor+Cmon+Down",
+      "tags": {
+        "release": 4,
+        "movement": 3,
+        "warmth": 3
+      }
+    },
+    {
+      "title": "Fires at Midnight",
+      "artist": "Blackmore's Night",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Blackmores+Night+Fires+at+Midnight",
+      "tags": {
+        "night": 5,
+        "warmth": 4,
+        "memory": 3
+      }
+    },
+    {
+      "title": "Shine",
+      "artist": "ASWAD",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=ASWAD+Shine",
+      "tags": {
+        "hope": 5,
         "warmth": 5,
-        "nostalgia": 3,
-        "night": 1,
-        "uncertainty": 1
+        "release": 4
+      }
+    },
+    {
+      "title": "If I Ever Lose My Faith in You",
+      "artist": "Sting",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Sting+If+I+Ever+Lose+My+Faith+in+You",
+      "tags": {
+        "vulnerability": 5,
+        "hope": 4,
+        "resilience": 5
+      }
+    },
+    {
+      "title": "Gravity of Love",
+      "artist": "Enigma",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Enigma+Gravity+of+Love",
+      "tags": {
+        "transcendence": 5,
+        "movement": 5,
+        "longing": 4
+      }
+    },
+    {
+      "title": "You Are the Voice",
+      "artist": "John Farnham",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=John+Farnham+You+Are+the+Voice",
+      "tags": {
+        "hope": 5,
+        "collective": 4,
+        "release": 4
+      }
+    },
+    {
+      "title": "Love's a Loaded Gun",
+      "artist": "Alice Cooper",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Alice+Cooper+Loves+a+Loaded+Gun",
+      "tags": {
+        "danger": 5,
+        "desire": 4,
+        "noir": 3
+      }
+    },
+    {
+      "title": "Eye in the Sky",
+      "artist": "Alan Parsons Project",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Alan+Parsons+Project+Eye+in+the+Sky",
+      "tags": {
+        "observation": 5,
+        "distance": 4,
+        "uncertainty": 4
+      }
+    },
+    {
+      "title": "Learning to Fly",
+      "artist": "Pink Floyd",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Pink+Floyd+Learning+to+Fly",
+      "tags": {
+        "freedom": 5,
+        "movement": 5,
+        "hope": 4
+      }
+    },
+    {
+      "title": "Today",
+      "artist": "David Gilmour",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=David+Gilmour+Today",
+      "tags": {
+        "reflection": 5,
+        "calm": 4,
+        "continuation": 4
+      }
+    },
+    {
+      "title": "Telegraph Road",
+      "artist": "Dire Straits",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Dire+Straits+Telegraph+Road",
+      "tags": {
+        "journey": 5,
+        "memory": 5,
+        "solitude": 4
+      }
+    },
+    {
+      "title": "That's What It Takes",
+      "artist": "George Harrison",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=George+Harrison+Thats+What+It+Takes",
+      "tags": {
+        "resilience": 5,
+        "warmth": 4,
+        "humanity": 4
+      }
+    },
+    {
+      "title": "Handle with Care",
+      "artist": "The Traveling Wilburys",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=The+Traveling+Wilburys+Handle+with+Care",
+      "tags": {
+        "humanity": 5,
+        "fragility": 5,
+        "companionship": 4
+      }
+    },
+    {
+      "title": "Las Palabras De Amor",
+      "artist": "Queen",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Queen+Las+Palabras+De+Amor",
+      "tags": {
+        "longing": 5,
+        "distance": 4,
+        "romance": 4
+      }
+    },
+    {
+      "title": "Save Me",
+      "artist": "Queen",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Queen+Save+Me",
+      "tags": {
+        "vulnerability": 5,
+        "emotional_rupture": 4,
+        "hope": 3
+      }
+    },
+    {
+      "title": "A Kind of Magic",
+      "artist": "Queen",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Queen+A+Kind+of+Magic",
+      "tags": {
+        "wonder": 5,
+        "movement": 4,
+        "release": 4
+      }
+    },
+    {
+      "title": "Don't Bring Me Down",
+      "artist": "ELO",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=ELO+Dont+Bring+Me+Down",
+      "tags": {
+        "release": 5,
+        "movement": 4,
+        "energy": 4
+      }
+    },
+    {
+      "title": "Ticket to the Moon",
+      "artist": "ELO",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=ELO+Ticket+to+the+Moon",
+      "tags": {
+        "cosmic": 5,
+        "distance": 5,
+        "solitude": 4
+      }
+    },
+    {
+      "title": "Memory",
+      "artist": "Earth and Fire",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Earth+and+Fire+Memory",
+      "tags": {
+        "memory": 5,
+        "dreamlike": 4,
+        "fragility": 3
+      }
+    },
+    {
+      "title": "Space Oddity",
+      "artist": "David Bowie",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=David+Bowie+Space+Oddity",
+      "tags": {
+        "cosmic": 5,
+        "isolation": 5,
+        "uncertainty": 4
+      }
+    },
+    {
+      "title": "Keep Passing the Open Windows",
+      "artist": "Queen",
+      "youtubeUrl": "https://www.youtube.com/results?search_query=Queen+Keep+Passing+the+Open+Windows",
+      "tags": {
+        "resilience": 5,
+        "hope": 5,
+        "continuation": 4
       }
     }
+
   ]
 
-    }
+}
