@@ -1,10 +1,13 @@
 import mediaDatabase from '../data/mediaDatabase.json';
 
-const calculateDistance = (profile, tags) => {
+const calculateDistance = (profile = {}, tags = {}) => {
     let distance = 0;
 
-    Object.keys(profile).forEach((key) => {
-        distance += Math.abs(profile[key] - tags[key]);
+    Object.keys(profile || {}).forEach((key) => {
+        const profileValue = profile[key] || 0;
+        const tagValue = tags[key] || 0;
+
+        distance += Math.abs(profileValue - tagValue);
     });
 
     return distance;
@@ -36,6 +39,8 @@ const findBestMatch = (items, emotionalProfile) => {
 };
 
 export const getRecommendations = (emotionalProfile) => {
+    console.log('EMOTIONAL PROFILE:', emotionalProfile);
+
     const bestFilm = findBestMatch(
         mediaDatabase.films,
         emotionalProfile
@@ -51,4 +56,3 @@ export const getRecommendations = (emotionalProfile) => {
         music: bestMusic,
     };
 };
-
