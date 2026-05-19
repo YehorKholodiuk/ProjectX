@@ -1,176 +1,165 @@
-import React, {
-    useEffect,
-    useRef,
-    useState,
-} from 'react';
+import React from 'react';
 
 import {
-    Animated,
-    Linking,
-    StyleSheet,
+    View,
     Text,
     TouchableOpacity,
-    View,
+    Linking,
+    ScrollView,
+    StyleSheet,
 } from 'react-native';
 
-import useEmotionStore from '../store/useEmotionStore';
+import useEmotionStore
+    from '../store/useEmotionStore';
 
-import { getRecommendations } from '../utils/recommendationEngine';
+import { getRecommendations }
+    from '../utils/recommendationEngine';
 
-import {
-    fetchBookRecommendation,
-} from '../utils/googleBooksService';
+export default function ResultsScreen() {
 
-export default function ResultsScreen({
-                                          onFinish,
-                                      }) {
-    const emotionalProfile = useEmotionStore(
-        (state) => state.emotionalProfile
-    );
+    const emotionalProfile =
+        useEmotionStore(
+            (state) => state.scores
+        );
+    console.log(emotionalProfile);
 
-    const recommendations = getRecommendations(
-        emotionalProfile
-    );
+    const resetScores =
+        useEmotionStore(
+            (state) => state.resetScores
+        );
 
-    const [book, setBook] = useState(null);
+    const recommendations =
+        getRecommendations(
+            emotionalProfile
+        );
 
-    const fadeAnim = useRef(
-        new Animated.Value(0)
-    ).current;
+    const {
+        film,
+        music,
+    } = recommendations;
 
-    useEffect(() => {
-        Animated.timing(fadeAnim, {
-            toValue: 1,
-            duration: 2500,
-            useNativeDriver: true,
-        }).start();
-
-        const loadBook = async () => {
-            const result =
-                await fetchBookRecommendation(
-                    emotionalProfile
-                );
-
-            console.log(result);
-
-            setBook(result);
-        };
-
-        loadBook();
-
-        const timer = setTimeout(() => {
-            onFinish();
-        }, 9000);
-
-        return () => clearTimeout(timer);
-    }, []);
+    const openLink = async (url) => {
+        try {
+            await Linking.openURL(url);
+        } catch (error) {
+            console.log(
+                'Error opening URL:',
+                error
+            );
+        }
+    };
 
     return (
-        <View style={styles.container}>
-            <Animated.View
-                style={{
-                    opacity: fadeAnim,
-                    width: '100%',
-                }}
-            >
-                <View style={styles.section}>
-                    <Text style={styles.label}>
-                        FILM
+        <ScrollView
+            contentContainerStyle={
+                styles.resultsContainer
+            }
+        >
+            <Text style={styles.resultsTitle}>
+                Your Midnight Choice
+            </Text>
+
+            {/* MUSIC */}
+
+            {music && (
+                <View style={styles.mediaBlock}>
+                    <Text style={styles.mediaLabel}>
+                        Music
                     </Text>
 
-                    <Text style={styles.title}>
-                        {recommendations.film.title}
+                    <Text style={styles.mediaTitle}>
+                        {music.title}
                     </Text>
-                </View>
 
-                <View style={styles.section}>
-                    <Text style={styles.label}>
-                        MUSIC
+                    <Text style={styles.mediaSubtitle}>
+                        {music.artist}
                     </Text>
 
                     <TouchableOpacity
-                        activeOpacity={0.8}
+                        style={styles.linkButton}
                         onPress={() =>
-                            Linking.openURL(
-                                recommendations.music.youtubeUrl
+                            openLink(
+                                music.youtubeUrl
                             )
                         }
                     >
-                        <>
-                            <Text style={styles.title}>
-                                {recommendations.music.title}
-                            </Text>
-
-                            <Text style={styles.subtitle}>
-                                {recommendations.music.artist}
-                            </Text>
-
-                            <Text style={styles.link}>
-                                Listen on YouTube
-                            </Text>
-                        </>
+                        <Text style={styles.linkText}>
+                            Listen on YouTube
+                        </Text>
                     </TouchableOpacity>
                 </View>
+            )}
 
+            {/* FILM */}
 
-
-
-
-
-
-                <View style={styles.section}>
-                    <Text style={styles.label}>
-                        BOOK
+            {film && (
+                <View style={styles.mediaBlock}>
+                    <Text style={styles.mediaLabel}>
+                        Film
                     </Text>
 
-                    {book ? (
-                        <TouchableOpacity
-                            activeOpacity={0.8}
-                            onPress={() =>
-                                Linking.openURL(
-                                    book.previewLink
-                                )
-                            }
-                        >
-                            <>
-                                <Text style={styles.title}>
-                                    {book.title}
-                                </Text>
+                    <Text style={styles.mediaTitle}>
+                        {film.title}
+                    </Text>
 
-                                <Text style={styles.subtitle}>
-                                    {book.author}
-                                </Text>
+                    <Text style={styles.mediaSubtitle}>
+                        {film.year}
+                    </Text>
 
-                                <Text style={styles.link}>
-                                    Preview / View
-                                </Text>
-                            </>
-                        </TouchableOpacity>
-                    ) : (
-                        <Text style={styles.subtitle}>
-                            Searching through the
-                            night...
+                    <TouchableOpacity
+                        style={styles.linkButton}
+                        onPress={() =>
+                            openLink(
+                                film.trailerUrl
+                            )
+                        }
+                    >
+                        <Text style={styles.linkText}>
+                            Watch Trailer
                         </Text>
-                    )}
+                    </TouchableOpacity>
                 </View>
-            </Animated.View>
-        </View>
+            )}
+
+            {/* RESET */}
+
+            <TouchableOpacity
+                style={styles.restartButton}
+                onPress={() => {
+                    resetScores();
+                }}
+            >
+                <Text style={styles.restartText}>
+                    Start Again
+                </Text>
+            </TouchableOpacity>
+        </ScrollView>
     );
 }
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
+    resultsContainer: {
+        flexGrow: 1,
         backgroundColor: '#000',
         justifyContent: 'center',
         paddingHorizontal: 35,
+        paddingVertical: 60,
     },
 
-    section: {
-        marginBottom: 70,
+    resultsTitle: {
+        color: '#fff',
+        fontSize: 30,
+        textAlign: 'center',
+        marginBottom: 60,
+        letterSpacing: 1,
+        fontWeight: '300',
     },
 
-    label: {
+    mediaBlock: {
+        marginBottom: 55,
+    },
+
+    mediaLabel: {
         color: '#666',
         fontSize: 13,
         letterSpacing: 4,
@@ -178,16 +167,16 @@ const styles = StyleSheet.create({
         textAlign: 'center',
     },
 
-    title: {
+    mediaTitle: {
         color: '#fff',
-        fontSize: 26,
-        lineHeight: 38,
+        fontSize: 24,
+        lineHeight: 34,
         textAlign: 'center',
         fontWeight: '300',
         letterSpacing: 0.5,
     },
 
-    subtitle: {
+    mediaSubtitle: {
         color: '#888',
         fontSize: 16,
         marginTop: 10,
@@ -196,13 +185,27 @@ const styles = StyleSheet.create({
         fontWeight: '300',
     },
 
-    link: {
+    linkButton: {
+        marginTop: 20,
+        alignItems: 'center',
+    },
+
+    linkText: {
         color: '#999',
         fontSize: 15,
-        marginTop: 18,
-        textAlign: 'center',
         letterSpacing: 1.2,
         textDecorationLine: 'underline',
         fontWeight: '300',
+    },
+
+    restartButton: {
+        marginTop: 40,
+        alignItems: 'center',
+    },
+
+    restartText: {
+        color: '#777',
+        fontSize: 14,
+        letterSpacing: 2,
     },
 });

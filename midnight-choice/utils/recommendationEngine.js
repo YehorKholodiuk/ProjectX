@@ -1,42 +1,71 @@
 import mediaDatabase from '../data/mediaDatabase.json';
 
-const calculateDistance = (profile = {}, tags = {}) => {
+const calculateDistance = (
+    profile = {},
+    tags = {}
+) => {
+
     let distance = 0;
 
-    Object.keys(profile || {}).forEach((key) => {
-        const profileValue = profile[key] || 0;
-        const tagValue = tags[key] || 0;
+    Object.keys(profile).forEach(
+        (key) => {
 
-        distance += Math.abs(profileValue - tagValue);
-    });
+            const profileValue =
+                profile[key] || 0;
+
+            const tagValue =
+                tags[key] || 0;
+
+            distance +=
+                Math.abs(
+                    profileValue -
+                    tagValue
+                ) +
+                (Math.random() * 0.3);
+        }
+    );
 
     return distance;
 };
 
-const findBestMatch = (items, emotionalProfile) => {
-    return items.reduce((bestMatch, currentItem) => {
-        const currentDistance = calculateDistance(
-            emotionalProfile,
-            currentItem.tags
+
+const findBestMatch = (
+    items,
+    emotionalProfile
+) => {
+
+    const scoredItems = items.map(
+        (item) => ({
+            item,
+            distance:
+                calculateDistance(
+                    emotionalProfile,
+                    item.tags
+                ),
+        })
+    );
+
+    scoredItems.sort(
+        (a, b) =>
+            a.distance - b.distance
+    );
+
+    const topMatches =
+        scoredItems.slice(0, 5);
+
+    const randomIndex =
+        Math.floor(
+            Math.random() *
+            topMatches.length
         );
 
-        if (!bestMatch) {
-            return {
-                item: currentItem,
-                distance: currentDistance,
-            };
-        }
-
-        if (currentDistance < bestMatch.distance) {
-            return {
-                item: currentItem,
-                distance: currentDistance,
-            };
-        }
-
-        return bestMatch;
-    }, null).item;
+    return topMatches[
+        randomIndex
+        ].item;
 };
+
+
+
 
 export const getRecommendations = (emotionalProfile) => {
     console.log('EMOTIONAL PROFILE:', emotionalProfile);
