@@ -1,5 +1,8 @@
-import React from 'react';
-
+import React, {
+    useState,
+    useEffect,
+    useRef,
+} from 'react';
 import {
     View,
     Text,
@@ -7,21 +10,60 @@ import {
     Linking,
     ScrollView,
     StyleSheet,
+    Animated,
 } from 'react-native';
-
 import useEmotionStore
     from '../store/useEmotionStore';
 
-import { getRecommendations }
-    from '../utils/recommendationEngine';
+import FinalScreen
+    from './FinalScreen';
+
+import {
+    getRecommendations
+} from '../utils/recommendationEngine';
 
 export default function ResultsScreen() {
+    const [showFinal, setShowFinal] =
+        useState(false);
+
+    const fadeAnim =
+        useRef(
+            new Animated.Value(1)
+        ).current;
+
+    useEffect(() => {
+
+
+
+        const timer =
+            setTimeout(() => {
+
+                Animated.timing(
+                    fadeAnim,
+                    {
+                        toValue: 0,
+                        duration: 2000,
+                        useNativeDriver: true,
+                    }
+                ).start(() => {
+
+                    setShowFinal(true);
+
+                });
+
+            }, 7000);
+
+        return () =>
+            clearTimeout(timer);
+
+    }, []);
+
+
 
     const emotionalProfile =
         useEmotionStore(
             (state) => state.scores
         );
-    console.log(emotionalProfile);
 
     const resetScores =
         useEmotionStore(
@@ -39,22 +81,55 @@ export default function ResultsScreen() {
     } = recommendations;
 
     const openLink = async (url) => {
+
         try {
+
             await Linking.openURL(url);
+
         } catch (error) {
+
             console.log(
                 'Error opening URL:',
                 error
             );
+
         }
     };
 
+    // FINAL SCREEN
+
+    if (showFinal) {
+
+        return (
+            <FinalScreen
+                onFinish={() => {
+
+                    resetScores();
+
+                    setShowFinal(false);
+
+                }}
+            />
+        );
+    }
+
+    // MAIN RESULTS SCREEN
+
     return (
-        <ScrollView
+
+        <Animated.View
+            style={{
+                flex: 1,
+                opacity: fadeAnim,
+                backgroundColor: '#000',
+            }}
+        >
+            <ScrollView
             contentContainerStyle={
                 styles.resultsContainer
             }
         >
+
             <Text style={styles.resultsTitle}>
                 Your Midnight Choice
             </Text>
@@ -63,6 +138,7 @@ export default function ResultsScreen() {
 
             {music && (
                 <View style={styles.mediaBlock}>
+
                     <Text style={styles.mediaLabel}>
                         Music
                     </Text>
@@ -83,10 +159,13 @@ export default function ResultsScreen() {
                             )
                         }
                     >
+
                         <Text style={styles.linkText}>
                             Listen on YouTube
                         </Text>
+
                     </TouchableOpacity>
+
                 </View>
             )}
 
@@ -94,6 +173,7 @@ export default function ResultsScreen() {
 
             {film && (
                 <View style={styles.mediaBlock}>
+
                     <Text style={styles.mediaLabel}>
                         Film
                     </Text>
@@ -114,30 +194,27 @@ export default function ResultsScreen() {
                             )
                         }
                     >
+
                         <Text style={styles.linkText}>
                             Watch Trailer
                         </Text>
+
                     </TouchableOpacity>
+
                 </View>
             )}
 
             {/* RESET */}
 
-            <TouchableOpacity
-                style={styles.restartButton}
-                onPress={() => {
-                    resetScores();
-                }}
-            >
-                <Text style={styles.restartText}>
-                    Start Again
-                </Text>
-            </TouchableOpacity>
-        </ScrollView>
+
+
+            </ScrollView>
+        </Animated.View>
     );
 }
 
 const styles = StyleSheet.create({
+
     resultsContainer: {
         flexGrow: 1,
         backgroundColor: '#000',
@@ -208,4 +285,5 @@ const styles = StyleSheet.create({
         fontSize: 14,
         letterSpacing: 2,
     },
+
 });

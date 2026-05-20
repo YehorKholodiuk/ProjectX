@@ -1,53 +1,63 @@
-import React, { useEffect, useRef } from 'react';
+import React, {
+    useEffect,
+    useRef,
+} from 'react';
+
 import {
-    Animated,
-    StyleSheet,
-    Text,
     View,
+    Text,
+    StyleSheet,
+    Animated,
 } from 'react-native';
 
-export default function FinalScreen() {
-    const opacity = useRef(
-        new Animated.Value(0)
-    ).current;
+export default function FinalScreen({
+                                        onFinish,
+                                    }) {
+
+    const fadeAnim =
+        useRef(
+            new Animated.Value(1)
+        ).current;
 
     useEffect(() => {
-        opacity.setValue(0);
 
-        Animated.sequence([
-            Animated.timing(opacity, {
-                toValue: 1,
-                duration: 2200,
-                useNativeDriver: true,
-            }),
-
-            Animated.delay(2200),
-
-            Animated.timing(opacity, {
+        Animated.timing(
+            fadeAnim,
+            {
                 toValue: 0,
-                duration: 3200,
+                duration: 4000,
                 useNativeDriver: true,
-            }),
-        ]).start();
+            }
+        ).start(() => {
+
+            onFinish();
+
+        });
+
     }, []);
 
     return (
+
         <View style={styles.container}>
+
             <Animated.Text
                 style={[
                     styles.text,
                     {
-                        opacity,
+                        opacity: fadeAnim,
                     },
                 ]}
             >
-                see you next time...
+                See you later...
             </Animated.Text>
+
         </View>
+
     );
 }
 
 const styles = StyleSheet.create({
+
     container: {
         flex: 1,
         backgroundColor: '#000',
@@ -58,7 +68,9 @@ const styles = StyleSheet.create({
     text: {
         color: '#666',
         fontSize: 22,
-        letterSpacing: 1.5,
+        letterSpacing: 2,
+        fontStyle: 'italic',
         fontWeight: '300',
     },
+
 });
