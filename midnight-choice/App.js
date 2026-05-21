@@ -35,9 +35,20 @@ export default function App() {
     const handleResultsComplete = () => {
         setStage('final');
     };
+    let content;
+
+    if (stage === 'intro') {
+
+        content = (
+            <IntroScreen
+                onBegin={handleBegin}
+            />
+        );
+
+    }
 
     if (stage === 'transition') {
-        return (
+        content = (
             <View style={styles.blackScreen}>
                 <StatusBar style="light" />
             </View>
@@ -45,15 +56,18 @@ export default function App() {
     }
 
     if (stage === 'questions') {
-        return (
+        content = (
             <QuestionsScreen
                 onComplete={handleQuestionsComplete}
             />
         );
+
+
+
     }
 
     if (stage === 'wait') {
-        return (
+        content = (
             <WaitScreen
                 onFinish={handleWaitComplete}
             />
@@ -61,7 +75,7 @@ export default function App() {
     }
 
     if (stage === 'results') {
-        return (
+        content = (
             <ResultsScreen
                 onFinish={handleResultsComplete}
             />
@@ -70,7 +84,7 @@ export default function App() {
 
     if (stage === 'final') {
 
-        return (
+        content = (
             <FinalScreen
                 onFinish={() => {
 
@@ -84,7 +98,13 @@ export default function App() {
     }
 
     return (
-        <IntroScreen onBegin={handleBegin} />
+
+        <View style={styles.appRoot}>
+
+            {content}
+
+        </View>
+
     );
 }
 
@@ -148,6 +168,8 @@ function IntroScreen({ onBegin }) {
 }
 
 const styles = StyleSheet.create({
+
+
     container: {
         flex: 1,
         backgroundColor: '#000',
@@ -176,4 +198,10 @@ const styles = StyleSheet.create({
         letterSpacing: 2,
         fontWeight: '300',
     },
+
+    appRoot: {
+        flex: 1,
+        backgroundColor: '#000',
+    },
+
 });
