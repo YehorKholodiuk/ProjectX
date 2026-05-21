@@ -80,11 +80,13 @@ const styles = StyleSheet.create({
     },
 
     text: {
-        color: '#666',
-        fontSize: 22,
-        letterSpacing: 2,
-        fontStyle: 'italic',
+        color: '#fff',
+        fontSize: 28,
+        lineHeight: 42,
+        textAlign: 'center',
         fontWeight: '300',
+        marginBottom: 90,
+        letterSpacing: 0.5,
     },
 
 });
