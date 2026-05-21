@@ -69,7 +69,18 @@ export default function App() {
   }
 
   if (stage === 'final') {
-    return <FinalScreen />;
+
+    return (
+        <FinalScreen
+            onFinish={() => {
+
+                setStage(
+                    'intro'
+                );
+
+            }}
+        />
+    );
   }
 
   return (

@@ -10,6 +10,9 @@ import {
     Animated,
 } from 'react-native';
 
+import useEmotionStore
+    from '../store/useEmotionStore';
+
 export default function FinalScreen({
                                         onFinish,
                                     }) {
@@ -19,19 +22,30 @@ export default function FinalScreen({
             new Animated.Value(1)
         ).current;
 
+    const resetProfile =
+        useEmotionStore(
+            (state) =>
+                state.resetProfile
+        );
+
     useEffect(() => {
 
         Animated.timing(
             fadeAnim,
             {
                 toValue: 0,
-                duration: 4000,
+                duration: 5000,
                 useNativeDriver: true,
             }
         ).start(() => {
 
-            onFinish();
+            setTimeout(() => {
 
+                resetProfile();
+
+                onFinish();
+
+            }, 100);
         });
 
     }, []);

@@ -1,39 +1,51 @@
 import React, {
-    useState,
     useEffect,
     useRef,
 } from 'react';
+
 import {
     View,
     Text,
-    TouchableOpacity,
     Linking,
     ScrollView,
     StyleSheet,
     Animated,
+    TouchableOpacity,
 } from 'react-native';
+
 import useEmotionStore
     from '../store/useEmotionStore';
-
-import FinalScreen
-    from './FinalScreen';
 
 import {
     getRecommendations
 } from '../utils/recommendationEngine';
 
-export default function ResultsScreen() {
-    const [showFinal, setShowFinal] =
-        useState(false);
+export default function ResultsScreen({
+                                          onFinish,
+                                      }) {
 
     const fadeAnim =
         useRef(
             new Animated.Value(1)
         ).current;
 
+    const emotionalProfile =
+        useEmotionStore(
+            (state) =>
+                state.emotionalProfile
+        );
+
+    const recommendations =
+        getRecommendations(
+            emotionalProfile
+        );
+
+    const {
+        film,
+        music,
+    } = recommendations;
+
     useEffect(() => {
-
-
 
         const timer =
             setTimeout(() => {
@@ -47,7 +59,7 @@ export default function ResultsScreen() {
                     }
                 ).start(() => {
 
-                    setShowFinal(true);
+                    onFinish();
 
                 });
 
@@ -57,28 +69,6 @@ export default function ResultsScreen() {
             clearTimeout(timer);
 
     }, []);
-
-
-
-    const emotionalProfile =
-        useEmotionStore(
-            (state) => state.scores
-        );
-
-    const resetScores =
-        useEmotionStore(
-            (state) => state.resetScores
-        );
-
-    const recommendations =
-        getRecommendations(
-            emotionalProfile
-        );
-
-    const {
-        film,
-        music,
-    } = recommendations;
 
     const openLink = async (url) => {
 
@@ -96,25 +86,6 @@ export default function ResultsScreen() {
         }
     };
 
-    // FINAL SCREEN
-
-    if (showFinal) {
-
-        return (
-            <FinalScreen
-                onFinish={() => {
-
-                    resetScores();
-
-                    setShowFinal(false);
-
-                }}
-            />
-        );
-    }
-
-    // MAIN RESULTS SCREEN
-
     return (
 
         <Animated.View
@@ -124,91 +95,89 @@ export default function ResultsScreen() {
                 backgroundColor: '#000',
             }}
         >
+
             <ScrollView
-            contentContainerStyle={
-                styles.resultsContainer
-            }
-        >
+                contentContainerStyle={
+                    styles.resultsContainer
+                }
+            >
 
-            <Text style={styles.resultsTitle}>
-                Your Midnight Choice
-            </Text>
+                <Text style={styles.resultsTitle}>
+                    Your Midnight Choice
+                </Text>
 
-            {/* MUSIC */}
+                {/* MUSIC */}
 
-            {music && (
-                <View style={styles.mediaBlock}>
+                {music && (
+                    <View style={styles.mediaBlock}>
 
-                    <Text style={styles.mediaLabel}>
-                        Music
-                    </Text>
-
-                    <Text style={styles.mediaTitle}>
-                        {music.title}
-                    </Text>
-
-                    <Text style={styles.mediaSubtitle}>
-                        {music.artist}
-                    </Text>
-
-                    <TouchableOpacity
-                        style={styles.linkButton}
-                        onPress={() =>
-                            openLink(
-                                music.youtubeUrl
-                            )
-                        }
-                    >
-
-                        <Text style={styles.linkText}>
-                            Listen on YouTube
+                        <Text style={styles.mediaLabel}>
+                            Music
                         </Text>
 
-                    </TouchableOpacity>
-
-                </View>
-            )}
-
-            {/* FILM */}
-
-            {film && (
-                <View style={styles.mediaBlock}>
-
-                    <Text style={styles.mediaLabel}>
-                        Film
-                    </Text>
-
-                    <Text style={styles.mediaTitle}>
-                        {film.title}
-                    </Text>
-
-                    <Text style={styles.mediaSubtitle}>
-                        {film.year}
-                    </Text>
-
-                    <TouchableOpacity
-                        style={styles.linkButton}
-                        onPress={() =>
-                            openLink(
-                                film.trailerUrl
-                            )
-                        }
-                    >
-
-                        <Text style={styles.linkText}>
-                            Watch Trailer
+                        <Text style={styles.mediaTitle}>
+                            {music.title}
                         </Text>
 
-                    </TouchableOpacity>
+                        <Text style={styles.mediaSubtitle}>
+                            {music.artist}
+                        </Text>
 
-                </View>
-            )}
+                        <TouchableOpacity
+                            style={styles.linkButton}
+                            onPress={() =>
+                                openLink(
+                                    music.youtubeUrl
+                                )
+                            }
+                        >
 
-            {/* RESET */}
+                            <Text style={styles.linkText}>
+                                Listen on YouTube
+                            </Text>
 
+                        </TouchableOpacity>
 
+                    </View>
+                )}
+
+                {/* FILM */}
+
+                {film && (
+                    <View style={styles.mediaBlock}>
+
+                        <Text style={styles.mediaLabel}>
+                            Film
+                        </Text>
+
+                        <Text style={styles.mediaTitle}>
+                            {film.title}
+                        </Text>
+
+                        <Text style={styles.mediaSubtitle}>
+                            {film.year}
+                        </Text>
+
+                        <TouchableOpacity
+                            style={styles.linkButton}
+                            onPress={() =>
+                                openLink(
+                                    film.trailerUrl
+                                )
+                            }
+                        >
+
+                            <Text style={styles.linkText}>
+                                Watch Trailer
+                            </Text>
+
+                        </TouchableOpacity>
+
+                    </View>
+                )}
 
             </ScrollView>
+
         </Animated.View>
     );
 }
@@ -273,17 +242,6 @@ const styles = StyleSheet.create({
         letterSpacing: 1.2,
         textDecorationLine: 'underline',
         fontWeight: '300',
-    },
-
-    restartButton: {
-        marginTop: 40,
-        alignItems: 'center',
-    },
-
-    restartText: {
-        color: '#777',
-        fontSize: 14,
-        letterSpacing: 2,
     },
 
 });
