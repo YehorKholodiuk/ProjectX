@@ -66,6 +66,19 @@ export default function App() {
 
     }
 
+
+    if (stage === 'end') {
+
+        content = (
+            <View
+                style={styles.blackScreen}
+            />
+        );
+
+    }
+
+
+
     if (stage === 'wait') {
         content = (
             <WaitScreen
@@ -88,9 +101,7 @@ export default function App() {
             <FinalScreen
                 onFinish={() => {
 
-                    setStage(
-                        'intro'
-                    );
+                    setStage('end')
 
                 }}
             />
