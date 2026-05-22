@@ -19,7 +19,7 @@ export default function FinalScreen({
 
     const fadeAnim =
         useRef(
-            new Animated.Value(1)
+            new Animated.Value(0)
         ).current;
 
     const resetProfile =
@@ -30,14 +30,29 @@ export default function FinalScreen({
 
     useEffect(() => {
 
-        Animated.timing(
-            fadeAnim,
-            {
-                toValue: 0,
-                duration: 5000,
-                useNativeDriver: true,
-            }
-        ).start(() => {
+        Animated.sequence([
+
+            Animated.timing(
+                fadeAnim,
+                {
+                    toValue: 1,
+                    duration: 2200,
+                    useNativeDriver: true,
+                }
+            ),
+
+            Animated.delay(1200),
+
+            Animated.timing(
+                fadeAnim,
+                {
+                    toValue: 0,
+                    duration: 5000,
+                    useNativeDriver: true,
+                }
+            ),
+
+        ]).start(() => {
 
             setTimeout(() => {
 
@@ -46,10 +61,10 @@ export default function FinalScreen({
                 onFinish();
 
             }, 100);
+
         });
 
     }, []);
-
     return (
 
         <View style={styles.container}>
