@@ -95,13 +95,12 @@ const styles = StyleSheet.create({
     },
 
     text: {
-        color: '#fff',
-        fontSize: 28,
-        lineHeight: 42,
-        textAlign: 'center',
-        fontWeight: '300',
-        marginBottom: 90,
-        letterSpacing: 0.5,
+        color: '#777',
+        fontSize: 26,
+        letterSpacing: 1.2,
+
+        fontWeight: '400',
+        fontFamily: 'serif',
     },
 
 });

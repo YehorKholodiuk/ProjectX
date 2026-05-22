@@ -918,6 +918,7 @@ const styles = StyleSheet.create({
     fontWeight: '300',
     marginBottom: 90,
     letterSpacing: 0.5,
+    fontFamily: 'serif'
   },
 
   answersContainer: {
@@ -933,5 +934,6 @@ const styles = StyleSheet.create({
     fontSize: 18,
     letterSpacing: 1,
     fontWeight: '300',
+    fontFamily: 'serif'
   },
 });

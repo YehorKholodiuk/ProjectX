@@ -52,6 +52,7 @@ const styles = StyleSheet.create({
         fontSize: 24,
         letterSpacing: 2,
         fontWeight: '300',
+        fontFamily: 'serif'
     },
 });
 

@@ -195,12 +195,13 @@ const styles = StyleSheet.create({
     },
 
     title: {
-        color: '#fff',
-        fontSize: 28,
+        color: '#f2f2f2',
+        fontSize: 30,
         textAlign: 'center',
-        lineHeight: 40,
-        fontWeight: '300',
-        letterSpacing: 1,
+        lineHeight: 42,
+        letterSpacing: 0.8,
+        fontWeight: '400',
+        fontFamily: 'serif',
     },
 
     beginText: {
@@ -208,6 +209,7 @@ const styles = StyleSheet.create({
         fontSize: 18,
         letterSpacing: 2,
         fontWeight: '300',
+        fontFamily: 'serif'
     },
 
     appRoot: {
