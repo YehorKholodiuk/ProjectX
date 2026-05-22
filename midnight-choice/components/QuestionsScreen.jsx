@@ -927,9 +927,11 @@ const styles = StyleSheet.create({
 
   answerButton: {
     alignItems: 'center',
+
   },
 
   answerText: {
+    textAlign: 'center',
     color: '#888',
     fontSize: 18,
     letterSpacing: 1,
