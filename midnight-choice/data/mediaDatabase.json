@@ -21,11 +21,12 @@
       "year": 1994,
       "trailerUrl": "https://youtu.be/h0mk2cdU4ms?si=DFYC3a6t91DaVwDB",
       "tags": {
-        "mystery": 4,
-        "night": 5,
-        "myth": 4,
-        "movement": 3,
-        "surreal": 2
+        "solitude": 7,
+        "uncertainty": 7,
+        "nostalgia": 10,
+        "night": 10,
+        "warmth": 2,
+        "movement": 5
       }
     },
     {
@@ -33,11 +34,12 @@
       "year": 1989,
       "trailerUrl": "https://youtu.be/dgC9Q0uhX70",
       "tags": {
-        "night": 5,
-        "myth": 5,
-        "loneliness": 3,
-        "identity": 4,
-        "movement": 3
+        "solitude": 8,
+        "uncertainty": 6,
+        "nostalgia": 9,
+        "night": 10,
+        "warmth": 2,
+        "movement": 6
       }
     },
     {
@@ -82,11 +84,12 @@
       "year": 1994,
       "trailerUrl": "https://youtu.be/jawVxq1Iyl0?si=lzRvz0NzpkTY4rHT",
       "tags": {
-        "solitude": 4,
-        "warmth": 4,
-        "violence": 3,
-        "humanity": 5,
-        "fragility": 4
+        "solitude": 9,
+        "uncertainty": 7,
+        "nostalgia": 8,
+        "night": 8,
+        "warmth": 6,
+        "movement": 5
       }
     },
     {
@@ -118,11 +121,12 @@
       "year": 1967,
       "trailerUrl": "https://youtu.be/phxr4Mk8pac?si=DpGnhs9nNxvbJR-O",
       "tags": {
-        "silence": 5,
-        "solitude": 5,
-        "ritual": 5,
-        "night": 4,
-        "distance": 4
+        "solitude": 10,
+        "uncertainty": 7,
+        "nostalgia": 8,
+        "night": 9,
+        "warmth": 1,
+        "movement": 3
       }
     },
     {
@@ -154,11 +158,12 @@
       "year": 1988,
       "trailerUrl": "https://youtu.be/cia5QgU6SiU?si=GTg_ks8vRwPdCp1e",
       "tags": {
-        "transcendence": 5,
-        "distance": 5,
-        "silence": 4,
-        "water": 5,
-        "solitude": 4
+        "solitude": 9,
+        "uncertainty": 6,
+        "nostalgia": 9,
+        "night": 5,
+        "warmth": 3,
+        "movement": 5
       }
     },
     {
@@ -166,11 +171,12 @@
       "year": 2001,
       "trailerUrl": "https://youtu.be/jbZJ487oJlY?si=XTJhNi_8m-rPyxHK",
       "tags": {
-        "surreal": 5,
-        "identity": 5,
-        "dreamlike": 5,
-        "night": 4,
-        "uncertainty": 5
+        "solitude": 8,
+        "uncertainty": 10,
+        "nostalgia": 7,
+        "night": 10,
+        "warmth": 2,
+        "movement": 3
       }
     },
     {
@@ -240,13 +246,15 @@
       "year": 1982,
       "trailerUrl": "https://youtu.be/eogpIG53Cis?si=nQPCcHJs4_K0_vfy",
       "tags": {
-        "night": 5,
-        "longing": 5,
-        "identity": 5,
-        "distance": 5,
-        "hope": 2
+        "solitude": 9,
+        "uncertainty": 9,
+        "nostalgia": 8,
+        "night": 10,
+        "warmth": 2,
+        "movement": 4
       }
-    },
+      },
+
     {
       "title": "North by Northwest",
       "year": 1959,
@@ -360,11 +368,12 @@
       "year": 1998,
       "trailerUrl": "https://youtu.be/dlnmQbPGuls?si=TAsFe8k-ttMeO-vw",
       "tags": {
-        "identity": 5,
-        "warmth": 4,
-        "uncertainty": 4,
-        "hope": 5,
-        "humanity": 4
+        "solitude": 7,
+        "uncertainty": 8,
+        "nostalgia": 7,
+        "night": 3,
+        "warmth": 6,
+        "movement": 5
       }
     },
     {
