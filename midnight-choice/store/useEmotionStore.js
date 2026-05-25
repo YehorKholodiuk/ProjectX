@@ -8,6 +8,15 @@ const useEmotionStore = create((set) => ({
         nostalgia: 0,
         night: 0,
         uncertainty: 0,
+
+
+
+        // NEW AXES
+
+        reflection: 0,
+        resilience: 0,
+        continuation: 0,
+
     },
 
     addScores: (scores) =>
@@ -34,6 +43,9 @@ const useEmotionStore = create((set) => ({
                 nostalgia: 0,
                 night: 0,
                 uncertainty: 0,
+                reflection: 0,
+                resilience: 0,
+                continuation: 0,
             },
         }),
 }));

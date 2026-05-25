@@ -899,9 +899,14 @@
       "artist": "David Gilmour",
       "youtubeUrl": "https://youtu.be/wYXrQPidJkw?si=gvlVCM8bf2qb_SUb",
       "tags": {
-        "reflection": 5,
-        "calm": 4,
-        "continuation": 4
+        "reflection": 9,
+        "nostalgia": 7,
+        "solitude": 6,
+        "dreamlike": 5,
+        "warmth": 4,
+        "continuation": 6,
+        "night": 4,
+        "movement": 3
       }
     },
     {
@@ -922,19 +927,29 @@
       "artist": "George Harrison",
       "youtubeUrl": "https://youtu.be/EEHH5nAZxo4?si=hYJbuBXiSdVhGLqs",
       "tags": {
-        "resilience": 5,
-        "warmth": 4,
-        "humanity": 4
+        "humanity": 9,
+        "warmth": 7,
+        "resilience": 8,
+        "continuation": 7,
+        "nostalgia": 5,
+        "solitude": 3,
+        "hope": 5,
+        "movement": 2
       }
     },
     {
       "title": "Handle with Care",
       "artist": "The Traveling Wilburys",
-      "youtubeUrl": "https://youtu.be/1o4s1KVJaVA?si=JO4qTNonoEQA04wY",
+      "youtubeUrl": "https://youtu.be/1o4s1KVJaVA?si=vPEy5-D4nrkQ73Gd",
       "tags": {
-        "humanity": 5,
-        "fragility": 5,
-        "companionship": 4
+        "humanity": 10,
+        "warmth": 8,
+        "continuation": 7,
+        "nostalgia": 6,
+        "hope": 6,
+        "movement": 4,
+        "solitude": 2,
+        "longing": 3
       }
     },
     {
@@ -955,11 +970,16 @@
     {
       "title": "Save Me",
       "artist": "Queen",
-      "youtubeUrl": "https://www.youtube.com/results?search_query=Queen+Save+Me",
+      "youtubeUrl": "https://youtu.be/Iw3izcZd9zU?si=ZXDYHdaGJpBddelU",
       "tags": {
-        "vulnerability": 5,
-        "emotional_rupture": 4,
-        "hope": 3
+        "fragility": 9,
+        "longing": 8,
+        "solitude": 7,
+        "humanity": 8,
+        "nostalgia": 6,
+        "warmth": 4,
+        "uncertainty": 5,
+        "night": 5
       }
     },
     {
@@ -967,9 +987,14 @@
       "artist": "Queen",
       "youtubeUrl": "https://youtu.be/0p_1QSUsbsM?si=TOH4FcMTNswssejf",
       "tags": {
-        "wonder": 5,
-        "movement": 4,
-        "release": 4
+        "movement": 8,
+        "hope": 7,
+        "transcendence": 6,
+        "wonder": 7,
+        "humanity": 5,
+        "warmth": 4,
+        "night": 3,
+        "solitude": 1
       }
     },
     {
@@ -1043,6 +1068,38 @@
         "warmth": 3,
         "uncertainty": 4,
         "longing": 2
+      }
+    },
+
+    {
+      "title": "Wait",
+      "artist": "Maggie Reilly",
+      "youtubeUrl": "https://youtu.be/ZbRCM3X3X6Q?si=phLmSv_KJ0xx7W-c",
+      "tags": {
+        "longing": 8,
+        "nostalgia": 7,
+        "solitude": 6,
+        "fragility": 7,
+        "night": 6,
+        "warmth": 5,
+        "dreamlike": 5,
+        "movement": 3
+      }
+    },
+
+    {
+      "title": "Adiemus",
+      "artist": "Sir Karl Jenkins",
+      "youtubeUrl": "https://youtu.be/C_wZ9ZBeRAo?si=ZMJu3TFTZpMjW4ga",
+      "tags": {
+        "transcendence": 10,
+        "movement": 7,
+        "humanity": 7,
+        "dreamlike": 6,
+        "warmth": 6,
+        "hope": 7,
+        "solitude": 2,
+        "night": 1
       }
     }
 
