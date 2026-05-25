@@ -754,13 +754,16 @@
       }
     },
     {
-      "title": "Let the Mountains Come to Me",
-      "artist": "Vacuum",
-      "youtubeUrl": "https://www.youtube.com/results?search_query=Vacuum+Let+the+Mountains+Come+to+Me",
+      "title": "The Weeping Song",
+      "artist": "Nick Cave & The Bad Seeds",
+      "youtubeUrl": "https://youtu.be/TqhOVY58zIo?si=GL-7jeTGwLjcnndj",
       "tags": {
-        "transcendence": 5,
-        "cosmic": 4,
-        "hope": 3
+        "solitude": 8,
+        "night": 8,
+        "humanity": 7,
+        "dreamlike": 6,
+        "uncertainty": 5,
+        "longing": 7
       }
     },
     {
@@ -776,11 +779,16 @@
     {
       "title": "C'mon Down",
       "artist": "Roger Taylor",
-      "youtubeUrl": "https://youtu.be/IqV9ODlrfig?si=68_cocWwZcsP9Xix",
+      "youtubeUrl": "https://youtu.be/IqV9ODlrfig?si=FJxDo1Tkws5agxOe",
       "tags": {
-        "release": 4,
-        "movement": 3,
-        "warmth": 3
+        "warmth": 7,
+        "movement": 6,
+        "humanity": 7,
+        "hope": 5,
+        "continuation": 6,
+        "nostalgia": 4,
+        "solitude": 3,
+        "night": 3
       }
     },
     {
@@ -794,13 +802,16 @@
       }
     },
     {
-      "title": "Shine",
-      "artist": "ASWAD",
-      "youtubeUrl": "https://youtu.be/2W9XGHyb0ns?si=T-08iL7GUYt6xUY_",
+      "title": "Lose Your Soul",
+      "artist": "Dead Man’s Bones",
+      "youtubeUrl": "https://youtu.be/FM3JnVZgKrI?si=MFKnyR83cnYGpx2y",
       "tags": {
-        "hope": 5,
-        "warmth": 5,
-        "release": 4
+        "dreamlike": 8,
+        "fragility": 7,
+        "night": 7,
+        "solitude": 6,
+        "uncertainty": 6,
+        "longing": 5
       }
     },
     {
@@ -808,9 +819,14 @@
       "artist": "Sting",
       "youtubeUrl": "https://youtu.be/7km4EHgkQiw?si=adjEgQQP3AEHGGpi",
       "tags": {
-        "vulnerability": 5,
-        "hope": 4,
-        "resilience": 5
+        "solitude": 5,
+        "warmth": 6,
+        "longing": 5,
+        "humanity": 7,
+        "nostalgia": 4,
+        "uncertainty": 4,
+        "hope": 6,
+        "resilience": 7
       }
     },
     {
@@ -824,33 +840,48 @@
       }
     },
     {
-      "title": "You Are the Voice",
-      "artist": "John Farnham",
-      "youtubeUrl": "https://youtu.be/DcCHScn4gpw?si=OOFgPiuh30soonCI",
+      "title": "Dido",
+      "artist": "Aria (Paul Schwartz)",
+      "youtubeUrl": "https://youtu.be/GYCC5rFlOk0?si=J9SRE1-Sav9_nqAB",
       "tags": {
-        "hope": 5,
-        "collective": 4,
-        "release": 4
+        "dreamlike": 8,
+        "transcendence": 8,
+        "fragility": 7,
+        "longing": 6,
+        "nostalgia": 5,
+        "night": 6,
+        "solitude": 5,
+        "warmth": 3
       }
     },
     {
-      "title": "Love's a Loaded Gun",
-      "artist": "Alice Cooper",
-      "youtubeUrl": "https://youtu.be/jcEzx5HLYEw?si=gTc-ir3uR3QubRyj",
+      "title": "Moonlight Shadow",
+      "artist": "Mike Oldfield",
+      "youtubeUrl": "https://youtu.be/e80qhyovOnA?si=_dxFMrBmA1QYH504",
       "tags": {
-        "danger": 5,
-        "desire": 4,
-        "noir": 3
+        "nostalgia": 8,
+        "longing": 8,
+        "night": 7,
+        "dreamlike": 6,
+        "fragility": 7,
+        "solitude": 5,
+        "warmth": 4,
+        "movement": 5
       }
     },
     {
       "title": "Eye in the Sky",
       "artist": "Alan Parsons Project",
-      "youtubeUrl": "https://www.youtube.com/watch?v=56hqrlQxMMI&list=RD56hqrlQxMMI&start_radio=1",
+      "youtubeUrl": "https://youtu.be/56hqrlQxMMI?si=1laQZYmOW-BiKbYw",
       "tags": {
-        "observation": 5,
-        "distance": 4,
-        "uncertainty": 4
+        "distance": 8,
+        "uncertainty": 6,
+        "solitude": 6,
+        "night": 5,
+        "humanity": 3,
+        "dreamlike": 3,
+        "movement": 2,
+        "warmth": 1
       }
     },
     {
@@ -874,13 +905,16 @@
       }
     },
     {
-      "title": "Telegraph Road",
-      "artist": "Dire Straits",
-      "youtubeUrl": "https://www.youtube.com/results?search_query=Dire+Straits+Telegraph+Road",
+      "title": "Push the Limits",
+      "artist": "Enigma",
+      "youtubeUrl": "https://youtu.be/S29GrVANbHM?si=J8BZI343eBGsW30-",
       "tags": {
-        "journey": 5,
-        "memory": 5,
-        "solitude": 4
+        "movement": 7,
+        "transcendence": 8,
+        "dreamlike": 7,
+        "night": 5,
+        "hope": 6,
+        "continuation": 5
       }
     },
     {
@@ -904,13 +938,18 @@
       }
     },
     {
-      "title": "Las Palabras De Amor",
-      "artist": "Queen",
-      "youtubeUrl": "https://youtu.be/qaeKSQUdBE4?si=WAoY2J4_9w0TGbSd",
+      "title": "After All",
+      "artist": "Delerium",
+      "youtubeUrl": "https://youtu.be/QFtZMhRO16o?si=2sWh_HocjqXqsSVG",
       "tags": {
+        "dreamlike": 8,
+        "transcendence": 7,
+        "uncertainty": 6,
+        "solitude": 6,
+        "night": 7,
         "longing": 5,
-        "distance": 4,
-        "romance": 4
+        "warmth": 3,
+        "movement": 4
       }
     },
     {
@@ -934,15 +973,22 @@
       }
     },
     {
-      "title": "Don't Bring Me Down",
-      "artist": "ELO",
-      "youtubeUrl": "https://www.youtube.com/results?search_query=ELO+Dont+Bring+Me+Down",
+      "title": "Wiedźmin",
+      "artist": "Grzegorz Ciechowski",
+      "youtubeUrl": "https://youtu.be/umXAyDnARk0?si=Ja4K3SFCt1susrG4",
       "tags": {
-        "release": 5,
-        "movement": 4,
-        "energy": 4
+        "solitude": 8,
+        "nostalgia": 8,
+        "night": 7,
+        "longing": 7,
+        "dreamlike": 6,
+        "movement": 5,
+        "warmth": 2,
+        "uncertainty": 5
       }
+
     },
+
     {
       "title": "Ticket to the Moon",
       "artist": "ELO",
@@ -982,7 +1028,26 @@
         "hope": 5,
         "continuation": 4
       }
+    },
+
+    {
+      "title": "Saltarello",
+      "artist": "Dead Can Dance",
+      "youtubeUrl": "https://youtu.be/G-RglCdlLEA?si=7LJ3l6x4uYvPqjaO",
+      "tags": {
+        "movement": 9,
+        "transcendence": 8,
+        "dreamlike": 7,
+        "night": 5,
+        "humanity": 4,
+        "warmth": 3,
+        "uncertainty": 4,
+        "longing": 2
+      }
     }
+
+
+
 
   ]
 
