@@ -6,12 +6,14 @@
       "year": 1975,
       "trailerUrl": "https://youtu.be/h1f1VJDe3ik?si=nSuegQCCn3XDF3Hz",
       "tags": {
-        "solitude": 8,
         "uncertainty": 9,
-        "nostalgia": 8,
-        "movement": 7,
-        "night": 7,
-        "warmth": 2
+        "solitude": 8,
+        "reflection": 7,
+        "night": 6,
+        "resilience": 6,
+        "humanity": 5,
+        "continuation": 5,
+        "longing": 3
       }
     },
 
@@ -21,12 +23,14 @@
       "year": 1994,
       "trailerUrl": "https://youtu.be/h0mk2cdU4ms?si=DFYC3a6t91DaVwDB",
       "tags": {
+        "night": 9,
+        "transcendence": 7,
         "solitude": 7,
-        "uncertainty": 7,
-        "nostalgia": 10,
-        "night": 10,
-        "warmth": 2,
-        "movement": 5
+        "uncertainty": 6,
+        "humanity": 5,
+        "reflection": 4,
+        "dreamlike": 4,
+        "continuation": 3
 
       }
     },
@@ -35,12 +39,14 @@
       "year": 1989,
       "trailerUrl": "https://youtu.be/dgC9Q0uhX70",
       "tags": {
-        "solitude": 8,
-        "uncertainty": 6,
-        "nostalgia": 9,
         "night": 10,
-        "warmth": 2,
-        "movement": 6
+        "solitude": 9,
+        "uncertainty": 7,
+        "dreamlike": 6,
+        "humanity": 5,
+        "reflection": 5,
+        "transcendence": 5,
+        "longing": 4
       }
     },
     {
@@ -48,11 +54,14 @@
       "year": 1981,
       "trailerUrl": "https://youtu.be/0xQSIdSRlAk?si=v3L6jGwkUovev9iZ",
       "tags": {
-        "adventure": 5,
-        "movement": 5,
-        "mystery": 3,
-        "hope": 3,
-        "warmth": 2
+        "movement": 10,
+        "uncertainty": 6,
+        "transcendence": 6,
+        "resilience": 6,
+        "continuation": 5,
+        "humanity": 5,
+        "reflection": 3,
+        "dreamlike": 2
       }
     },
     {
@@ -60,11 +69,14 @@
       "year": 1984,
       "trailerUrl": "https://youtu.be/WBdyLyijZhU?si=NnJQP98Ow6pke-s1",
       "tags": {
-        "movement": 5,
-        "danger": 4,
-        "night": 3,
-        "mystery": 3,
-        "myth": 3
+        "movement": 9,
+        "uncertainty": 7,
+        "night": 7,
+        "dreamlike": 5,
+        "resilience": 6,
+        "humanity": 4,
+        "transcendence": 4,
+        "solitude": 3
       }
     },
     {
@@ -72,11 +84,14 @@
       "year": 1989,
       "trailerUrl": "https://youtu.be/sagmdpkWUqc?si=NSQnuYssA-gXmpb4",
       "tags": {
-        "movement": 5,
-        "warmth": 4,
-        "hope": 4,
-        "adventure": 5,
-        "humanity": 3
+        "humanity": 8,
+        "movement": 8,
+        "warmth": 7,
+        "continuation": 7,
+        "reflection": 5,
+        "resilience": 5,
+        "transcendence": 4,
+        "longing": 3
       }
     },
 
@@ -85,12 +100,14 @@
       "year": 1994,
       "trailerUrl": "https://youtu.be/jawVxq1Iyl0?si=lzRvz0NzpkTY4rHT",
       "tags": {
+        "humanity": 9,
         "solitude": 9,
-        "uncertainty": 7,
-        "nostalgia": 8,
-        "night": 8,
+        "longing": 8,
         "warmth": 6,
-        "movement": 5
+        "reflection": 5,
+        "resilience": 6,
+        "continuation": 5,
+        "night": 5
       }
     },
     {
@@ -98,11 +115,14 @@
       "year": 1983,
       "trailerUrl": "https://youtu.be/3IYGtst9FS4?si=xXVh4eAXaelPTjjx",
       "tags": {
-        "urban": 4,
-        "movement": 4,
-        "distance": 3,
-        "night": 3,
-        "solitude": 3
+        "solitude": 7,
+        "movement": 7,
+        "continuation": 6,
+        "humanity": 5,
+        "reflection": 4,
+        "night": 4,
+        "resilience": 5,
+        "longing": 3
       }
     },
     {
@@ -110,11 +130,15 @@
       "year": 1990,
       "trailerUrl": "https://youtu.be/MploONnAKhI?si=LTOM-IMOp_X1b72W",
       "tags": {
-        "identity": 4,
-        "uncertainty": 4,
-        "movement": 4,
-        "loneliness": 4,
-        "transformation": 5
+        "solitude": 9,
+        "uncertainty": 8,
+        "humanity": 7,
+        "longing": 7,
+        "reflection": 6,
+        "night": 6,
+        "resilience": 6,
+        "continuation": 5,
+        "dreamlike": 3
       }
     },
     {
@@ -123,11 +147,13 @@
       "trailerUrl": "https://youtu.be/phxr4Mk8pac?si=DpGnhs9nNxvbJR-O",
       "tags": {
         "solitude": 10,
+        "night": 10,
+        "reflection": 8,
         "uncertainty": 7,
-        "nostalgia": 8,
-        "night": 9,
-        "warmth": 1,
-        "movement": 3
+        "dreamlike": 6,
+        "humanity": 4,
+        "continuation": 5,
+        "longing": 3
       }
     },
     {
@@ -135,11 +161,15 @@
       "year": 1986,
       "trailerUrl": "https://youtu.be/1hO56L9Ffws?si=bCXB7FIKL-dRrjpu",
       "tags": {
-        "myth": 5,
-        "continuation": 5,
-        "loneliness": 4,
-        "memory": 4,
-        "movement": 3
+        "nostalgia": 9,
+        "solitude": 8,
+        "longing": 7,
+        "reflection": 7,
+        "transcendence": 7,
+        "humanity": 6,
+        "continuation": 8,
+        "dreamlike": 4,
+        "night": 4
       }
     },
     {
@@ -147,11 +177,14 @@
       "year": 1989,
       "trailerUrl": "https://youtu.be/FU169GhEa9Q?si=7uke4ycA_AVBUsyU",
       "tags": {
-        "warmth": 3,
-        "movement": 4,
-        "humanity": 4,
-        "solitude": 2,
-        "hope": 2
+        "resilience": 8,
+        "humanity": 7,
+        "movement": 6,
+        "continuation": 6,
+        "warmth": 5,
+        "solitude": 4,
+        "reflection": 3,
+        "uncertainty": 2
       }
     },
     {
@@ -159,12 +192,15 @@
       "year": 1988,
       "trailerUrl": "https://youtu.be/cia5QgU6SiU?si=GTg_ks8vRwPdCp1e",
       "tags": {
+        "transcendence": 10,
         "solitude": 9,
-        "uncertainty": 6,
-        "nostalgia": 9,
-        "night": 5,
-        "warmth": 3,
-        "movement": 5
+        "dreamlike": 8,
+        "longing": 7,
+        "reflection": 7,
+        "humanity": 5,
+        "movement": 4,
+        "nostalgia": 4,
+        "continuation": 3
       }
     },
     {
@@ -172,12 +208,15 @@
       "year": 2001,
       "trailerUrl": "https://youtu.be/jbZJ487oJlY?si=XTJhNi_8m-rPyxHK",
       "tags": {
-        "solitude": 8,
+        "dreamlike": 10,
         "uncertainty": 10,
-        "nostalgia": 7,
-        "night": 10,
-        "warmth": 2,
-        "movement": 3
+        "longing": 9,
+        "solitude": 8,
+        "night": 8,
+        "reflection": 8,
+        "humanity": 6,
+        "nostalgia": 6,
+        "transcendence": 7
       }
     },
     {
@@ -185,11 +224,14 @@
       "year": 1944,
       "trailerUrl": "https://youtu.be/EBM5Bte4ltg?si=qiAYINc_eOX-Hu54",
       "tags": {
-        "warmth": 4,
-        "distance": 3,
-        "night": 3,
-        "humanity": 4,
-        "romance": 3
+        "humanity": 8,
+        "warmth": 7,
+        "longing": 6,
+        "reflection": 5,
+        "solitude": 4,
+        "continuation": 4,
+        "night": 4,
+        "nostalgia": 3
       }
     },
     {
@@ -197,11 +239,14 @@
       "year": 1971,
       "trailerUrl": "https://youtu.be/228f-dPxI3Q?si=3SPYGULENA1MwC4B",
       "tags": {
-        "movement": 5,
-        "silence": 3,
-        "focus": 5,
-        "distance": 3,
-        "solitude": 3
+        "movement": 10,
+        "solitude": 8,
+        "reflection": 7,
+        "continuation": 7,
+        "humanity": 4,
+        "longing": 3,
+        "resilience": 5,
+        "night": 2
       }
     },
     {
@@ -209,11 +254,15 @@
       "year": 1997,
       "trailerUrl": "https://youtu.be/nsKdR05ZsGE?si=0f6IAvcXRHpd0FfD",
       "tags": {
-        "uncertainty": 5,
-        "paranoia": 4,
-        "identity": 4,
-        "movement": 3,
-        "continuation": 2
+        "uncertainty": 10,
+        "reflection": 9,
+        "solitude": 8,
+        "dreamlike": 8,
+        "night": 7,
+        "humanity": 6,
+        "transcendence": 5,
+        "continuation": 5,
+        "longing": 4
       }
     },
     {
@@ -221,12 +270,14 @@
       "year": 1986,
       "trailerUrl": "https://youtu.be/7-yYJgpQ-CE?si=_I6RxzSRcQooHjAI",
       "tags": {
-        "solitude": 8,
-        "uncertainty": 9,
-        "nostalgia": 7,
-        "night": 9,
-        "warmth": 2,
-        "movement": 3
+        "reflection": 9,
+        "uncertainty": 8,
+        "solitude": 7,
+        "night": 7,
+        "humanity": 5,
+        "nostalgia": 4,
+        "transcendence": 5,
+        "longing": 3
       }
     },
     {
@@ -247,12 +298,16 @@
       "year": 1982,
       "trailerUrl": "https://youtu.be/eogpIG53Cis?si=nQPCcHJs4_K0_vfy",
       "tags": {
-        "solitude": 9,
-        "uncertainty": 9,
-        "nostalgia": 8,
         "night": 10,
-        "warmth": 2,
-        "movement": 4
+        "longing": 10,
+        "solitude": 9,
+        "reflection": 9,
+        "nostalgia": 8,
+        "dreamlike": 8,
+        "humanity": 8,
+        "uncertainty": 7,
+        "transcendence": 6,
+        "continuation": 5
       }
       },
 
@@ -261,11 +316,14 @@
       "year": 1959,
       "trailerUrl": "https://youtu.be/ek7T9Gyl_J4?si=wNH6n5Hi2x5Fmi88",
       "tags": {
-        "movement": 5,
-        "identity": 3,
-        "mystery": 4,
-        "adventure": 4,
-        "elegance": 4
+        "movement": 10,
+        "uncertainty": 8,
+        "continuation": 7,
+        "humanity": 5,
+        "reflection": 4,
+        "dreamlike": 3,
+        "resilience": 5,
+        "night": 4
       }
     },
     {
@@ -273,11 +331,14 @@
       "year": 1946,
       "trailerUrl": "https://youtu.be/v3kV4EY_2Ng?si=ePCCsyRqRNogAPdo",
       "tags": {
-        "tension": 4,
-        "romance": 4,
-        "night": 3,
-        "distance": 3,
-        "fragility": 3
+        "longing": 8,
+        "solitude": 7,
+        "humanity": 7,
+        "reflection": 6,
+        "uncertainty": 5,
+        "night": 5,
+        "warmth": 4,
+        "continuation": 3
       }
     },
     {
@@ -285,11 +346,14 @@
       "year": 1976,
       "trailerUrl": "https://youtu.be/iRgZ1AzdNgA?si=DWs-EQYolodadC--",
       "tags": {
-        "paranoia": 5,
-        "urban": 4,
-        "movement": 3,
-        "fear": 4,
-        "uncertainty": 4
+        "uncertainty": 10,
+        "solitude": 8,
+        "resilience": 7,
+        "night": 7,
+        "reflection": 5,
+        "humanity": 5,
+        "continuation": 5,
+        "dreamlike": 3
       }
     },
     {
@@ -297,11 +361,15 @@
       "year": 2002,
       "trailerUrl": "https://youtu.be/OGFjOmQE-Zo?si=6mpNogBN4s3jF6QD",
       "tags": {
-        "movement": 5,
-        "surreal": 4,
-        "hope": 4,
-        "uncertainty": 3,
-        "humanity": 3
+        "movement": 10,
+        "dreamlike": 8,
+        "reflection": 7,
+        "uncertainty": 6,
+        "humanity": 6,
+        "transcendence": 5,
+        "continuation": 7,
+        "warmth": 4,
+        "longing": 3
       }
     },
     {
@@ -309,11 +377,14 @@
       "year": 1975,
       "trailerUrl": "https://youtu.be/OXrcDonY-B8?si=eRlLyLHdo_4w1Dge",
       "tags": {
-        "humanity": 5,
-        "freedom": 5,
-        "warmth": 3,
-        "tragedy": 4,
-        "resistance": 5
+        "humanity": 10,
+        "resilience": 9,
+        "solitude": 7,
+        "reflection": 7,
+        "warmth": 6,
+        "longing": 5,
+        "continuation": 6,
+        "uncertainty": 5
       }
     },
     {
@@ -321,11 +392,14 @@
       "year": 1941,
       "trailerUrl": "https://youtu.be/Yv-BPuqhW9U?si=Auj7AEV61tT7Vzhq",
       "tags": {
-        "noir": 5,
-        "mystery": 5,
-        "night": 4,
-        "distance": 3,
-        "urban": 4
+        "solitude": 8,
+        "uncertainty": 8,
+        "night": 7,
+        "reflection": 5,
+        "humanity": 4,
+        "longing": 3,
+        "resilience": 4,
+        "continuation": 3
       }
     },
     {
@@ -333,11 +407,16 @@
       "year": 1990,
       "trailerUrl": "https://youtu.be/W32wYIN4BX4?si=x-s6fKkfs0PEAAOa",
       "tags": {
-        "surreal": 5,
-        "warmth": 3,
-        "mystery": 5,
-        "dreamlike": 5,
-        "humanity": 4
+        "dreamlike": 10,
+        "uncertainty": 9,
+        "humanity": 8,
+        "night": 8,
+        "warmth": 6,
+        "reflection": 7,
+        "nostalgia": 7,
+        "transcendence": 7,
+        "solitude": 6,
+        "longing": 6
       }
     },
     {
@@ -345,11 +424,14 @@
       "year": 1962,
       "trailerUrl": "https://youtu.be/KR7loA_oziY?si=TaF4yqSWBtTQWF4k",
       "tags": {
-        "humanity": 5,
-        "warmth": 5,
-        "justice": 5,
-        "hope": 4,
-        "memory": 3
+        "humanity": 10,
+        "warmth": 8,
+        "reflection": 8,
+        "resilience": 7,
+        "nostalgia": 6,
+        "solitude": 3,
+        "longing": 3,
+        "continuation": 5
       }
     },
     {
@@ -357,11 +439,15 @@
       "year": 2005,
       "trailerUrl": "https://youtu.be/xr78AERXHw8?si=iHNmyXbR-j6ZSG8S",
       "tags": {
-        "identity": 4,
-        "movement": 4,
-        "hope": 3,
-        "escape": 5,
-        "uncertainty": 3
+        "movement": 8,
+        "continuation": 7,
+        "humanity": 7,
+        "uncertainty": 6,
+        "resilience": 6,
+        "longing": 5,
+        "warmth": 4,
+        "reflection": 3,
+        "dreamlike": 2
       }
     },
     {
@@ -369,12 +455,15 @@
       "year": 1998,
       "trailerUrl": "https://youtu.be/dlnmQbPGuls?si=TAsFe8k-ttMeO-vw",
       "tags": {
-        "solitude": 7,
+        "reflection": 9,
+        "humanity": 8,
         "uncertainty": 8,
-        "nostalgia": 7,
-        "night": 3,
+        "continuation": 7,
+        "movement": 7,
         "warmth": 6,
-        "movement": 5
+        "dreamlike": 6,
+        "longing": 5,
+        "transcendence": 5
       }
     },
     {
@@ -382,11 +471,15 @@
       "year": 1992,
       "trailerUrl": "https://youtu.be/5qQauPG61ZI?si=UetATtk-6ls2GlDB",
       "tags": {
-        "surreal": 5,
-        "trauma": 5,
-        "night": 5,
-        "uncertainty": 5,
-        "fragility": 4
+        "dreamlike": 10,
+        "uncertainty": 10,
+        "night": 9,
+        "solitude": 8,
+        "longing": 7,
+        "transcendence": 8,
+        "reflection": 6,
+        "humanity": 6,
+        "nostalgia": 5
       }
     },
 
@@ -395,12 +488,16 @@
       "year": 2000,
       "trailerUrl": "https://youtu.be/cgK9GOPBmns?si=8H6qVWzNiwkc44nw",
       "tags": {
-        "solitude": 8,
+        "solitude": 9,
+        "movement": 8,
+        "reflection": 7,
         "uncertainty": 7,
-        "nostalgia": 7,
-        "night": 8,
-        "warmth": 3,
-        "movement": 7
+        "longing": 6,
+        "continuation": 7,
+        "humanity": 5,
+        "night": 5,
+        "dreamlike": 4,
+        "transcendence": 4
       }
     },
 
@@ -413,11 +510,16 @@
       "year": 1997,
       "trailerUrl": "https://youtu.be/adYGUai7PNc?si=JIdJFLQ9PbV7sQTG",
       "tags": {
-        "paranoia": 4,
-        "humanity": 4,
-        "urban": 3,
-        "warmth": 3,
-        "uncertainty": 4
+        "uncertainty": 8,
+        "solitude": 7,
+        "humanity": 7,
+        "longing": 6,
+        "reflection": 5,
+        "night": 5,
+        "resilience": 6,
+        "continuation": 4,
+        "dreamlike": 3,
+        "warmth": 3
       }
     },
 
@@ -426,12 +528,14 @@
       "year": 1976,
       "trailerUrl": "https://youtu.be/JNgFEZsjfcg?si=n9_taP-hrVCWcjDv",
       "tags": {
-        "solitude": 9,
         "uncertainty": 10,
-        "nostalgia": 7,
-        "night": 8,
-        "warmth": 1,
-        "movement": 2
+        "solitude": 9,
+        "reflection": 8,
+        "night": 7,
+        "dreamlike": 6,
+        "humanity": 5,
+        "longing": 4,
+        "continuation": 4
       }
     }
 
@@ -445,12 +549,14 @@
       "artist": "Enigma",
       "youtubeUrl": "https://youtu.be/aSTV99Uy8hk?si=5BWgxNq6OWE3pxUR",
       "tags": {
-        "movement": 5,
-        "transcendence": 5,
-        "longing": 4,
-        "night": 4,
-        "uncertainty": 3,
-        "hope": 2
+        "transcendence": 10,
+        "dreamlike": 9,
+        "longing": 8,
+        "movement": 7,
+        "night": 7,
+        "reflection": 6,
+        "continuation": 5,
+        "solitude": 4
       }
     },
 
@@ -459,9 +565,14 @@
       "artist": "Mylene Farmer",
       "youtubeUrl": "https://youtu.be/sI-KgYt4Gfc?si=8kgDcgtZi6kgJ0Wq",
       "tags": {
-        "vulnerability": 5,
-        "night": 4,
-        "longing": 4
+        "longing": 10,
+        "solitude": 8,
+        "night": 8,
+        "reflection": 8,
+        "dreamlike": 7,
+        "humanity": 6,
+        "uncertainty": 5,
+        "nostalgia": 5
       }
     },
 
@@ -470,9 +581,13 @@
       "artist": "Mylene Farmer",
       "youtubeUrl": "https://youtu.be/ENZL4Dz1md4?si=zJCz2we0Wj5pqve0",
       "tags": {
-        "emotional_rupture": 5,
-        "desire": 4,
-        "uncertainty": 4
+        "uncertainty": 9,
+        "longing": 8,
+        "night": 8,
+        "dreamlike": 7,
+        "solitude": 7,
+        "reflection": 6,
+        "humanity": 4
       }
     },
 
@@ -481,9 +596,13 @@
       "artist": "Bad Boys Blue",
       "youtubeUrl": "https://youtu.be/qx8xrGqSuxE?si=s0xSUQL7oa7Lyisa",
       "tags": {
+        "nostalgia": 8,
+        "night": 7,
+        "reflection": 6,
+        "longing": 6,
         "solitude": 5,
-        "night": 5,
-        "memory": 3
+        "dreamlike": 4,
+        "continuation": 4
       }
     },
     {
@@ -491,9 +610,13 @@
       "artist": "Lesiem",
       "youtubeUrl": "https://youtu.be/erpraAQ0Ek0?si=bqMyTLDn7-ruNPYR",
       "tags": {
-        "transcendence": 5,
-        "ritual": 4,
-        "cosmic": 3
+        "transcendence": 10,
+        "dreamlike": 8,
+        "reflection": 7,
+        "solitude": 6,
+        "night": 5,
+        "longing": 5,
+        "humanity": 3
       }
     },
 
@@ -502,9 +625,14 @@
       "artist": "Kheops",
       "youtubeUrl": "https://youtu.be/1dJGvB-SAiY?si=8W24Rf6lLTcQZ-xs",
       "tags": {
-        "journey": 5,
-        "night": 3,
-        "movement": 4
+        "movement": 8,
+        "dreamlike": 8,
+        "night": 7,
+        "reflection": 6,
+        "longing": 5,
+        "continuation": 5,
+        "transcendence": 4,
+        "solitude": 4
       }
     },
 
@@ -513,9 +641,14 @@
       "artist": "Talvin Singh",
       "youtubeUrl": "https://youtu.be/V1ROyUVIeaw?si=f23bcKOYBkQ-xwIi",
       "tags": {
-        "journey": 5,
-        "uncertainty": 3,
-        "movement": 5
+        "movement": 10,
+        "dreamlike": 9,
+        "continuation": 8,
+        "reflection": 7,
+        "transcendence": 7,
+        "night": 6,
+        "solitude": 5,
+        "longing": 5
       }
     },
 
@@ -524,9 +657,14 @@
       "artist": "TAAW",
       "youtubeUrl": "https://youtu.be/mlz4bsJPk9E?si=EYMs4Pdip_sDjL6a",
       "tags": {
-        "night": 5,
-        "solitude": 4,
-        "urban": 4
+        "night": 10,
+        "dreamlike": 8,
+        "reflection": 7,
+        "solitude": 6,
+        "movement": 5,
+        "transcendence": 5,
+        "continuation": 4,
+        "nostalgia": 4
       }
     },
 
@@ -535,9 +673,14 @@
       "artist": "ERA",
       "youtubeUrl": "https://youtu.be/3QDXs5EkV9Q?si=x0qIr0_HDlS2m3VF",
       "tags": {
-        "hope": 5,
-        "transcendence": 4,
-        "release": 4
+        "continuation": 8,
+        "transcendence": 7,
+        "warmth": 7,
+        "resilience": 6,
+        "humanity": 5,
+        "dreamlike": 5,
+        "reflection": 4,
+        "longing": 3
       }
     },
 
@@ -546,9 +689,13 @@
       "artist": "Eric Serra",
       "youtubeUrl": "https://youtu.be/Pebaqz1WQnw?si=KvxxTSC7zFn0Ona_",
       "tags": {
-        "uncertainty": 5,
-        "cinematic": 5,
-        "night": 4
+        "uncertainty": 9,
+        "night": 9,
+        "dreamlike": 8,
+        "reflection": 7,
+        "solitude": 7,
+        "longing": 5,
+        "transcendence": 4
       }
     },
 
@@ -557,9 +704,14 @@
       "artist": "Eric Serra",
       "youtubeUrl": "https://youtu.be/g9rYK5FiMlM?si=-h1N02bCLXTr1ocM",
       "tags": {
-        "fragility": 4,
-        "warmth": 3,
-        "memory": 3
+        "humanity": 9,
+        "longing": 8,
+        "solitude": 8,
+        "warmth": 7,
+        "reflection": 6,
+        "night": 5,
+        "dreamlike": 4,
+        "continuation": 4
       }
     },
 
@@ -568,9 +720,13 @@
       "artist": "Enigma",
       "youtubeUrl": "https://youtu.be/79_Q-2AXa5w?si=ssxyfa3GdWv5mBua",
       "tags": {
-        "cosmic": 5,
-        "night": 5,
-        "transcendence": 4
+        "transcendence": 10,
+        "dreamlike": 9,
+        "night": 8,
+        "reflection": 7,
+        "longing": 6,
+        "solitude": 5,
+        "continuation": 4
       }
     },
 
@@ -579,31 +735,31 @@
       "artist": "Alphaville",
       "youtubeUrl": "https://youtu.be/-6zH_ejMAps?si=TBuiqmr2U48LG5ZX",
       "tags": {
-        "protection": 4,
-        "hope": 4,
-        "distance": 3
+        "longing": 8,
+        "nostalgia": 8,
+        "night": 7,
+        "reflection": 6,
+        "warmth": 5,
+        "continuation": 5,
+        "dreamlike": 4,
+        "humanity": 4
       }
     },
 
-    {
-      "title": "Ghost Town",
-      "artist": "The Specials",
-      "youtubeUrl": "https://youtu.be/RZ2oXzrnti4?si=DOhsYeKsEugyMdnd",
-      "tags": {
-        "urban": 5,
-        "solitude": 5,
-        "decay": 4
-      }
-    },
+
 
     {
       "title": "Rame (Slomo Version)",
       "artist": "Snap! featuring Rukmani",
       "youtubeUrl": "https://youtu.be/ah7ZEW_OHck?si=5lKBYHLBdb41ceL5",
       "tags": {
-        "movement": 4,
-        "dreamlike": 4,
-        "ritual": 3
+        "movement": 7,
+        "dreamlike": 7,
+        "night": 6,
+        "continuation": 6,
+        "reflection": 5,
+        "transcendence": 4,
+        "uncertainty": 3
       }
     },
     {
@@ -611,31 +767,31 @@
       "artist": "Bad Boys Blue",
       "youtubeUrl": "https://youtu.be/MmlGF8yaShs?si=F3krZZL01w1CSpaV",
       "tags": {
-        "night": 5,
-        "memory": 4,
-        "longing": 3
+        "nostalgia": 9,
+        "longing": 8,
+        "night": 7,
+        "reflection": 6,
+        "solitude": 5,
+        "warmth": 4,
+        "dreamlike": 3,
+        "continuation": 3
       }
     },
 
-    {
-      "title": "Queen of Hearts",
-      "artist": "Bad Boys Blue",
-      "youtubeUrl": "https://www.youtube.com/results?search_query=Bad+Boys+Blue+Queen+of+Hearts",
-      "tags": {
-        "desire": 4,
-        "movement": 3,
-        "romance": 4
-      }
-    },
 
     {
       "title": "Turn Around",
       "artist": "Enigma",
       "youtubeUrl": "https://youtu.be/ypqVFJonxGk?si=UbDWlxK9tmdIia1n",
       "tags": {
-        "transcendence": 5,
-        "movement": 4,
-        "release": 3
+        "continuation": 9,
+        "movement": 8,
+        "transcendence": 8,
+        "dreamlike": 7,
+        "reflection": 6,
+        "night": 5,
+        "longing": 5,
+        "uncertainty": 4
       }
     },
 
@@ -644,9 +800,14 @@
       "artist": "Afro Celt Sound System feat. Sinead O'Connor",
       "youtubeUrl": "https://youtu.be/7LhIkAKJzs8?si=JOyJE0wlv_d-5ePl",
       "tags": {
-        "release": 5,
-        "hope": 4,
-        "journey": 3
+        "transcendence": 9,
+        "movement": 8,
+        "continuation": 8,
+        "dreamlike": 7,
+        "reflection": 5,
+        "humanity": 5,
+        "night": 4,
+        "longing": 4
       }
     },
 
@@ -655,9 +816,13 @@
       "artist": "YELLO",
       "youtubeUrl": "https://youtu.be/z8-p6gE2F7c?si=idQ8Jau9VHXU3eod",
       "tags": {
-        "journey": 5,
-        "movement": 5,
-        "curiosity": 3
+        "movement": 9,
+        "night": 8,
+        "dreamlike": 8,
+        "reflection": 6,
+        "continuation": 6,
+        "solitude": 5,
+        "transcendence": 4
       }
     },
 
@@ -666,9 +831,13 @@
       "artist": "Space",
       "youtubeUrl": "https://youtu.be/2hCk7p70Wgg?si=ls4KkfK_dPnf6N2u",
       "tags": {
-        "cosmic": 5,
-        "distance": 5,
-        "dreamlike": 4
+        "dreamlike": 9,
+        "nostalgia": 8,
+        "longing": 7,
+        "transcendence": 7,
+        "reflection": 6,
+        "solitude": 5,
+        "night": 4
       }
     },
     {
@@ -676,9 +845,13 @@
       "artist": "Saint Preux",
       "youtubeUrl": "https://youtu.be/KuesnJDsPaU?si=E5_J4NyDWFv2GEqk",
       "tags": {
-        "memory": 5,
-        "dreamlike": 4,
-        "fragility": 4
+        "transcendence": 10,
+        "reflection": 8,
+        "dreamlike": 8,
+        "solitude": 7,
+        "longing": 6,
+        "nostalgia": 5,
+        "continuation": 3
       }
     },
 
@@ -687,9 +860,14 @@
       "artist": "Ian Gillan",
       "youtubeUrl": "https://youtu.be/jgd4qN0sVCE?si=IzUqArPDOJPo8XoD",
       "tags": {
-        "journey": 4,
-        "freedom": 4,
-        "movement": 3
+        "movement": 8,
+        "reflection": 7,
+        "continuation": 7,
+        "nostalgia": 6,
+        "solitude": 5,
+        "longing": 5,
+        "resilience": 5,
+        "night": 3
       }
     },
     {
@@ -697,9 +875,14 @@
       "artist": "Robert Plant",
       "youtubeUrl": "https://youtu.be/B9Omu_QYb4Q?si=a7ooEzBMcpm0bXXD",
       "tags": {
-        "uncertainty": 4,
-        "desire": 4,
-        "movement": 3
+        "longing": 9,
+        "reflection": 8,
+        "solitude": 7,
+        "nostalgia": 6,
+        "night": 5,
+        "humanity": 5,
+        "continuation": 4,
+        "dreamlike": 3
       }
     },
     {
@@ -707,9 +890,14 @@
       "artist": "Mono",
       "youtubeUrl": "https://youtu.be/qP0qeQrjh2k?si=KD-8VQfpFnvc2CNV",
       "tags": {
-        "dreamlike": 5,
-        "solitude": 5,
-        "memory": 4
+        "dreamlike": 10,
+        "longing": 9,
+        "nostalgia": 8,
+        "solitude": 7,
+        "reflection": 7,
+        "night": 7,
+        "humanity": 5,
+        "transcendence": 4
       }
     },
 
@@ -718,9 +906,14 @@
       "artist": "Garbage",
       "youtubeUrl": "https://youtu.be/y14Kp1DitpE?si=9La04vDQunlxLlKO",
       "tags": {
-        "fragility": 5,
-        "night": 4,
-        "vulnerability": 4
+        "solitude": 8,
+        "uncertainty": 7,
+        "longing": 7,
+        "reflection": 6,
+        "dreamlike": 5,
+        "night": 5,
+        "humanity": 4,
+        "nostalgia": 3
       }
     },
     {
@@ -728,9 +921,13 @@
       "artist": "Mono",
       "youtubeUrl": "https://youtu.be/-jRcy-tIsxk?si=vmJ4uALZnhg3_Js1",
       "tags": {
-        "urban": 4,
-        "distance": 4,
-        "uncertainty": 3
+        "uncertainty": 8,
+        "dreamlike": 7,
+        "solitude": 7,
+        "reflection": 6,
+        "night": 6,
+        "longing": 5,
+        "humanity": 3
       }
     },
     {
@@ -738,9 +935,14 @@
       "artist": "Army Of Lovers",
       "youtubeUrl": "https://youtu.be/alDfCOcCZZo?si=q33oyG1idPbTFIDz",
       "tags": {
-        "irony": 4,
-        "movement": 4,
-        "release": 3
+        "continuation": 8,
+        "movement": 7,
+        "warmth": 6,
+        "humanity": 5,
+        "nostalgia": 5,
+        "dreamlike": 4,
+        "night": 4,
+        "reflection": 3
       }
     },
     {
@@ -748,9 +950,13 @@
       "artist": "YELLO",
       "youtubeUrl": "https://youtu.be/0_lccM9u2i0?si=_xF09sVsKfQcb7yr",
       "tags": {
-        "danger": 5,
-        "noir": 5,
-        "surreal": 4
+        "uncertainty": 9,
+        "night": 9,
+        "dreamlike": 8,
+        "reflection": 5,
+        "solitude": 5,
+        "movement": 4,
+        "humanity": 2
       }
     },
     {
@@ -758,12 +964,14 @@
       "artist": "Nick Cave & The Bad Seeds",
       "youtubeUrl": "https://youtu.be/TqhOVY58zIo?si=GL-7jeTGwLjcnndj",
       "tags": {
-        "solitude": 8,
-        "night": 8,
-        "humanity": 7,
+        "longing": 10,
+        "humanity": 9,
+        "reflection": 8,
+        "solitude": 7,
         "dreamlike": 6,
-        "uncertainty": 5,
-        "longing": 7
+        "night": 6,
+        "nostalgia": 5,
+        "transcendence": 5
       }
     },
     {
@@ -771,9 +979,13 @@
       "artist": "Jean Michel Jarre",
       "youtubeUrl": "https://youtu.be/Eqilin4Cv08?si=codPq3Q8GSQ5TpwT",
       "tags": {
-        "movement": 5,
-        "future": 4,
-        "journey": 4
+        "movement": 10,
+        "continuation": 9,
+        "night": 7,
+        "dreamlike": 6,
+        "reflection": 5,
+        "transcendence": 4,
+        "solitude": 3
       }
     },
     {
@@ -781,14 +993,14 @@
       "artist": "Roger Taylor",
       "youtubeUrl": "https://youtu.be/IqV9ODlrfig?si=FJxDo1Tkws5agxOe",
       "tags": {
-        "warmth": 7,
-        "movement": 6,
-        "humanity": 7,
-        "hope": 5,
-        "continuation": 6,
-        "nostalgia": 4,
-        "solitude": 3,
-        "night": 3
+        "humanity": 8,
+        "continuation": 7,
+        "warmth": 6,
+        "resilience": 6,
+        "movement": 5,
+        "reflection": 4,
+        "longing": 3,
+        "nostalgia": 3
       }
     },
     {
@@ -796,9 +1008,14 @@
       "artist": "Blackmore's Night",
       "youtubeUrl": "https://www.youtube.com/results?search_query=Blackmores+Night+Fires+at+Midnight",
       "tags": {
-        "night": 5,
-        "warmth": 4,
-        "memory": 3
+        "nostalgia": 9,
+        "night": 8,
+        "longing": 8,
+        "dreamlike": 7,
+        "reflection": 6,
+        "solitude": 5,
+        "transcendence": 4,
+        "continuation": 3
       }
     },
     {
@@ -806,12 +1023,14 @@
       "artist": "Dead Man’s Bones",
       "youtubeUrl": "https://youtu.be/FM3JnVZgKrI?si=MFKnyR83cnYGpx2y",
       "tags": {
-        "dreamlike": 8,
-        "fragility": 7,
-        "night": 7,
-        "solitude": 6,
+        "solitude": 9,
+        "longing": 8,
+        "night": 8,
+        "reflection": 7,
         "uncertainty": 6,
-        "longing": 5
+        "dreamlike": 6,
+        "humanity": 5,
+        "nostalgia": 4
       }
     },
     {
@@ -819,24 +1038,29 @@
       "artist": "Sting",
       "youtubeUrl": "https://youtu.be/7km4EHgkQiw?si=adjEgQQP3AEHGGpi",
       "tags": {
-        "solitude": 5,
-        "warmth": 6,
+        "humanity": 10,
+        "continuation": 8,
+        "reflection": 8,
+        "warmth": 7,
+        "resilience": 7,
         "longing": 5,
-        "humanity": 7,
         "nostalgia": 4,
-        "uncertainty": 4,
-        "hope": 6,
-        "resilience": 7
+        "solitude": 3
       }
     },
     {
-      "title": "Gravity of Love",
+      "title": "Beyond the Invisible",
       "artist": "Enigma",
-      "youtubeUrl": "https://youtu.be/aSTV99Uy8hk?si=uGXCX1lOeIM8RarG",
+      "youtubeUrl": "https://youtu.be/f8mMWh62XpU?si=et4psZenejDsutAu",
       "tags": {
-        "transcendence": 5,
-        "movement": 5,
-        "longing": 4
+        "transcendence": 10,
+        "dreamlike": 9,
+        "movement": 7,
+        "reflection": 6,
+        "night": 6,
+        "longing": 5,
+        "continuation": 5,
+        "solitude": 4
       }
     },
     {
@@ -844,14 +1068,14 @@
       "artist": "Aria (Paul Schwartz)",
       "youtubeUrl": "https://youtu.be/GYCC5rFlOk0?si=J9SRE1-Sav9_nqAB",
       "tags": {
+        "longing": 10,
+        "transcendence": 9,
         "dreamlike": 8,
-        "transcendence": 8,
-        "fragility": 7,
-        "longing": 6,
-        "nostalgia": 5,
-        "night": 6,
-        "solitude": 5,
-        "warmth": 3
+        "reflection": 8,
+        "nostalgia": 7,
+        "solitude": 6,
+        "humanity": 5,
+        "night": 4
       }
     },
     {
@@ -859,14 +1083,14 @@
       "artist": "Mike Oldfield",
       "youtubeUrl": "https://youtu.be/e80qhyovOnA?si=_dxFMrBmA1QYH504",
       "tags": {
-        "nostalgia": 8,
-        "longing": 8,
-        "night": 7,
-        "dreamlike": 6,
-        "fragility": 7,
+        "nostalgia": 10,
+        "longing": 9,
+        "night": 8,
+        "dreamlike": 7,
+        "reflection": 7,
         "solitude": 5,
-        "warmth": 4,
-        "movement": 5
+        "continuation": 4,
+        "humanity": 4
       }
     },
     {
@@ -874,14 +1098,14 @@
       "artist": "Alan Parsons Project",
       "youtubeUrl": "https://youtu.be/56hqrlQxMMI?si=1laQZYmOW-BiKbYw",
       "tags": {
-        "distance": 8,
-        "uncertainty": 6,
-        "solitude": 6,
+        "reflection": 9,
+        "uncertainty": 8,
+        "solitude": 7,
+        "dreamlike": 6,
         "night": 5,
-        "humanity": 3,
-        "dreamlike": 3,
-        "movement": 2,
-        "warmth": 1
+        "longing": 5,
+        "humanity": 4,
+        "continuation": 4
       }
     },
     {
@@ -889,9 +1113,14 @@
       "artist": "Pink Floyd",
       "youtubeUrl": "https://youtu.be/nVhNCTH8pDs?si=3zKglnGWtoYugfiU",
       "tags": {
-        "freedom": 5,
-        "movement": 5,
-        "hope": 4
+        "movement": 10,
+        "continuation": 10,
+        "reflection": 8,
+        "transcendence": 7,
+        "resilience": 7,
+        "dreamlike": 5,
+        "longing": 4,
+        "solitude": 3
       }
     },
     {
@@ -900,13 +1129,13 @@
       "youtubeUrl": "https://youtu.be/wYXrQPidJkw?si=gvlVCM8bf2qb_SUb",
       "tags": {
         "reflection": 9,
+        "continuation": 8,
         "nostalgia": 7,
+        "resilience": 7,
         "solitude": 6,
-        "dreamlike": 5,
-        "warmth": 4,
-        "continuation": 6,
-        "night": 4,
-        "movement": 3
+        "longing": 5,
+        "humanity": 5,
+        "dreamlike": 4
       }
     },
     {
@@ -914,12 +1143,14 @@
       "artist": "Enigma",
       "youtubeUrl": "https://youtu.be/S29GrVANbHM?si=J8BZI343eBGsW30-",
       "tags": {
-        "movement": 7,
-        "transcendence": 8,
-        "dreamlike": 7,
+        "movement": 9,
+        "transcendence": 9,
+        "continuation": 8,
+        "dreamlike": 8,
+        "reflection": 6,
         "night": 5,
-        "hope": 6,
-        "continuation": 5
+        "longing": 4,
+        "uncertainty": 3
       }
     },
     {
@@ -927,14 +1158,14 @@
       "artist": "George Harrison",
       "youtubeUrl": "https://youtu.be/EEHH5nAZxo4?si=hYJbuBXiSdVhGLqs",
       "tags": {
-        "humanity": 9,
-        "warmth": 7,
-        "resilience": 8,
+        "resilience": 9,
+        "reflection": 8,
+        "humanity": 8,
         "continuation": 7,
+        "longing": 6,
         "nostalgia": 5,
-        "solitude": 3,
-        "hope": 5,
-        "movement": 2
+        "solitude": 4,
+        "warmth": 4
       }
     },
     {
@@ -943,13 +1174,13 @@
       "youtubeUrl": "https://youtu.be/1o4s1KVJaVA?si=vPEy5-D4nrkQ73Gd",
       "tags": {
         "humanity": 10,
-        "warmth": 8,
+        "warmth": 9,
         "continuation": 7,
-        "nostalgia": 6,
-        "hope": 6,
-        "movement": 4,
-        "solitude": 2,
-        "longing": 3
+        "reflection": 6,
+        "nostalgia": 5,
+        "resilience": 5,
+        "longing": 4,
+        "movement": 3
       }
     },
     {
@@ -957,14 +1188,14 @@
       "artist": "Delerium",
       "youtubeUrl": "https://youtu.be/QFtZMhRO16o?si=2sWh_HocjqXqsSVG",
       "tags": {
+        "transcendence": 10,
+        "longing": 9,
         "dreamlike": 8,
-        "transcendence": 7,
-        "uncertainty": 6,
+        "reflection": 7,
         "solitude": 6,
-        "night": 7,
-        "longing": 5,
-        "warmth": 3,
-        "movement": 4
+        "night": 5,
+        "humanity": 4,
+        "continuation": 4
       }
     },
     {
@@ -972,14 +1203,14 @@
       "artist": "Queen",
       "youtubeUrl": "https://youtu.be/Iw3izcZd9zU?si=ZXDYHdaGJpBddelU",
       "tags": {
-        "fragility": 9,
-        "longing": 8,
+        "longing": 10,
+        "humanity": 9,
+        "reflection": 8,
         "solitude": 7,
-        "humanity": 8,
-        "nostalgia": 6,
-        "warmth": 4,
-        "uncertainty": 5,
-        "night": 5
+        "resilience": 6,
+        "warmth": 5,
+        "nostalgia": 5,
+        "continuation": 4
       }
     },
     {
@@ -987,14 +1218,14 @@
       "artist": "Queen",
       "youtubeUrl": "https://youtu.be/0p_1QSUsbsM?si=TOH4FcMTNswssejf",
       "tags": {
-        "movement": 8,
-        "hope": 7,
-        "transcendence": 6,
-        "wonder": 7,
+        "transcendence": 9,
+        "continuation": 8,
+        "movement": 7,
+        "dreamlike": 6,
         "humanity": 5,
-        "warmth": 4,
-        "night": 3,
-        "solitude": 1
+        "reflection": 4,
+        "nostalgia": 3,
+        "warmth": 3
       }
     },
     {
@@ -1019,9 +1250,14 @@
       "artist": "ELO",
       "youtubeUrl": "https://youtu.be/IPFwNCIsXBc?si=zumQSc9Mn84pmKP0",
       "tags": {
-        "cosmic": 5,
-        "distance": 5,
-        "solitude": 4
+        "longing": 10,
+        "nostalgia": 9,
+        "dreamlike": 8,
+        "solitude": 8,
+        "reflection": 7,
+        "transcendence": 7,
+        "continuation": 5,
+        "night": 4
       }
     },
     {
@@ -1029,9 +1265,14 @@
       "artist": "Earth and Fire",
       "youtubeUrl": "https://youtu.be/d0vT-ERKSFs?si=s_Xxp1zDtnIIJLQM",
       "tags": {
-        "memory": 5,
-        "dreamlike": 4,
-        "fragility": 3
+        "nostalgia": 10,
+        "reflection": 8,
+        "dreamlike": 7,
+        "longing": 7,
+        "solitude": 5,
+        "night": 4,
+        "humanity": 4,
+        "continuation": 3
       }
     },
     {
@@ -1039,9 +1280,14 @@
       "artist": "David Bowie",
       "youtubeUrl": "https://youtu.be/ptVbk7r4IcA?si=Pear7XRmwT_Gct9M",
       "tags": {
-        "cosmic": 5,
-        "isolation": 5,
-        "uncertainty": 4
+        "solitude": 10,
+        "transcendence": 9,
+        "movement": 8,
+        "dreamlike": 8,
+        "reflection": 8,
+        "longing": 7,
+        "uncertainty": 6,
+        "continuation": 5
       }
     },
     {
@@ -1049,9 +1295,14 @@
       "artist": "Queen",
       "youtubeUrl": "https://youtu.be/ixpxhB9mzVo?si=JDFHZc11_5FB9vcG",
       "tags": {
-        "resilience": 5,
-        "hope": 5,
-        "continuation": 4
+        "continuation": 10,
+        "resilience": 9,
+        "movement": 8,
+        "humanity": 7,
+        "reflection": 6,
+        "warmth": 5,
+        "longing": 4,
+        "dreamlike": 3
       }
     },
 
@@ -1060,14 +1311,14 @@
       "artist": "Dead Can Dance",
       "youtubeUrl": "https://youtu.be/G-RglCdlLEA?si=7LJ3l6x4uYvPqjaO",
       "tags": {
+        "transcendence": 10,
         "movement": 9,
-        "transcendence": 8,
-        "dreamlike": 7,
-        "night": 5,
+        "dreamlike": 8,
+        "continuation": 7,
+        "reflection": 5,
         "humanity": 4,
-        "warmth": 3,
-        "uncertainty": 4,
-        "longing": 2
+        "night": 3,
+        "nostalgia": 3
       }
     },
 
@@ -1076,14 +1327,14 @@
       "artist": "Maggie Reilly",
       "youtubeUrl": "https://youtu.be/ZbRCM3X3X6Q?si=phLmSv_KJ0xx7W-c",
       "tags": {
-        "longing": 8,
+        "longing": 9,
+        "reflection": 8,
         "nostalgia": 7,
         "solitude": 6,
-        "fragility": 7,
-        "night": 6,
         "warmth": 5,
-        "dreamlike": 5,
-        "movement": 3
+        "night": 5,
+        "continuation": 4,
+        "dreamlike": 4
       }
     },
 
@@ -1093,17 +1344,31 @@
       "youtubeUrl": "https://youtu.be/C_wZ9ZBeRAo?si=ZMJu3TFTZpMjW4ga",
       "tags": {
         "transcendence": 10,
+        "humanity": 8,
+        "dreamlike": 8,
         "movement": 7,
-        "humanity": 7,
-        "dreamlike": 6,
-        "warmth": 6,
-        "hope": 7,
-        "solitude": 2,
-        "night": 1
+        "reflection": 6,
+        "continuation": 5,
+        "warmth": 5,
+        "longing": 4
+      }
+    },
+
+    {
+      "title": "Aquaria",
+      "artist": "Ulysses",
+      "youtubeUrl": "https://youtu.be/wOpt23JAZsI?si=nrWF6db11ifWRL3E",
+      "tags": {
+        "dreamlike": 9,
+        "transcendence": 8,
+        "reflection": 7,
+        "solitude": 6,
+        "movement": 5,
+        "nostalgia": 5,
+        "night": 4,
+        "longing": 4
       }
     }
-
-
 
 
   ]

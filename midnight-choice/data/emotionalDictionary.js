@@ -40,6 +40,28 @@ const emotionalDictionary = {
         'psychological',
         'unsettling',
     ],
+
+    reflection: [
+        'reflective',
+        'contemplative',
+        'stillness',
+        'quiet thoughts',
+    ],
+
+    resilience: [
+        'endurance',
+        'continuing',
+        'holding on',
+        'surviving',
+    ],
+
+    continuation: [
+        'moving forward',
+        'ongoing',
+        'afterwards',
+        'continuing',
+    ],
+
 };
 
 export default emotionalDictionary;

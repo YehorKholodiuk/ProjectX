@@ -18,25 +18,25 @@ const questions = [
       {
         text: 'Wait quietly.',
         tags: {
-          solitude: 3,
-          uncertainty: 2,
-          calm: 2,
+          solitude: 2,
+          reflection: 2,
+          uncertainty: 1,
         },
       },
       {
         text: 'Look outside.',
         tags: {
-          curiosity: 3,
           movement: 2,
-          hope: 1,
+          uncertainty: 1,
+          longing: 1
         },
       },
       {
         text: 'Leave the carriage.',
         tags: {
-          freedom: 3,
-          uncertainty: 3,
           movement: 3,
+          uncertainty: 2,
+          continuation: 1,
         },
       },
     ],
@@ -51,24 +51,24 @@ const questions = [
         text: 'Keep walking.',
         tags: {
           movement: 3,
-          hope: 2,
           resilience: 2,
+          continuation: 2,
         },
       },
       {
         text: 'Stop and listen.',
         tags: {
-          solitude: 3,
-          reflection: 2,
+          solitude: 2,
+          reflection: 3,
           uncertainty: 2,
         },
       },
       {
         text: 'Turn back slowly.',
         tags: {
-          caution: 3,
-          memory: 2,
-          fragility: 2,
+          nostalgia: 2,
+          longing: 2,
+          uncertainty: 2,
         },
       },
     ],
@@ -81,17 +81,17 @@ const questions = [
       {
         text: 'Ignore them.',
         tags: {
-          calm: 2,
-          distance: 2,
           solitude: 2,
+          reflection: 1,
+          uncertainty: 1,
         },
       },
       {
         text: 'Follow the sound.',
         tags: {
-          curiosity: 3,
-          uncertainty: 2,
           movement: 2,
+          uncertainty: 2,
+          dreamlike: 1,
         },
       },
       {
@@ -99,7 +99,7 @@ const questions = [
         tags: {
           reflection: 3,
           night: 2,
-          uncertainty: 1,
+          solitude: 1,
         },
       },
     ],
@@ -112,9 +112,9 @@ const questions = [
       {
         text: 'Stay by the shore.',
         tags: {
-          calm: 3,
           transcendence: 2,
           solitude: 2,
+          reflection: 2,
         },
       },
       {
@@ -128,9 +128,9 @@ const questions = [
       {
         text: 'Watch the horizon.',
         tags: {
-          hope: 2,
-          distance: 3,
-          reflection: 2,
+          reflection: 3,
+          transcendence: 1,
+          longing: 1,
         },
       },
     ],
@@ -145,8 +145,8 @@ const questions = [
         text: 'Sit down for a while.',
         tags: {
           solitude: 3,
-          memory: 2,
-          calm: 2,
+          nostalgia: 2,
+          reflection: 2,
         },
       },
       {
@@ -154,15 +154,15 @@ const questions = [
         tags: {
           movement: 3,
           resilience: 2,
-          distance: 2,
+          continuation: 2,
         },
       },
       {
         text: 'Look through the window.',
         tags: {
-          curiosity: 2,
           longing: 2,
           reflection: 3,
+          dreamlike: 1,
         },
       },
     ],
@@ -177,23 +177,23 @@ const questions = [
         tags: {
           humanity: 2,
           warmth: 2,
-          calm: 2,
+          reflection: 1,
         },
       },
       {
         text: 'Say nothing.',
         tags: {
           solitude: 3,
-          distance: 2,
-          fragility: 2,
+          uncertainty: 2,
+          longing: 1,
         },
       },
       {
         text: 'Pretend it belongs to someone else.',
         tags: {
-          surreal: 3,
+          dreamlike: 3,
           uncertainty: 2,
-          dreamlike: 2,
+          reflection: 1,
         },
       },
     ],
@@ -207,24 +207,24 @@ const questions = [
         text: 'Walk through the city.',
         tags: {
           movement: 3,
-          urban: 3,
-          freedom: 2,
+          night: 2,
+          continuation: 2,
         },
       },
       {
         text: 'Wait until morning.',
         tags: {
           resilience: 2,
-          calm: 2,
           solitude: 3,
+          reflection: 1,
         },
       },
       {
         text: 'Call someone unexpectedly.',
         tags: {
           humanity: 3,
-          hope: 2,
           warmth: 2,
+          longing: 1,
         },
       },
     ],
@@ -238,24 +238,24 @@ const questions = [
       {
         text: 'Step outside.',
         tags: {
-          curiosity: 3,
           uncertainty: 2,
           movement: 2,
+          dreamlike: 1,
         },
       },
       {
         text: 'Press the button again.',
         tags: {
-          control: 2,
           resilience: 2,
-          calm: 1,
+          continuation: 1,
+          reflection: 1,
         },
       },
       {
         text: 'Stay there for a moment.',
         tags: {
           reflection: 3,
-          surreal: 2,
+          dreamlike: 2,
           solitude: 2,
         },
       },
@@ -270,24 +270,24 @@ const questions = [
         text: 'Watch the ceiling quietly.',
         tags: {
           reflection: 3,
-          calm: 2,
-          memory: 1,
+          solitude: 2,
+          nostalgia: 1,
         },
       },
       {
         text: 'Go outside immediately.',
         tags: {
           movement: 3,
-          freedom: 2,
-          hope: 2,
+          continuation: 2,
+          resilience: 1,
         },
       },
       {
         text: 'Listen to the city waking up.',
         tags: {
-          urban: 2,
-          hope: 2,
-          distance: 2,
+          reflection: 2,
+          night: 1,
+          humanity: 1,
         },
       },
     ],
@@ -300,25 +300,25 @@ const questions = [
       {
         text: 'Follow the sound.',
         tags: {
-          curiosity: 3,
           movement: 2,
-          memory: 2,
+          nostalgia: 2,
+          longing: 1,
         },
       },
       {
         text: 'Let it fade away.',
         tags: {
           solitude: 2,
-          calm: 2,
-          distance: 2,
+          reflection: 2,
+          longing: 1,
         },
       },
       {
         text: 'Try to remember the song.',
         tags: {
           nostalgia: 3,
-          memory: 3,
           longing: 2,
+          reflection: 1,
         },
       },
     ],
@@ -333,23 +333,23 @@ const questions = [
         tags: {
           humanity: 3,
           warmth: 2,
-          hope: 2,
+          continuation: 1,
         },
       },
       {
         text: 'Watch until the train disappears.',
         tags: {
           longing: 3,
-          distance: 3,
           reflection: 2,
+          nostalgia: 1,
         },
       },
       {
         text: 'Pretend you know them.',
         tags: {
           dreamlike: 2,
-          surreal: 2,
-          memory: 2,
+          nostalgia: 2,
+          longing: 1,
         },
       },
     ],
@@ -364,15 +364,15 @@ const questions = [
         text: 'Stay longer than planned.',
         tags: {
           solitude: 3,
-          calm: 2,
           reflection: 2,
+          night: 1,
         },
       },
       {
         text: 'Sit near the window.',
         tags: {
-          distance: 2,
           longing: 2,
+          reflection: 2,
           night: 2,
         },
       },
@@ -381,7 +381,7 @@ const questions = [
         tags: {
           movement: 2,
           uncertainty: 2,
-          fragility: 2,
+          resilience: 1,
         },
       },
     ],
@@ -395,16 +395,16 @@ const questions = [
       {
         text: 'Keep walking without direction.',
         tags: {
-          urban: 3,
           movement: 3,
           dreamlike: 2,
+          night: 2,
         },
       },
       {
         text: 'Find somewhere quiet.',
         tags: {
           solitude: 3,
-          calm: 2,
+          reflection: 2,
           night: 3,
         },
       },
@@ -413,7 +413,7 @@ const questions = [
         tags: {
           longing: 3,
           humanity: 2,
-          vulnerability: 2,
+          warmth: 2,
         },
       },
     ],
@@ -427,24 +427,24 @@ const questions = [
         text: 'Keep standing there.',
         tags: {
           reflection: 3,
-          calm: 2,
           transcendence: 1,
+          solitude: 1,
         },
       },
       {
         text: 'Start walking again.',
         tags: {
           movement: 3,
-          hope: 2,
           resilience: 2,
+          continuation: 2,
         },
       },
       {
         text: 'Look at the sky.',
         tags: {
-          hope: 3,
-          distance: 2,
+          transcendence: 2,
           dreamlike: 2,
+          reflection: 1,
         },
       },
     ],
@@ -458,23 +458,23 @@ const questions = [
         text: 'Wait nearby.',
         tags: {
           warmth: 3,
-          hope: 2,
-          solitude: 2,
+          longing: 1,
+          solitude: 1,
         },
       },
       {
         text: 'Continue down the street.',
         tags: {
           movement: 3,
-          resilience: 2,
-          night: 2,
+          continuation: 2,
+          resilience: 1,
         },
       },
       {
         text: 'Look through the glass.',
         tags: {
           longing: 3,
-          memory: 2,
+          nostalgia: 2,
           reflection: 2,
         },
       },
@@ -489,17 +489,17 @@ const questions = [
       {
         text: 'Stay awake a little longer.',
         tags: {
-          hope: 3,
           transcendence: 2,
-          calm: 2,
+          reflection: 2,
+          continuation: 1,
         },
       },
       {
         text: 'Open the window.',
         tags: {
-          freedom: 2,
           movement: 2,
           warmth: 2,
+          humanity: 1,
         },
       },
       {
@@ -507,7 +507,7 @@ const questions = [
         tags: {
           solitude: 3,
           reflection: 2,
-          distance: 2,
+          nostalgia: 1,
         },
       },
     ],
@@ -520,25 +520,25 @@ const questions = [
       {
         text: 'Keep moving forward.',
         tags: {
-          hope: 4,
           movement: 3,
           resilience: 3,
+          continuation: 3,
         },
       },
       {
         text: 'Slow down for a moment.',
         tags: {
           reflection: 3,
-          calm: 2,
           transcendence: 2,
+          solitude: 1,
         },
       },
       {
         text: 'Look back once.',
         tags: {
-          memory: 3,
+          nostalgia: 3,
           longing: 2,
-          uncertainty: 1,
+          reflection: 1,
         },
       },
     ],
@@ -552,16 +552,16 @@ const questions = [
         text: 'Follow it immediately.',
         tags: {
           movement: 4,
-          hope: 3,
-          freedom: 2,
+          continuation: 3,
+          resilience: 2,
         },
       },
       {
         text: 'Stand still for a while.',
         tags: {
           reflection: 3,
-          calm: 3,
           solitude: 2,
+          uncertainty: 1,
         },
       },
       {
@@ -591,8 +591,8 @@ const questions = [
         text: 'Sit near the tracks.',
         tags: {
           longing: 3,
-          distance: 2,
-          calm: 2,
+          reflection: 2,
+          solitude: 1,
         },
       },
       {
@@ -600,7 +600,7 @@ const questions = [
         tags: {
           movement: 2,
           uncertainty: 2,
-          fragility: 2,
+          resilience: 1,
         },
       },
     ],
@@ -613,8 +613,8 @@ const questions = [
         text: 'Walk without headphones.',
         tags: {
           humanity: 2,
-          urban: 3,
-          openness: 3,
+          warmth: 1,
+          reflection: 1,
         },
       },
       {
@@ -622,7 +622,7 @@ const questions = [
         tags: {
           movement: 3,
           reflection: 2,
-          hope: 2,
+          continuation: 1,
         },
       },
       {
@@ -645,7 +645,7 @@ const questions = [
         tags: {
           movement: 2,
           uncertainty: 1,
-          night: 1,
+          continuation: 1,
         },
       },
       {
@@ -677,6 +677,7 @@ const questions = [
         tags: {
           solitude: 2,
           night: 2,
+          reflection: 1,
         },
       },
       {
@@ -684,6 +685,7 @@ const questions = [
         tags: {
           uncertainty: 2,
           warmth: 1,
+          solitude: 1,
         },
       },
 
@@ -706,24 +708,24 @@ const questions = [
         text: 'Disappear quietly',
         tags: {
           solitude: 2,
-          night: 1,
-          nostalgia: 1,
+          night: 2,
+          reflection: 1,
         },
       },
       {
         text: 'Be remembered',
         tags: {
+          humanity: 2,
+          longing: 2,
           warmth: 1,
-          movement: 1,
-          uncertainty: 1,
         },
       },
       {
-        text: 'Be remembered incorrectly',
+        text: 'Be remembered differently',
         tags: {
-          surreal: 3,
-          distance: 2,
+          dreamlike: 2,
           uncertainty: 2,
+          nostalgia: 1,
         },
       }
     ],
@@ -737,6 +739,7 @@ const questions = [
         text: 'Peaceful',
         tags: {
           solitude: 1,
+          reflection: 2,
           warmth: 1,
         },
       },
@@ -744,6 +747,7 @@ const questions = [
         text: 'Heavy',
         tags: {
           uncertainty: 2,
+          longing: 2,
           night: 1,
         },
       },
@@ -768,6 +772,7 @@ const questions = [
         tags: {
           movement: 2,
           uncertainty: 1,
+          continuation: 1,
         },
       },
       {
@@ -775,6 +780,7 @@ const questions = [
         tags: {
           solitude: 1,
           nostalgia: 2,
+          reflection: 1,
         },
       },
 
@@ -788,6 +794,42 @@ const questions = [
       }
     ],
   },
+
+  {
+    id: 26,
+    text: 'A cat approaches you on an empty street.',
+    answers: [
+      {
+        text: 'You stop, kneel down, and start talking to the cat',
+        tags: {
+          warmth: 3,
+          humanity: 3,
+          reflection: 1,
+        },
+      },
+      {
+        text: 'You feel uneasy and slowly step away',
+        tags: {
+          uncertainty: 2,
+          solitude: 2,
+          night: 1,
+        },
+      },
+
+      {
+        text: 'You barely notice the cat and keep walking',
+        tags: {
+          movement: 2,
+          continuation: 2,
+          solitude: 1,
+        },
+      }
+    ],
+  },
+
+
+
+
 ];
 
 export default function QuestionsScreen({ onComplete }) {
