@@ -13,10 +13,10 @@ const questions = [
 
   {
     id: 1,
-    text: 'A train stops between stations.',
+    text: 'A train stops between stations',
     answers: [
       {
-        text: 'Wait quietly.',
+        text: 'Wait quietly',
         tags: {
           solitude: 2,
           reflection: 2,
@@ -24,7 +24,7 @@ const questions = [
         },
       },
       {
-        text: 'Look outside.',
+        text: 'Look outside',
         tags: {
           movement: 2,
           uncertainty: 1,
@@ -32,7 +32,7 @@ const questions = [
         },
       },
       {
-        text: 'Leave the carriage.',
+        text: 'Leave the carriage',
         tags: {
           movement: 3,
           uncertainty: 2,
@@ -45,10 +45,10 @@ const questions = [
 
   {
     id: 2,
-    text: 'The road disappears into fog.',
+    text: 'The road disappears into fog',
     answers: [
       {
-        text: 'Keep walking.',
+        text: 'Keep walking',
         tags: {
           movement: 3,
           resilience: 2,
@@ -56,7 +56,7 @@ const questions = [
         },
       },
       {
-        text: 'Stop and listen.',
+        text: 'Stop and listen',
         tags: {
           solitude: 2,
           reflection: 3,
@@ -64,7 +64,7 @@ const questions = [
         },
       },
       {
-        text: 'Turn back slowly.',
+        text: 'Turn back slowly',
         tags: {
           nostalgia: 2,
           longing: 2,
@@ -76,10 +76,10 @@ const questions = [
 
   {
     id: 3,
-    text: 'You hear footsteps above you.',
+    text: 'You hear footsteps above you',
     answers: [
       {
-        text: 'Ignore them.',
+        text: 'Ignore them',
         tags: {
           solitude: 2,
           reflection: 1,
@@ -87,7 +87,7 @@ const questions = [
         },
       },
       {
-        text: 'Follow the sound.',
+        text: 'Follow the sound',
         tags: {
           movement: 2,
           uncertainty: 2,
@@ -95,7 +95,7 @@ const questions = [
         },
       },
       {
-        text: 'Wait for silence.',
+        text: 'Wait for silence',
         tags: {
           reflection: 3,
           night: 2,
@@ -107,10 +107,10 @@ const questions = [
 
   {
     id: 4,
-    text: 'The sea is unusually calm tonight.',
+    text: 'The sea is unusually calm tonight',
     answers: [
       {
-        text: 'Stay by the shore.',
+        text: 'Stay by the shore',
         tags: {
           transcendence: 2,
           solitude: 2,
@@ -118,7 +118,7 @@ const questions = [
         },
       },
       {
-        text: 'Walk into the mist.',
+        text: 'Walk into the mist',
         tags: {
           movement: 3,
           uncertainty: 3,
@@ -126,7 +126,7 @@ const questions = [
         },
       },
       {
-        text: 'Watch the horizon.',
+        text: 'Watch the horizon',
         tags: {
           reflection: 3,
           transcendence: 1,
@@ -139,10 +139,10 @@ const questions = [
 
   {
     id: 5,
-    text: 'An empty chair faces the street.',
+    text: 'An empty chair faces the street',
     answers: [
       {
-        text: 'Sit down for a while.',
+        text: 'Sit down for a while',
         tags: {
           solitude: 3,
           nostalgia: 2,
@@ -150,7 +150,7 @@ const questions = [
         },
       },
       {
-        text: 'Keep moving.',
+        text: 'Keep moving',
         tags: {
           movement: 3,
           resilience: 2,
@@ -158,7 +158,7 @@ const questions = [
         },
       },
       {
-        text: 'Look through the window.',
+        text: 'Look through the window',
         tags: {
           longing: 2,
           reflection: 3,
@@ -170,10 +170,10 @@ const questions = [
 
   {
     id: 6,
-    text: 'A voice says your name incorrectly.',
+    text: 'A voice says your name incorrectly',
     answers: [
       {
-        text: 'Correct them softly.',
+        text: 'Correct them softly',
         tags: {
           humanity: 2,
           warmth: 2,
@@ -181,7 +181,7 @@ const questions = [
         },
       },
       {
-        text: 'Say nothing.',
+        text: 'Say nothing',
         tags: {
           solitude: 3,
           uncertainty: 2,
@@ -189,7 +189,7 @@ const questions = [
         },
       },
       {
-        text: 'Pretend it belongs to someone else.',
+        text: 'Pretend it belongs to someone else',
         tags: {
           dreamlike: 3,
           uncertainty: 2,
@@ -201,10 +201,10 @@ const questions = [
 
   {
     id: 7,
-    text: 'You miss the last train home.',
+    text: 'You miss the last train home',
     answers: [
       {
-        text: 'Walk through the city.',
+        text: 'Walk through the city',
         tags: {
           movement: 3,
           night: 2,
@@ -212,7 +212,7 @@ const questions = [
         },
       },
       {
-        text: 'Wait until morning.',
+        text: 'Wait until morning',
         tags: {
           resilience: 2,
           solitude: 3,
@@ -220,7 +220,7 @@ const questions = [
         },
       },
       {
-        text: 'Call someone unexpectedly.',
+        text: 'Call someone unexpectedly',
         tags: {
           humanity: 3,
           warmth: 2,
@@ -233,10 +233,10 @@ const questions = [
 
   {
     id: 8,
-    text: 'The elevator stops on the wrong floor.',
+    text: 'The elevator stops on the wrong floor',
     answers: [
       {
-        text: 'Step outside.',
+        text: 'Step outside',
         tags: {
           uncertainty: 2,
           movement: 2,
@@ -244,7 +244,7 @@ const questions = [
         },
       },
       {
-        text: 'Press the button again.',
+        text: 'Press the button again',
         tags: {
           resilience: 2,
           continuation: 1,
@@ -252,7 +252,7 @@ const questions = [
         },
       },
       {
-        text: 'Stay there for a moment.',
+        text: 'Stay there for a moment',
         tags: {
           reflection: 3,
           dreamlike: 2,
@@ -264,10 +264,10 @@ const questions = [
 
   {
     id: 9,
-    text: 'You wake up before the alarm.',
+    text: 'You wake up before the alarm',
     answers: [
       {
-        text: 'Watch the ceiling quietly.',
+        text: 'Watch the ceiling quietly',
         tags: {
           reflection: 3,
           solitude: 2,
@@ -275,7 +275,7 @@ const questions = [
         },
       },
       {
-        text: 'Go outside immediately.',
+        text: 'Go outside immediately',
         tags: {
           movement: 3,
           continuation: 2,
@@ -283,7 +283,7 @@ const questions = [
         },
       },
       {
-        text: 'Listen to the city waking up.',
+        text: 'Listen to the city waking up',
         tags: {
           reflection: 2,
           night: 1,
@@ -295,10 +295,10 @@ const questions = [
 
   {
     id: 10,
-    text: 'A distant radio plays somewhere.',
+    text: 'A distant radio plays somewhere',
     answers: [
       {
-        text: 'Follow the sound.',
+        text: 'Follow the sound',
         tags: {
           movement: 2,
           nostalgia: 2,
@@ -306,7 +306,7 @@ const questions = [
         },
       },
       {
-        text: 'Let it fade away.',
+        text: 'Let it fade away',
         tags: {
           solitude: 2,
           reflection: 2,
@@ -314,7 +314,7 @@ const questions = [
         },
       },
       {
-        text: 'Try to remember the song.',
+        text: 'Try to remember the song',
         tags: {
           nostalgia: 3,
           longing: 2,
@@ -326,10 +326,10 @@ const questions = [
 
   {
     id: 11,
-    text: 'Someone waves from a passing train.',
+    text: 'Someone waves from a passing train',
     answers: [
       {
-        text: 'Wave back.',
+        text: 'Wave back',
         tags: {
           humanity: 3,
           warmth: 2,
@@ -337,7 +337,7 @@ const questions = [
         },
       },
       {
-        text: 'Watch until the train disappears.',
+        text: 'Watch until the train disappears',
         tags: {
           longing: 3,
           reflection: 2,
@@ -345,7 +345,7 @@ const questions = [
         },
       },
       {
-        text: 'Pretend you know them.',
+        text: 'Pretend you know them',
         tags: {
           dreamlike: 2,
           nostalgia: 2,
@@ -358,10 +358,10 @@ const questions = [
 
   {
     id: 12,
-    text: 'The café is almost empty.',
+    text: 'The café is almost empty',
     answers: [
       {
-        text: 'Stay longer than planned.',
+        text: 'Stay longer than planned',
         tags: {
           solitude: 3,
           reflection: 2,
@@ -369,7 +369,7 @@ const questions = [
         },
       },
       {
-        text: 'Sit near the window.',
+        text: 'Sit near the window',
         tags: {
           longing: 2,
           reflection: 2,
@@ -377,7 +377,7 @@ const questions = [
         },
       },
       {
-        text: 'Leave before finishing your drink.',
+        text: 'Leave before finishing your drink',
         tags: {
           movement: 2,
           uncertainty: 2,
@@ -390,10 +390,10 @@ const questions = [
 
   {
     id: 13,
-    text: 'The city looks softer after midnight.',
+    text: 'The city looks softer after midnight',
     answers: [
       {
-        text: 'Keep walking without direction.',
+        text: 'Keep walking without direction',
         tags: {
           movement: 3,
           dreamlike: 2,
@@ -401,7 +401,7 @@ const questions = [
         },
       },
       {
-        text: 'Find somewhere quiet.',
+        text: 'Find somewhere quiet',
         tags: {
           solitude: 3,
           reflection: 2,
@@ -409,7 +409,7 @@ const questions = [
         },
       },
       {
-        text: 'Call someone you miss.',
+        text: 'Call someone you miss',
         tags: {
           longing: 3,
           humanity: 2,
@@ -421,7 +421,7 @@ const questions = [
 
   {
     id: 14,
-    text: 'The rain suddenly stops.',
+    text: 'The rain suddenly stops',
     answers: [
       {
         text: 'Keep standing there.',
@@ -432,7 +432,7 @@ const questions = [
         },
       },
       {
-        text: 'Start walking again.',
+        text: 'Start walking again',
         tags: {
           movement: 3,
           resilience: 2,
@@ -440,7 +440,7 @@ const questions = [
         },
       },
       {
-        text: 'Look at the sky.',
+        text: 'Look at the sky',
         tags: {
           transcendence: 2,
           dreamlike: 2,
@@ -452,10 +452,10 @@ const questions = [
 
   {
     id: 15,
-    text: 'A closed café is still warm inside.',
+    text: 'A closed café is still warm inside',
     answers: [
       {
-        text: 'Wait nearby.',
+        text: 'Wait nearby',
         tags: {
           warmth: 3,
           longing: 1,
@@ -463,7 +463,7 @@ const questions = [
         },
       },
       {
-        text: 'Continue down the street.',
+        text: 'Continue down the street',
         tags: {
           movement: 3,
           continuation: 2,
@@ -471,7 +471,7 @@ const questions = [
         },
       },
       {
-        text: 'Look through the glass.',
+        text: 'Look through the glass',
         tags: {
           longing: 3,
           nostalgia: 2,
@@ -484,10 +484,10 @@ const questions = [
 
   {
     id: 16,
-    text: 'You notice dawn before anyone else.',
+    text: 'You notice dawn before anyone else',
     answers: [
       {
-        text: 'Stay awake a little longer.',
+        text: 'Stay awake a little longer',
         tags: {
           transcendence: 2,
           reflection: 2,
@@ -495,7 +495,7 @@ const questions = [
         },
       },
       {
-        text: 'Open the window.',
+        text: 'Open the window',
         tags: {
           movement: 2,
           warmth: 2,
@@ -503,7 +503,7 @@ const questions = [
         },
       },
       {
-        text: 'Say nothing about it.',
+        text: 'Say nothing about it',
         tags: {
           solitude: 3,
           reflection: 2,
@@ -515,10 +515,10 @@ const questions = [
 
   {
     id: 17,
-    text: 'The tunnel opens into morning light.',
+    text: 'The tunnel opens into morning light',
     answers: [
       {
-        text: 'Keep moving forward.',
+        text: 'Keep moving forward',
         tags: {
           movement: 3,
           resilience: 3,
@@ -526,7 +526,7 @@ const questions = [
         },
       },
       {
-        text: 'Slow down for a moment.',
+        text: 'Slow down for a moment',
         tags: {
           reflection: 3,
           transcendence: 2,
@@ -534,7 +534,7 @@ const questions = [
         },
       },
       {
-        text: 'Look back once.',
+        text: 'Look back once',
         tags: {
           nostalgia: 3,
           longing: 2,
@@ -546,10 +546,10 @@ const questions = [
 
   {
     id: 18,
-    text: 'You find the road again.',
+    text: 'You find the road again',
     answers: [
       {
-        text: 'Follow it immediately.',
+        text: 'Follow it immediately',
         tags: {
           movement: 4,
           continuation: 3,
@@ -557,7 +557,7 @@ const questions = [
         },
       },
       {
-        text: 'Stand still for a while.',
+        text: 'Stand still for a while',
         tags: {
           reflection: 3,
           solitude: 2,
@@ -565,7 +565,7 @@ const questions = [
         },
       },
       {
-        text: 'Smile quietly.',
+        text: 'Smile quietly',
         tags: {
           warmth: 3,
           humanity: 2,
@@ -577,10 +577,10 @@ const questions = [
 
   {
     id: 19,
-    text: 'The station is quieter than usual tonight.',
+    text: 'The station is quieter than usual tonight',
     answers: [
       {
-        text: 'Listen carefully.',
+        text: 'Listen carefully',
         tags: {
           reflection: 3,
           solitude: 3,
@@ -588,7 +588,7 @@ const questions = [
         },
       },
       {
-        text: 'Sit near the tracks.',
+        text: 'Sit near the tracks',
         tags: {
           longing: 3,
           reflection: 2,
@@ -596,7 +596,7 @@ const questions = [
         },
       },
       {
-        text: 'Leave before the next train arrives.',
+        text: 'Leave before the next train arrives',
         tags: {
           movement: 2,
           uncertainty: 2,
@@ -607,10 +607,10 @@ const questions = [
   },
   {
     id: 20,
-    text: 'The city feels less distant tonight.',
+    text: 'The city feels less distant tonight',
     answers: [
       {
-        text: 'Walk without headphones.',
+        text: 'Walk without headphones',
         tags: {
           humanity: 2,
           warmth: 1,
@@ -618,7 +618,7 @@ const questions = [
         },
       },
       {
-        text: 'Take the longer route home.',
+        text: 'Take the longer route home',
         tags: {
           movement: 3,
           reflection: 2,
@@ -626,7 +626,7 @@ const questions = [
         },
       },
       {
-        text: 'Stay outside a little longer.',
+        text: 'Stay outside a little longer',
         tags: {
           warmth: 2,
           night: 2,
