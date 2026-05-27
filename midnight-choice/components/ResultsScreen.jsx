@@ -136,6 +136,10 @@ export default function ResultsScreen({
                                 Listen on YouTube
                             </Text>
 
+                            <Text style={styles.disclaimer}>
+                                All media belongs to respective copyright holders
+                            </Text>
+
                         </TouchableOpacity>
 
                     </View>
@@ -203,6 +207,16 @@ const styles = StyleSheet.create({
 
     mediaBlock: {
         marginBottom: 55,
+    },
+
+    disclaimer: {
+        fontFamily: 'Sans-serif',
+        fontSize: 10,
+        opacity: 0.4,
+        letterSpacing: 1.2,
+        textAlign: 'center',
+        marginTop: 12,
+        color: '#999',
     },
 
     mediaLabel: {
