@@ -175,6 +175,11 @@ export default function ResultsScreen({
                                 Watch Trailer
                             </Text>
 
+
+                            <Text style={styles.disclaimer}>
+                                All media belongs to respective copyright holders
+                            </Text>
+
                         </TouchableOpacity>
 
                     </View>

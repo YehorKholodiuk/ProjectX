@@ -1,5 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
-import React, { useState } from 'react';
+
+import React, {
+    useEffect,
+    useState,
+} from 'react';
+
 import {
     Animated,
     StyleSheet,
@@ -8,104 +13,247 @@ import {
     View,
 } from 'react-native';
 
-import QuestionsScreen from './components/QuestionsScreen';
-import WaitScreen from './components/WaitScreen';
-import ResultsScreen from './components/ResultsScreen';
-import FinalScreen from './components/FinalScreen';
+import AsyncStorage
+    from '@react-native-async-storage/async-storage';
+
+import QuestionsScreen
+    from './components/QuestionsScreen';
+
+import WaitScreen
+    from './components/WaitScreen';
+
+import ResultsScreen
+    from './components/ResultsScreen';
+
+import FinalScreen
+    from './components/FinalScreen';
+
+import FirstLaunchScreen
+    from './components/FirstLaunchScreen';
 
 export default function App() {
-    const [stage, setStage] = useState('intro');
+
+    const [stage, setStage] =
+        useState(null);
+
+    //useEffect(() => {
+
+        //checkIntroStatus(); - вернуть однократную загрузку вступительной надписи перед релизом
+
+   // }, []);
+
+
+    useEffect(() => {
+
+        setStage('firstLaunch');
+
+    }, []);
+
+    const checkIntroStatus = async () => {
+
+        try {
+
+            const value =
+                await AsyncStorage.getItem(
+                    'hasSeenIntro'
+                );
+
+            if (value === 'true') {
+
+                setStage('intro');
+
+            } else {
+
+                setStage('firstLaunch');
+
+            }
+
+        } catch (error) {
+
+            console.log(
+                'Error reading intro state:',
+                error
+            );
+
+            setStage('intro');
+
+        }
+    };
+
+    const handleFirstLaunchComplete = () => {
+
+        setStage('intro');
+
+    };
 
     const handleBegin = () => {
+
         setStage('transition');
 
         setTimeout(() => {
+
             setStage('questions');
+
         }, 2200);
+
     };
 
     const handleQuestionsComplete = () => {
+
         setStage('wait');
+
     };
 
     const handleWaitComplete = () => {
+
         setStage('results');
+
     };
 
     const handleResultsComplete = () => {
+
         setStage('final');
+
     };
+
     let content;
+
+    // LOADING
+
+    if (stage === null) {
+
+        content = (
+
+            <View style={styles.blackScreen}>
+                <StatusBar style="light" />
+            </View>
+
+        );
+
+    }
+
+    // FIRST LAUNCH
+
+    if (stage === 'firstLaunch') {
+
+        content = (
+
+            <FirstLaunchScreen
+                onContinue={
+                    handleFirstLaunchComplete
+                }
+            />
+
+        );
+
+    }
+
+    // INTRO
 
     if (stage === 'intro') {
 
         content = (
+
             <IntroScreen
                 onBegin={handleBegin}
             />
+
         );
 
     }
 
+    // TRANSITION
+
     if (stage === 'transition') {
+
         content = (
+
             <View style={styles.blackScreen}>
                 <StatusBar style="light" />
             </View>
+
         );
+
     }
+
+    // QUESTIONS
 
     if (stage === 'questions') {
+
         content = (
+
             <QuestionsScreen
-                onComplete={handleQuestionsComplete}
+                onComplete={
+                    handleQuestionsComplete
+                }
             />
-        );
 
-
-
-    }
-
-
-    if (stage === 'end') {
-
-        content = (
-            <View
-                style={styles.blackScreen}
-            />
         );
 
     }
 
-
+    // WAIT
 
     if (stage === 'wait') {
+
         content = (
+
             <WaitScreen
-                onFinish={handleWaitComplete}
+                onFinish={
+                    handleWaitComplete
+                }
             />
+
         );
+
     }
 
+    // RESULTS
+
     if (stage === 'results') {
+
         content = (
+
             <ResultsScreen
-                onFinish={handleResultsComplete}
+                onFinish={
+                    handleResultsComplete
+                }
             />
+
         );
+
     }
+
+    // FINAL
 
     if (stage === 'final') {
 
         content = (
+
             <FinalScreen
                 onFinish={() => {
 
-                    setStage('end')
+                    setStage('end');
 
                 }}
             />
+
         );
+
+    }
+
+    // END
+
+    if (stage === 'end') {
+
+        content = (
+
+            <View
+                style={styles.blackScreen}
+            />
+
+        );
+
     }
 
     return (
@@ -119,33 +267,50 @@ export default function App() {
     );
 }
 
-function IntroScreen({ onBegin }) {
-    const titleFade = React.useRef(
-        new Animated.Value(0)
-    ).current;
+function IntroScreen({
+                         onBegin,
+                     }) {
 
-    const buttonFade = React.useRef(
-        new Animated.Value(0)
-    ).current;
+    const titleFade =
+        React.useRef(
+            new Animated.Value(0)
+        ).current;
+
+    const buttonFade =
+        React.useRef(
+            new Animated.Value(0)
+        ).current;
 
     React.useEffect(() => {
-        Animated.timing(titleFade, {
-            toValue: 1,
-            duration: 4000,
-            useNativeDriver: true,
-        }).start();
+
+        Animated.timing(
+            titleFade,
+            {
+                toValue: 1,
+                duration: 4000,
+                useNativeDriver: true,
+            }
+        ).start();
 
         setTimeout(() => {
-            Animated.timing(buttonFade, {
-                toValue: 1,
-                duration: 3000,
-                useNativeDriver: true,
-            }).start();
+
+            Animated.timing(
+                buttonFade,
+                {
+                    toValue: 1,
+                    duration: 3000,
+                    useNativeDriver: true,
+                }
+            ).start();
+
         }, 3500);
+
     }, []);
 
     return (
+
         <View style={styles.container}>
+
             <Animated.Text
                 style={[
                     styles.title,
@@ -163,29 +328,39 @@ function IntroScreen({ onBegin }) {
                     marginTop: 60,
                 }}
             >
+
                 <TouchableOpacity
                     activeOpacity={0.7}
                     onPress={onBegin}
                 >
+
                     <Text style={styles.beginText}>
                         Begin...
                     </Text>
+
                 </TouchableOpacity>
+
             </Animated.View>
 
             <StatusBar style="light" />
+
         </View>
+
     );
 }
 
 const styles = StyleSheet.create({
 
+    appRoot: {
+        flex: 1,
+        backgroundColor: '#000',
+    },
 
     container: {
         flex: 1,
         backgroundColor: '#000',
-        alignItems: 'center',
         justifyContent: 'center',
+        alignItems: 'center',
         paddingHorizontal: 30,
     },
 
@@ -195,26 +370,18 @@ const styles = StyleSheet.create({
     },
 
     title: {
-        color: '#f2f2f2',
-        fontSize: 30,
+        color: '#fff',
+        fontSize: 28,
         textAlign: 'center',
-        lineHeight: 42,
-        letterSpacing: 0.8,
-        fontWeight: '400',
-        fontFamily: 'serif',
+        letterSpacing: 2,
+        opacity: 0.9,
     },
 
     beginText: {
-        color: '#888',
-        fontSize: 18,
-        letterSpacing: 2,
-        fontWeight: '300',
-        fontFamily: 'serif'
-    },
-
-    appRoot: {
-        flex: 1,
-        backgroundColor: '#000',
+        color: '#aaa',
+        fontSize: 16,
+        letterSpacing: 3,
+        opacity: 0.8,
     },
 
 });
