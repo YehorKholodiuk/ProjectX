@@ -33,7 +33,7 @@ export default function WaitScreen({ onFinish }) {
                     },
                 ]}
             >
-                Wait...
+                wait...
             </Animated.Text>
         </View>
     );

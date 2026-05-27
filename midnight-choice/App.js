@@ -335,7 +335,7 @@ function IntroScreen({
                 >
 
                     <Text style={styles.beginText}>
-                        Begin...
+                        begin...
                     </Text>
 
                 </TouchableOpacity>

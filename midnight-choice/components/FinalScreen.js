@@ -77,7 +77,7 @@ export default function FinalScreen({
                     },
                 ]}
             >
-                See you later...
+                see you later...
             </Animated.Text>
 
         </View>

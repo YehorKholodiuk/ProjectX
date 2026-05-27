@@ -132,7 +132,7 @@ export default function FirstLaunchScreen({
                 >
 
                     <Text style={styles.continueText}>
-                        Continue...
+                       push to continue...
                     </Text>
 
                 </TouchableOpacity>
@@ -161,19 +161,22 @@ const styles = StyleSheet.create({
 
     introText: {
         color: '#fff',
-        fontSize: 16,
+        fontSize: 18,
         textAlign: 'center',
         opacity: 0.8,
-        lineHeight: 28,
+        lineHeight: 34,
         marginBottom: 60,
         letterSpacing: 1,
+        fontFamily: 'serif',
     },
 
     continueText: {
         color: '#999',
-        fontSize: 14,
+        fontSize: 16,
         letterSpacing: 2,
-        opacity: 0.7,
+        opacity: 0.75,
+        fontFamily: 'serif',
+
     },
 
 });
