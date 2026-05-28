@@ -797,7 +797,7 @@ const questions = [
 
   {
     id: 26,
-    text: 'A cat approaches you on an empty street.',
+    text: 'A cat approaches you on an empty street',
     answers: [
       {
         text: 'You stop, kneel down, and start talking to the cat',
@@ -822,6 +822,218 @@ const questions = [
           movement: 2,
           continuation: 2,
           solitude: 1,
+        },
+      }
+    ],
+  },
+
+  {
+    id: 27,
+    text: 'Someone drops a photograph on the street',
+    answers: [
+      {
+        text: 'You call after them immediately',
+        tags: {
+          humanity: 3,
+          warmth: 2,
+          continuation: 1,
+        },
+      },
+      {
+        text: 'You hesitate before deciding',
+        tags: {
+          reflection: 2,
+          uncertainty: 1,
+          humanity: 1,
+        },
+      },
+
+      {
+        text: 'You quietly leave it where it fell',
+        tags: {
+          solitude: 2,
+          reflection: 1,
+          night: 1,
+        },
+      }
+    ],
+  },
+  {
+    id: 28,
+    text: 'A café is almost empty late at night',
+    answers: [
+      {
+        text: 'You sit near the window',
+        tags: {
+          reflection: 2,
+          solitude: 1,
+          night: 1,
+        },
+      },
+      {
+        text: 'You choose the darkest corner',
+        tags: {
+          solitude: 3,
+          night: 2,
+        },
+      },
+
+      {
+        text: 'You sit where other people are nearby',
+        tags: {
+          humanity: 2,
+          warmth: 2,
+        },
+      }
+    ],
+  },
+
+  {
+    id: 29,
+    text: 'A stranger smiles at you for no reason',
+    answers: [
+      {
+        text: 'You smile back immediately',
+        tags: {
+          warmth: 3,
+          humanity: 2,
+        },
+      },
+      {
+        text: 'You wonder what they meant by it',
+        tags: {
+          uncertainty: 2,
+          reflection: 2,
+        },
+      },
+
+      {
+        text: 'You think about it much later',
+        tags: {
+          nostalgia: 2,
+          longing: 1,
+          reflection: 1,
+        },
+      }
+    ],
+  },
+
+  {
+    id: 30,
+    text: 'Something important no longer feels possible',
+    answers: [
+      {
+        text: 'You begin again anyway',
+        tags: {
+          resilience: 3,
+          continuation: 3,
+        },
+      },
+      {
+        text: 'You wait for the feeling to change',
+        tags: {
+          reflection: 2,
+          longing: 2,
+        },
+      },
+
+      {
+        text: 'You quietly let it go',
+        tags: {
+          solitude: 2,
+          nostalgia: 2,
+        },
+      }
+    ],
+  },
+
+  {
+    id: 31,
+    text: 'For a moment, the city feels unreal',
+    answers: [
+      {
+        text: 'You slow down and notice everything',
+        tags: {
+          transcendence: 3,
+          reflection: 2,
+        },
+      },
+      {
+        text: 'You continue walking without thinking about it',
+        tags: {
+          continuation: 2,
+          movement: 2,
+        },
+      },
+
+      {
+        text: 'You suddenly feel far away from yourself',
+        tags: {
+          dreamlike: 2,
+          solitude: 2,
+          uncertainty: 1,
+        },
+      }
+    ],
+  },
+
+  {
+    id: 32,
+    text: 'Light moves across the room late at night',
+    answers: [
+      {
+        text: 'You stop what you\'re doing for a second',
+        tags: {
+          reflection: 2,
+          transcendence: 2,
+          night: 1,
+        },
+      },
+      {
+        text: 'You barely notice it',
+        tags: {
+          continuation: 2,
+        },
+      },
+
+      {
+        text: 'It reminds you of something impossible to explain',
+        tags: {
+          dreamlike: 2,
+          nostalgia: 2,
+          longing: 1,
+        },
+      }
+    ],
+  },
+
+  {
+    id: 33,
+    text: 'You hear distant music while walking alone',
+    answers: [
+      {
+        text: 'You try to follow the sound',
+        tags: {
+          movement: 2,
+          transcendence: 2,
+          longing: 1,
+        },
+      },
+      {
+        text: 'You keep walking, but listen carefully',
+        tags: {
+          reflection: 2,
+          solitude: 1,
+          night: 1,
+        },
+      },
+
+      {
+        text: 'It feels like it came from another life',
+        tags: {
+          nostalgia: 2,
+          dreamlike: 2,
+          transcendence: 1,
         },
       }
     ],
