@@ -1481,7 +1481,24 @@
         "warmth": 4,
         "movement": 5
       }
+    },
+    {
+      "title": "Shadow Of The Moon",
+      "artist": "Blackmore's Night",
+      "youtubeUrl": "https://youtu.be/oP5z9UzJvOg?si=U1BfeTL1t5WxaBve",
+      "tags": {
+        "night": 10,
+        "nostalgia": 9,
+        "longing": 8,
+        "transcendence": 8,
+        "dreamlike": 7,
+        "reflection": 7,
+        "solitude": 5,
+        "warmth": 5,
+        "mystery": 6
+      }
     }
+
 
 
   ]
