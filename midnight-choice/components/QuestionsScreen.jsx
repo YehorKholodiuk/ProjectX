@@ -1104,6 +1104,73 @@ const questions = [
     ],
   },
 
+  {
+    id: 35,
+    text: 'The last convenience store on the empty street still keeps its lights on after midnight',
+    answers: [
+      {
+        text: 'Step inside for no particular reason',
+        tags: {
+          transcendence: 2,
+          warmth: 1,
+          humanity: 1,
+          night: 1,
+        },
+      },
+      {
+        text: 'Pause outside and listen to the silence',
+        tags: {
+          reflection: 2,
+          solitude: 1,
+          night: 2,
+        },
+      },
+
+      {
+        text: 'Continue walking beneath the flickering signs',
+        tags: {
+          noir: 2,
+          movement: 1,
+          solitude: 1,
+        },
+      }
+    ],
+  },
+  {
+    id: 36,
+    text: 'Passing an old theater late at night, you suddenly hear applause coming from inside — though the building has seemed abandoned for years',
+    answers: [
+      {
+        text: 'Stop beneath the dim marquee lights',
+        tags: {
+          reflection: 2,
+          nostalgia: 2,
+          night: 1,
+          transcendence: 1,
+        },
+      },
+      {
+        text: 'Continue walking while listening carefully',
+        tags: {
+          solitude: 2,
+          longing: 2,
+          noir: 1,
+        },
+      },
+
+      {
+        text: 'Quietly step inside the theater',
+        tags: {
+          transcendence: 3,
+          mystery: 2,
+          reflection: 1,
+        },
+      }
+    ],
+  },
+
+
+
 
 ];
 

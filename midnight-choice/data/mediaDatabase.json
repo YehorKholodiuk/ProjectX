@@ -537,6 +537,39 @@
         "longing": 4,
         "continuation": 4
       }
+    },
+    {
+      "title": "The NeverEnding Story",
+      "year": 1984,
+      "trailerUrl": "https://youtu.be/UeFni9dOv7c?si=6uOWEHz5iQs7iYOC",
+      "tags": {
+        "transcendence": 10,
+        "nostalgia": 9,
+        "wonder": 8,
+        "movement": 7,
+        "reflection": 6,
+        "solitude": 5,
+        "dreamlike": 7,
+        "warmth": 5,
+        "night": 4
+      }
+    },
+    {
+      "title": "La Femme Nikita",
+      "year": 1997,
+      "trailerUrl": "https://youtu.be/ATfWZSWXeII?si=GfEHWQHBOSN0lsdv",
+      "tags": {
+        "night": 10,
+        "solitude": 9,
+        "humanity": 8,
+        "reflection": 8,
+        "noir": 10,
+        "longing": 7,
+        "transcendence": 5,
+        "warmth": 4,
+        "continuation": 7,
+        "melancholy": 8
+      }
     }
 
 
@@ -1385,9 +1418,70 @@
         "movement": 5,
         "nostalgia": 3
       }
+    },
+
+    {
+      "title": "Glory Box",
+      "artist": "Portishead",
+      "youtubeUrl": "https://youtu.be/4qQyUi4zfDs?si=w3WazOhK88IeDZJw",
+      "tags": {
+        "longing": 10,
+        "night": 9,
+        "solitude": 7,
+        "reflection": 7,
+        "warmth": 4,
+        "nostalgia": 5,
+        "noir": 8,
+        "humanity": 4
+      }
+    },
+
+    {
+      "title": "Mad About You",
+      "artist": "Hooverphonic",
+      "youtubeUrl": "https://youtu.be/xVKGXgHDMvQ?si=G9JkxiKYry1ZlFhD",
+      "tags": {
+        "night": 9,
+        "reflection": 8,
+        "longing": 7,
+        "dreamlike": 7,
+        "solitude": 6,
+        "nostalgia": 5,
+        "warmth": 3,
+        "noir": 5
+      }
+    },
+    {
+      "title": "From the Flagstones",
+      "artist": "Cocteau Twins",
+      "youtubeUrl": "https://youtu.be/cZCWZkp-oQg?si=bEImFlqX2vg_qGPp",
+      "tags": {
+        "dreamlike": 10,
+        "transcendence": 8,
+        "solitude": 7,
+        "reflection": 6,
+        "nostalgia": 6,
+        "night": 5,
+        "warmth": 2,
+        "mystery": 5
+      }
+    },
+
+    {
+      "title": "Porcelain",
+      "artist": "Moby",
+      "youtubeUrl": "https://youtu.be/13EifDb4GYs?si=bOVn9beD6zUPGJIo",
+      "tags": {
+        "reflection": 9,
+        "solitude": 8,
+        "continuation": 7,
+        "night": 7,
+        "longing": 6,
+        "nostalgia": 6,
+        "warmth": 4,
+        "movement": 5
+      }
     }
-
-
 
 
   ]
