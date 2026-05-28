@@ -1355,20 +1355,39 @@
     },
 
     {
-      "title": "Aquaria",
-      "artist": "Ulysses",
-      "youtubeUrl": "https://youtu.be/wOpt23JAZsI?si=nrWF6db11ifWRL3E",
+      "title": "Tears From The Moon",
+      "artist": "Conjure One",
+      "youtubeUrl": "https://youtu.be/XxAOMGghFRI?si=HibIY6JdJ3aAY45z",
       "tags": {
-        "dreamlike": 9,
-        "transcendence": 8,
-        "reflection": 7,
+        "longing": 10,
+        "solitude": 8,
+        "reflection": 8,
+        "night": 7,
+        "nostalgia": 7,
+        "continuation": 5,
+        "dreamlike": 5,
+        "warmth": 3
+      }
+    },
+
+    {
+      "title": "Snow on the Sahara",
+      "artist": "Anggun",
+      "youtubeUrl": "https://youtu.be/4r4nQUKvqrY?si=HA04aDb9wjB_KN-8",
+      "tags": {
+        "longing": 9,
+        "night": 8,
         "solitude": 6,
+        "reflection": 6,
+        "mystery": 7,
+        "dreamlike": 7,
+        "warmth": 4,
         "movement": 5,
-        "nostalgia": 5,
-        "night": 4,
-        "longing": 4
+        "nostalgia": 3
       }
     }
+
+
 
 
   ]

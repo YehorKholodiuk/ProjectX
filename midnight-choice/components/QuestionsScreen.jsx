@@ -1040,6 +1040,69 @@ const questions = [
   },
 
 
+  {
+    id: 33,
+    text: 'You hear distant music while walking alone',
+    answers: [
+      {
+        text: 'You try to follow the sound',
+        tags: {
+          movement: 2,
+          transcendence: 2,
+          longing: 1,
+        },
+      },
+      {
+        text: 'You keep walking, but listen carefully',
+        tags: {
+          reflection: 2,
+          solitude: 1,
+          night: 1,
+        },
+      },
+
+      {
+        text: 'It feels like it came from another life',
+        tags: {
+          nostalgia: 2,
+          dreamlike: 2,
+          transcendence: 1,
+        },
+      }
+    ],
+  },
+
+  {
+    id: 34,
+    text: 'A distant apartment window glows softly while the entire street remains silent',
+    answers: [
+      {
+        text: 'Slow your pace without realizing it',
+        tags: {
+          reflection: 2,
+          night: 2,
+          transcendence: 1,
+        },
+      },
+      {
+        text: 'Imagine the life behind the window',
+        tags: {
+          humanity: 2,
+          transcendence: 2,
+          warmth: 1,
+        },
+      },
+
+      {
+        text: 'Keep your eyes on the empty street instead',
+        tags: {
+          solitude: 2,
+          noir: 1,
+          reflection: 1,
+        },
+      }
+    ],
+  },
 
 
 ];
