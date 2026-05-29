@@ -1497,8 +1497,40 @@
         "warmth": 5,
         "mystery": 6
       }
-    }
+    },
 
+    {
+      "title": "Fever Lullaby",
+      "artist": "The Bookhouse Boys",
+      "youtubeUrl": "https://youtu.be/m-K2stN-jZQ?si=stcE5OU9pb-fMdrB",
+      "tags": {
+        "dreamlike": 9,
+        "nostalgia": 7,
+        "night": 8,
+        "mystery": 8,
+        "longing": 6,
+        "transcendence": 5,
+        "solitude": 5,
+        "warmth": 3,
+        "noir": 6
+      }
+    },
+    {
+      "title": "T.N.T. for the Brain",
+      "artist": "Enigma",
+      "youtubeUrl": "https://youtu.be/zD6sMFyUtNk?si=zFbHP2XN1m9LBN0r",
+      "tags": {
+        "night": 10,
+        "mystery": 9,
+        "reflection": 8,
+        "dreamlike": 8,
+        "solitude": 7,
+        "transcendence": 6,
+        "noir": 5,
+        "humanity": 3,
+        "warmth": 1
+      }
+    }
 
 
   ]
