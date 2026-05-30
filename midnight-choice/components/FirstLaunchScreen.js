@@ -15,6 +15,9 @@ import {
 import AsyncStorage
     from '@react-native-async-storage/async-storage';
 
+import { playDoorSound }
+    from '../utils/playDoorSound';
+
 export default function FirstLaunchScreen({
                                               onContinue,
                                           }) {
@@ -128,7 +131,20 @@ export default function FirstLaunchScreen({
                 </Text>
 
                 <TouchableOpacity
-                    onPress={handleContinue}
+                    //onPress={handleContinue}
+
+                    onPress={async () => {
+
+                        await playDoorSound();
+
+                        setTimeout(() => {
+
+                            handleContinue();
+
+                        }, 400);
+
+                    }}
+
                 >
 
                     <Text style={styles.continueText}>

@@ -30,6 +30,8 @@ import FinalScreen
 
 import FirstLaunchScreen
     from './components/FirstLaunchScreen';
+import { playDoorSound }
+    from './utils/playDoorSound';
 
 export default function App() {
 
@@ -331,11 +333,24 @@ function IntroScreen({
 
                 <TouchableOpacity
                     activeOpacity={0.7}
-                    onPress={onBegin}
+                    //onPress={onBegin}
+
+                    onPress={async () => {
+
+                        await playDoorSound();
+
+                        setTimeout(() => {
+
+                            onBegin();
+
+                        }, 400);
+
+                    }}
+
                 >
 
                     <Text style={styles.beginText}>
-                        begin...
+                       push to begin...
                     </Text>
 
                 </TouchableOpacity>
