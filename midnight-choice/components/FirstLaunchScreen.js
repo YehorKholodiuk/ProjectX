@@ -252,7 +252,7 @@ const styles = StyleSheet.create({
     tuningText: {
         color: '#666',
         fontSize: 11,
-        opacity: 0.35,
+        opacity: 0.45,
         marginTop: 24,
         letterSpacing: 3,
         fontFamily: 'serif',
