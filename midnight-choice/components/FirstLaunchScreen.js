@@ -1,6 +1,7 @@
 import React, {
     useEffect,
     useRef,
+    useState
 } from 'react';
 
 import {
@@ -21,6 +22,9 @@ import { playDoorSound }
 export default function FirstLaunchScreen({
                                               onContinue,
                                           }) {
+
+    const [showTuning, setShowTuning] =
+        useState(false);
 
     const iconFade =
         useRef(
@@ -151,9 +155,58 @@ export default function FirstLaunchScreen({
                        push to continue...
                     </Text>
 
+
+                    <TouchableOpacity
+                        onPress={() =>
+                            setShowTuning(true)
+                        }
+                    >
+
+                        <Text style={styles.tuningText}>
+                           Tuning
+                        </Text>
+
+                    </TouchableOpacity>
+
                 </TouchableOpacity>
 
             </Animated.View>
+
+            {showTuning && (
+
+                <View style={styles.tuningOverlay}>
+
+                    <TouchableOpacity>
+
+                        <Text style={styles.tuningOption}>
+                            Sound: On
+                        </Text>
+
+                    </TouchableOpacity>
+
+                    <TouchableOpacity>
+
+                        <Text style={styles.tuningOption}>
+                            Reset Intro
+                        </Text>
+
+                    </TouchableOpacity>
+
+                    <TouchableOpacity
+                        onPress={() =>
+                            setShowTuning(false)
+                        }
+                    >
+
+                        <Text style={styles.tuningClose}>
+                            Close
+                        </Text>
+
+                    </TouchableOpacity>
+
+                </View>
+
+            )}
 
         </View>
     );
@@ -193,6 +246,38 @@ const styles = StyleSheet.create({
         opacity: 0.75,
         fontFamily: 'serif',
 
+    },
+
+
+    tuningText: {
+        color: '#666',
+        fontSize: 11,
+        opacity: 0.35,
+        marginTop: 24,
+        letterSpacing: 3,
+        fontFamily: 'serif',
+    },
+
+    tuningOverlay: {
+        position: 'absolute',
+        bottom: 90,
+        alignItems: 'center',
+    },
+
+    tuningOption: {
+        color: '#aaa',
+        fontSize: 14,
+        marginBottom: 18,
+        letterSpacing: 2,
+        fontFamily: 'serif',
+    },
+
+    tuningClose: {
+        color: '#555',
+        fontSize: 12,
+        marginTop: 10,
+        letterSpacing: 2,
+        fontFamily: 'serif',
     },
 
 });
