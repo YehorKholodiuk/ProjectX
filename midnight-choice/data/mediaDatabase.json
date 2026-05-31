@@ -570,9 +570,94 @@
         "continuation": 7,
         "melancholy": 8
       }
+    },
+    {
+      "title": "The Crow",
+      "year": 1994,
+      "trailerUrl": "https://youtu.be/N5uPZ7ocsqA?si=fohk3-JKcMFzZR_q",
+      "tags": {
+        "night": 10,
+        "noir": 9,
+        "longing": 9,
+        "melancholy": 8,
+        "urban": 9,
+        "solitude": 7,
+        "movement": 6,
+        "transcendence": 5,
+        "warmth": 2,
+        "dreamlike": 4
+      }
+    },
+    {
+      "title": "The Lost Highway",
+      "year": 1997,
+      "trailerUrl": "https://youtu.be/INuQw8uexyo?si=ytjYLmjZOcIVOnFW",
+      "tags": {
+        "night": 10,
+        "dreamlike": 10,
+        "mystery": 10,
+        "noir": 8,
+        "solitude": 8,
+        "reflection": 6,
+        "transcendence": 6,
+        "melancholy": 7,
+        "warmth": 1,
+        "continuation": 2
+      }
+    },
+
+    {
+      "title": "The City of Lost Children",
+      "year": 1995,
+      "trailerUrl": "https://youtu.be/Pa7oVPru4J8?si=Da0PjgkiQbtXwK87",
+      "tags": {
+        "dreamlike": 10,
+        "nostalgia": 8,
+        "mystery": 8,
+        "melancholy": 7,
+        "night": 7,
+        "transcendence": 6,
+        "warmth": 5,
+        "solitude": 5,
+        "reflection": 5,
+        "wonder": 6
+      }
+    },
+    {
+      "title": "Only Lovers Left Alive",
+      "year": 2013,
+      "trailerUrl": "https://youtu.be/pkeWhokaPPs?si=oRaNqRAaeT1c9g59",
+      "tags": {
+        "night": 9,
+        "reflection": 9,
+        "melancholy": 8,
+        "longing": 7,
+        "warmth": 6,
+        "solitude": 7,
+        "nostalgia": 8,
+        "transcendence": 7,
+        "dreamlike": 5,
+        "continuation": 8
+      }
+    },
+
+    {
+      "title": "Johnny Mnemonic",
+      "year": 1995,
+      "trailerUrl": "https://youtu.be/EFJY_BZ55sI?si=laqrRjOXBYPGLKlT",
+      "tags": {
+        "urban": 10,
+        "night": 9,
+        "movement": 8,
+        "solitude": 8,
+        "noir": 7,
+        "melancholy": 6,
+        "transcendence": 5,
+        "reflection": 4,
+        "dreamlike": 3,
+        "humanity": 5
+      }
     }
-
-
 
   ],
 
