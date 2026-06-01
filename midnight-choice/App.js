@@ -289,7 +289,8 @@ function IntroScreen({
             titleFade,
             {
                 toValue: 1,
-                duration: 4000,
+                //duration: 4000,
+                duration: 2400,
                 useNativeDriver: true,
             }
         ).start();
@@ -301,6 +302,7 @@ function IntroScreen({
                 {
                     toValue: 1,
                     duration: 3000,
+
                     useNativeDriver: true,
                 }
             ).start();

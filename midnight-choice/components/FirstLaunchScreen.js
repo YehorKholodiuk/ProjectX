@@ -23,8 +23,14 @@ export default function FirstLaunchScreen({
                                               onContinue,
                                           }) {
 
+
+    const [showAbout, setShowAbout] =
+        useState(false);
+
     const [showTuning, setShowTuning] =
         useState(false);
+
+
 
     const iconFade =
         useRef(
@@ -46,14 +52,14 @@ export default function FirstLaunchScreen({
                 iconFade,
                 {
                     toValue: 1,
-                    duration: 3000,
+                    duration: 1000,
                     useNativeDriver: true,
                 }
             ),
 
             // HOLD
 
-            Animated.delay(2000),
+            Animated.delay(1400),
 
             // ICON FADE OUT
 
@@ -192,6 +198,27 @@ export default function FirstLaunchScreen({
 
                     </TouchableOpacity>
 
+
+                    <TouchableOpacity
+                        onPress={() => {
+
+                            setShowTuning(false);
+
+                            setTimeout(() => {
+
+                                setShowAbout(true);
+
+                            }, 300);
+
+                        }}
+                    >
+
+                        <Text style={styles.tuningOption}>
+                            About
+                        </Text>
+
+                    </TouchableOpacity>
+
                     <TouchableOpacity
                         onPress={() =>
                             setShowTuning(false)
@@ -208,11 +235,94 @@ export default function FirstLaunchScreen({
 
             )}
 
+
+
+            {showAbout && (
+
+                <TouchableOpacity
+                    activeOpacity={1}
+                    style={styles.aboutOverlay}
+                    onPress={() =>
+                        setShowAbout(false)
+                    }
+                >
+
+                    <Animated.Text
+                        style={styles.aboutText}
+                    >
+                        Midnight Choice is a nocturnal
+                        recommendation experience
+                        built around atmosphere,
+                        reflection,
+                        and emotional discovery.
+
+                        {'\n\n'}
+
+                        Through questions,
+                        music,
+                        trailers,
+                        and cinematic fragments,
+                        the experience explores solitude,
+                        wonder,
+                        memory,
+                        night,
+                        movement,
+                        and transcendence through ordinary life.
+
+                        {'\n\n'}
+
+                        Some passages are meant
+                        to appear briefly,
+                        and disappear quietly.
+
+                        {'\n\n'}
+
+                        <Text style={styles.aboutSignature}>
+                            crafted without AI
+                        </Text>
+
+                    </Animated.Text>
+
+                </TouchableOpacity>
+
+            )}
+
         </View>
     );
 }
 
 const styles = StyleSheet.create({
+
+    aboutSignature: {
+        color: '#666',
+        fontSize: 12,
+        marginTop: 36,
+        fontFamily: 'sans serif',
+        letterSpacing: 2,
+        opacity: 0.25,
+    },
+
+
+
+    aboutOverlay: {
+        position: 'absolute',
+        width: '100%',
+        height: '100%',
+        backgroundColor: '#000',
+        justifyContent: 'center',
+        alignItems: 'center',
+        paddingHorizontal: 36,
+    },
+
+    aboutText: {
+        color: '#bbb',
+        fontSize: 16,
+        lineHeight: 32,
+        textAlign: 'center',
+        fontFamily: 'serif',
+        opacity: 0.82,
+        letterSpacing: 1,
+    },
 
     container: {
         flex: 1,
@@ -250,34 +360,40 @@ const styles = StyleSheet.create({
 
 
     tuningText: {
-        color: '#666',
-        fontSize: 11,
-        opacity: 0.45,
-        marginTop: 24,
+        color: '#777',
+        fontSize: 12,
+        opacity: 0.48,
+        marginTop: 22,
         letterSpacing: 3,
         fontFamily: 'serif',
     },
 
     tuningOverlay: {
         position: 'absolute',
-        bottom: 90,
+        width: '100%',
+        height: '100%',
+        backgroundColor: 'rgba(0,0,0,0.82)',
+        justifyContent: 'flex-end',
         alignItems: 'center',
+        paddingBottom: 140,
     },
 
     tuningOption: {
-        color: '#aaa',
-        fontSize: 14,
-        marginBottom: 18,
+        color: '#999',
+        fontSize: 15,
+        marginBottom: 20,
         letterSpacing: 2,
         fontFamily: 'serif',
+        opacity: 0.82,
     },
 
     tuningClose: {
-        color: '#555',
+        color: '#666',
         fontSize: 12,
-        marginTop: 10,
+        marginTop: 18,
         letterSpacing: 2,
         fontFamily: 'serif',
+        opacity: 0.55,
     },
 
 });
