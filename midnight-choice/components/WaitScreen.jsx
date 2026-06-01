@@ -7,35 +7,52 @@ import {
 } from 'react-native';
 
 export default function WaitScreen({ onFinish }) {
-    const fadeAnim = useRef(new Animated.Value(0)).current;
+    //const fadeAnim = useRef(new Animated.Value(0)).current;
+
+    const fadeAnim =
+        useRef(
+            new Animated.Value(1)
+        ).current;
 
     useEffect(() => {
-        Animated.timing(fadeAnim, {
-            toValue: 1,
-            duration: 1800,
-            useNativeDriver: true,
-        }).start();
 
         const timer = setTimeout(() => {
-            onFinish();
-        }, 2500);
 
-        return () => clearTimeout(timer);
+            Animated.timing(
+                fadeAnim,
+                {
+                    toValue: 0,
+                    duration: 2200,
+                    useNativeDriver: true,
+                }
+            ).start(() => {
+
+                onFinish();
+
+            });
+
+        }, 1800);
+
+        return () =>
+            clearTimeout(timer);
+
     }, []);
 
     return (
-        <View style={styles.container}>
-            <Animated.Text
-                style={[
-                    styles.waitText,
-                    {
-                        opacity: fadeAnim,
-                    },
-                ]}
-            >
+        <Animated.View
+            style={[
+                styles.container,
+                {
+                    opacity: fadeAnim,
+                },
+            ]}
+        >
+
+            <Text style={styles.waitText}>
                 wait...
-            </Animated.Text>
-        </View>
+            </Text>
+
+        </Animated.View>
     );
 }
 
