@@ -307,7 +307,7 @@ function IntroScreen({
                 }
             ).start();
 
-        }, 1800);
+        }, 800);
 
     }, []);
 

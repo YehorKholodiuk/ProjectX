@@ -172,7 +172,7 @@ export default function ResultsScreen({
                         >
 
                             <Text style={styles.linkText}>
-                                Watch Trailer
+                                Watch on YouTube
                             </Text>
 
 

@@ -192,13 +192,7 @@ export default function FirstLaunchScreen({
 
                     </TouchableOpacity>
 
-                    <TouchableOpacity>
 
-                        <Text style={styles.tuningOption}>
-                            Reset Intro
-                        </Text>
-
-                    </TouchableOpacity>
 
 
                     <TouchableOpacity
@@ -361,10 +355,19 @@ const styles = StyleSheet.create({
     },
 
 
+    //tuningText: {
+        //color: '#777',
+        //fontSize: 12,
+        //opacity: 0.48,
+       // marginTop: 22,
+        //letterSpacing: 3,
+       // fontFamily: 'serif',
+  //  },
+
     tuningText: {
-        color: '#777',
+        color: '#8a8a8a',
         fontSize: 12,
-        opacity: 0.48,
+        opacity: 0.68,
         marginTop: 22,
         letterSpacing: 3,
         fontFamily: 'serif',
@@ -389,13 +392,23 @@ const styles = StyleSheet.create({
         opacity: 0.82,
     },
 
+    //tuningClose: {
+        //color: '#666',
+        //fontSize: 12,
+       // marginTop: 18,
+       // letterSpacing: 2,
+        //fontFamily: 'serif',
+        //opacity: 0.55,
+   // },
+
+
     tuningClose: {
-        color: '#666',
+        color: '#7a7a7a',
         fontSize: 12,
-        marginTop: 18,
+        marginTop: 22,
         letterSpacing: 2,
         fontFamily: 'serif',
-        opacity: 0.55,
+        opacity: 0.68,
     },
 
 });
