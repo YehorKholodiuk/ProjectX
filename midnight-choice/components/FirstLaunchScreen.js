@@ -140,41 +140,43 @@ export default function FirstLaunchScreen({
                     through official and authorized sources whenever possible.
                 </Text>
 
-                <TouchableOpacity
-                    //onPress={handleContinue}
-
-                    onPress={async () => {
-
-                        await playDoorSound();
-
-                        setTimeout(() => {
-
-                            handleContinue();
-
-                        }, 400);
-
-                    }}
-
-                >
-
-                    <Text style={styles.continueText}>
-                       push to continue...
-                    </Text>
-
+                <View>
 
                     <TouchableOpacity
+                        activeOpacity={0.7}
+                        onPress={async () => {
+
+                            await playDoorSound();
+
+                            setTimeout(() => {
+
+                                handleContinue();
+
+                            }, 400);
+
+                        }}
+                    >
+
+                        <Text style={styles.continueText}>
+                            push to continue...
+                        </Text>
+
+                    </TouchableOpacity>
+
+                    <TouchableOpacity
+                        activeOpacity={0.85}
                         onPress={() =>
                             setShowTuning(true)
                         }
                     >
 
                         <Text style={styles.tuningText}>
-                           Tuning
+                            Tuning
                         </Text>
 
                     </TouchableOpacity>
 
-                </TouchableOpacity>
+                </View>
 
             </Animated.View>
 
