@@ -8,6 +8,7 @@ import {
     Text,
     StyleSheet,
     Animated,
+    TouchableOpacity
 } from 'react-native';
 
 import useEmotionStore
@@ -19,6 +20,11 @@ import { Audio }
 export default function FinalScreen({
                                         onFinish,
                                     }) {
+
+    const restartFade =
+        useRef(
+            new Animated.Value(0)
+        ).current;
 
 
     const playWooshSound = async () => {
@@ -91,7 +97,23 @@ export default function FinalScreen({
 
                 resetProfile();
 
-                onFinish();
+
+                setTimeout(() => {
+
+                    Animated.timing(
+                        restartFade,
+                        {
+                            toValue: 1,
+                            duration: 2200,
+                            useNativeDriver: true,
+                        }
+                    ).start();
+
+                }, 1200);
+
+
+
+
 
             }, 100);
 
@@ -113,12 +135,43 @@ export default function FinalScreen({
                 see you later...
             </Animated.Text>
 
+            <Animated.View
+                style={{
+                    opacity: restartFade,
+                    position: 'absolute',
+                    bottom: 120,
+                }}
+            >
+
+                <TouchableOpacity
+                    activeOpacity={0.7}
+                    onPress={onFinish}
+                >
+
+                    <Text style={styles.restartText}>
+                        restart the passage...
+                    </Text>
+
+                </TouchableOpacity>
+
+            </Animated.View>
+
         </View>
+
+
 
     );
 }
 
 const styles = StyleSheet.create({
+
+    restartText: {
+        color: '#777',
+        fontSize: 14,
+        letterSpacing: 3,
+        fontFamily: 'serif',
+        opacity: 0.72,
+    },
 
     container: {
         flex: 1,

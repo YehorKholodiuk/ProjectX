@@ -233,11 +233,9 @@ export default function App() {
         content = (
 
             <FinalScreen
-                onFinish={() => {
-
-                    setStage('end');
-
-                }}
+                onFinish={() =>
+                    setStage('intro')
+                }
             />
 
         );
