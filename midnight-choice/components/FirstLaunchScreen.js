@@ -16,8 +16,7 @@ import {
 import AsyncStorage
     from '@react-native-async-storage/async-storage';
 
-//import { playDoorSound }
-    //from '../utils/playDoorSound';
+
 
 export default function FirstLaunchScreen({
                                               onContinue,

@@ -30,8 +30,7 @@ import FinalScreen
 
 import FirstLaunchScreen
     from './components/FirstLaunchScreen';
-import { playDoorSound }
-    from './utils/playDoorSound';
+
 
 export default function App() {
 
