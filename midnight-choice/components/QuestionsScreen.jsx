@@ -158,7 +158,7 @@ const questions = [
         },
       },
       {
-        text: 'It suddenly feels uncomfortable',
+        text: 'Feel uncomfortable standing there',
         tags: {
           longing: 2,
           reflection: 3,
@@ -982,7 +982,7 @@ const questions = [
     text: 'Light moves across the room late at night',
     answers: [
       {
-        text: 'You stop what you\'re doing for a second',
+        text: 'Watch it move across the wall',
         tags: {
           reflection: 2,
           transcendence: 2,
