@@ -150,7 +150,7 @@ const questions = [
         },
       },
       {
-        text: 'Keep moving',
+        text: 'Passing by it slowly',
         tags: {
           movement: 3,
           resilience: 2,
@@ -158,7 +158,7 @@ const questions = [
         },
       },
       {
-        text: 'Look through the window',
+        text: 'It suddenly feels uncomfortable',
         tags: {
           longing: 2,
           reflection: 3,
@@ -173,15 +173,15 @@ const questions = [
     text: 'A voice says your name incorrectly',
     answers: [
       {
-        text: 'Correct them softly',
+        text: 'Do not correct them',
         tags: {
           humanity: 2,
-          warmth: 2,
-          reflection: 1,
+          warmth: 1,
+          reflection: 2,
         },
       },
       {
-        text: 'Say nothing',
+        text: 'Remain silent for a moment',
         tags: {
           solitude: 3,
           uncertainty: 2,
@@ -189,11 +189,11 @@ const questions = [
         },
       },
       {
-        text: 'Pretend it belongs to someone else',
+        text: 'Wonder if you were the right person',
         tags: {
           dreamlike: 3,
           uncertainty: 2,
-          reflection: 1,
+          reflection: 2,
         },
       },
     ],
@@ -503,7 +503,7 @@ const questions = [
         },
       },
       {
-        text: 'Say nothing about it',
+        text: 'Keep the moment to yourself',
         tags: {
           solitude: 3,
           reflection: 2,
@@ -1040,37 +1040,7 @@ const questions = [
   },
 
 
-  {
-    id: 33,
-    text: 'You hear distant music while walking alone',
-    answers: [
-      {
-        text: 'You try to follow the sound',
-        tags: {
-          movement: 2,
-          transcendence: 2,
-          longing: 1,
-        },
-      },
-      {
-        text: 'You keep walking, but listen carefully',
-        tags: {
-          reflection: 2,
-          solitude: 1,
-          night: 1,
-        },
-      },
 
-      {
-        text: 'It feels like it came from another life',
-        tags: {
-          nostalgia: 2,
-          dreamlike: 2,
-          transcendence: 1,
-        },
-      }
-    ],
-  },
 
   {
     id: 34,
@@ -1150,7 +1120,7 @@ const questions = [
         },
       },
       {
-        text: 'Continue walking while listening carefully',
+        text: 'Slow down without turning around',
         tags: {
           solitude: 2,
           longing: 2,
