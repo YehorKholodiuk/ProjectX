@@ -14,8 +14,7 @@ import {
 import useEmotionStore
     from '../store/useEmotionStore';
 
-import { Audio }
-    from 'expo-av';
+
 
 export default function FinalScreen({
                                         onFinish,
@@ -27,28 +26,7 @@ export default function FinalScreen({
         ).current;
 
 
-    const playWooshSound = async () => {
 
-        try {
-
-            const { sound } =
-                await Audio.Sound.createAsync(
-                    require(
-                        '../assets/sounds/mixkit-air-woosh-1489.wav'
-                    )
-                );
-
-            await sound.playAsync();
-
-        } catch (error) {
-
-            console.log(
-                'Error playing woosh:',
-                error
-            );
-
-        }
-    };
 
     const fadeAnim =
         useRef(
@@ -63,11 +41,7 @@ export default function FinalScreen({
 
     useEffect(() => {
 
-        setTimeout(() => {
 
-            playWooshSound();
-
-        }, 3400);
 
         Animated.sequence([
 

@@ -335,18 +335,11 @@ function IntroScreen({
                     activeOpacity={0.7}
                     //onPress={onBegin}
 
-                    onPress={async () => {
+                    onPress={() => {
 
-                        await playDoorSound();
-
-                        setTimeout(() => {
-
-                            onBegin();
-
-                        }, 400);
+                        onBegin();
 
                     }}
-
                 >
 
                     <Text style={styles.beginText}>

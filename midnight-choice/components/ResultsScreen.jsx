@@ -133,7 +133,7 @@ export default function ResultsScreen({
                         >
 
                             <Text style={styles.linkText}>
-                                Listen on YouTube
+                                Explore on YouTube
                             </Text>
 
                             <Text style={styles.disclaimer}>
@@ -172,7 +172,7 @@ export default function ResultsScreen({
                         >
 
                             <Text style={styles.linkText}>
-                                Watch on YouTube
+                                Explore on IMDb / YouTube
                             </Text>
 
 

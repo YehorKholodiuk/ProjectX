@@ -16,8 +16,8 @@ import {
 import AsyncStorage
     from '@react-native-async-storage/async-storage';
 
-import { playDoorSound }
-    from '../utils/playDoorSound';
+//import { playDoorSound }
+    //from '../utils/playDoorSound';
 
 export default function FirstLaunchScreen({
                                               onContinue,
@@ -137,22 +137,17 @@ export default function FirstLaunchScreen({
                 <Text style={styles.introText}>
                     Respecting copyright holders,
                     Midnight Choice recommends publicly available media
-                    through official and authorized sources whenever possible.
+                    through official and authorized sources whenever possible,
+                    for discovery and educational purposes.
                 </Text>
 
                 <View>
 
                     <TouchableOpacity
-                        activeOpacity={0.7}
-                        onPress={async () => {
+                        activeOpacity={0.95}
+                        onPress={() => {
 
-                            await playDoorSound();
-
-                            setTimeout(() => {
-
-                                handleContinue();
-
-                            }, 400);
+                            handleContinue();
 
                         }}
                     >
@@ -164,7 +159,7 @@ export default function FirstLaunchScreen({
                     </TouchableOpacity>
 
                     <TouchableOpacity
-                        activeOpacity={0.85}
+                        activeOpacity={0.95}
                         onPress={() =>
                             setShowTuning(true)
                         }
@@ -184,13 +179,7 @@ export default function FirstLaunchScreen({
 
                 <View style={styles.tuningOverlay}>
 
-                    <TouchableOpacity>
 
-                        <Text style={styles.tuningOption}>
-                            Sound: On
-                        </Text>
-
-                    </TouchableOpacity>
 
 
 
