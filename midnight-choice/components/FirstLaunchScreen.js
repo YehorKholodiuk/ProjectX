@@ -23,6 +23,11 @@ export default function FirstLaunchScreen({
                                           }) {
 
 
+    const fadeAnim =
+        useRef(
+            new Animated.Value(1)
+        ).current;
+
     const [showAbout, setShowAbout] =
         useState(false);
 
@@ -109,7 +114,16 @@ export default function FirstLaunchScreen({
 
     return (
 
-        <View style={styles.container}>
+        <Animated.View
+            style={[
+                styles.container,
+                {
+                    opacity: fadeAnim,
+                },
+            ]}
+        >
+
+
 
             {/* OPENING IMAGE */}
 
@@ -146,7 +160,18 @@ export default function FirstLaunchScreen({
                         activeOpacity={0.95}
                         onPress={() => {
 
-                            handleContinue();
+                            Animated.timing(
+                                fadeAnim,
+                                {
+                                    toValue: 0,
+                                    duration: 1200,
+                                    useNativeDriver: true,
+                                }
+                            ).start(() => {
+
+                                handleContinue();
+
+                            });
 
                         }}
                     >
@@ -271,7 +296,7 @@ export default function FirstLaunchScreen({
 
             )}
 
-        </View>
+        </Animated.View>
     );
 }
 
