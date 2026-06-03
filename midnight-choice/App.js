@@ -270,6 +270,11 @@ function IntroScreen({
                          onBegin,
                      }) {
 
+    const fadeAnim =
+        React.useRef(
+            new Animated.Value(1)
+        ).current;
+
     const titleFade =
         React.useRef(
             new Animated.Value(0)
@@ -310,7 +315,14 @@ function IntroScreen({
 
     return (
 
-        <View style={styles.container}>
+        <Animated.View
+            style={[
+                styles.container,
+                {
+                    opacity: fadeAnim,
+                },
+            ]}
+        >
 
             <Animated.Text
                 style={[
@@ -336,7 +348,18 @@ function IntroScreen({
 
                     onPress={() => {
 
-                        onBegin();
+                        Animated.timing(
+                            fadeAnim,
+                            {
+                                toValue: 0,
+                                duration: 1200,
+                                useNativeDriver: true,
+                            }
+                        ).start(() => {
+
+                            onBegin();
+
+                        });
 
                     }}
                 >
@@ -351,7 +374,7 @@ function IntroScreen({
 
             <StatusBar style="light" />
 
-        </View>
+        </Animated.View>
 
     );
 }
