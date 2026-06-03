@@ -1206,7 +1206,13 @@ export default function QuestionsScreen({ onComplete }) {
           fadeIn();
         }, 350);
       } else {
-        onComplete();
+
+        setTimeout(() => {
+
+          onComplete();
+
+        }, 1000);
+
       }
     });
   };
