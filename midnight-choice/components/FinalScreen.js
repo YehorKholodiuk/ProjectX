@@ -60,7 +60,7 @@ export default function FinalScreen({
                 fadeAnim,
                 {
                     toValue: 0,
-                    duration: 5000,
+                    duration: 2800,
                     useNativeDriver: true,
                 }
             ),
@@ -78,12 +78,12 @@ export default function FinalScreen({
                         restartFade,
                         {
                             toValue: 1,
-                            duration: 2200,
+                            duration: 400,
                             useNativeDriver: true,
                         }
                     ).start();
 
-                }, 1200);
+                }, 400);
 
 
 

@@ -95,7 +95,7 @@ export default function App() {
 
             setStage('questions');
 
-        }, 2200);
+        }, 1000);
 
     };
 
