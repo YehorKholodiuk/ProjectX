@@ -140,11 +140,11 @@ export default function FinalScreen({
 const styles = StyleSheet.create({
 
     restartText: {
-        color: '#777',
-        fontSize: 14,
+        color: '#999',
+        fontSize: 18,
         letterSpacing: 3,
         fontFamily: 'serif',
-        opacity: 0.72,
+        opacity: 0.82,
     },
 
     container: {
