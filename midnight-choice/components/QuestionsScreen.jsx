@@ -1165,7 +1165,7 @@ export default function QuestionsScreen({ onComplete }) {
   };
 
   const [sessionQuestions] = useState(
-      shuffleArray(questions).slice(0, 5)
+      shuffleArray(questions).slice(0, 3)
   );
 
   useEffect(() => {
