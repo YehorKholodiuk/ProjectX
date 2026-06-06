@@ -439,7 +439,7 @@ const questions = [
     text: 'The rain suddenly stops',
     answers: [
       {
-        text: 'Keep standing there.',
+        text: 'Keep standing there',
         tags: {
           reflection: 3,
           transcendence: 1,
