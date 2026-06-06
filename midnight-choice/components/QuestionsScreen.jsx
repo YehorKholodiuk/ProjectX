@@ -467,7 +467,7 @@ const questions = [
 
   {
     id: 15,
-    text: 'A closed café is still warm inside',
+    text: 'A closed café still glows warmly into the street',
     answers: [
       {
         text: 'Wait nearby',
@@ -477,6 +477,7 @@ const questions = [
           solitude: 1,
         },
       },
+
       {
         text: 'Continue down the street',
         tags: {
@@ -485,6 +486,7 @@ const questions = [
           resilience: 1,
         },
       },
+
       {
         text: 'Look through the glass',
         tags: {
@@ -493,22 +495,23 @@ const questions = [
           reflection: 2,
         },
       },
-    ],
+    ]
   },
 
 
   {
     id: 16,
-    text: 'You notice dawn before anyone else',
+    text: 'Dawn begins quietly outside your window',
     answers: [
       {
-        text: 'Stay awake a little longer',
+        text: 'Sense the beginning of something',
         tags: {
           transcendence: 2,
           reflection: 2,
           continuation: 1,
         },
       },
+
       {
         text: 'Open the window',
         tags: {
@@ -517,15 +520,16 @@ const questions = [
           humanity: 1,
         },
       },
+
       {
-        text: 'Keep the moment to yourself',
+        text: 'Remain still for a while',
         tags: {
           solitude: 3,
           reflection: 2,
           nostalgia: 1,
         },
       },
-    ],
+    ]
   },
 
   {
@@ -571,14 +575,16 @@ const questions = [
           resilience: 2,
         },
       },
+
       {
-        text: 'Stand still for a while',
+        text: 'Look down the road without moving',
         tags: {
           reflection: 3,
           solitude: 2,
           uncertainty: 1,
         },
       },
+
       {
         text: 'Smile quietly',
         tags: {
@@ -587,7 +593,7 @@ const questions = [
           continuation: 2,
         },
       },
-    ],
+    ]
   },
 
   {
@@ -620,6 +626,7 @@ const questions = [
       },
     ],
   },
+
   {
     id: 20,
     text: 'The city feels less distant tonight',
@@ -632,6 +639,7 @@ const questions = [
           reflection: 1,
         },
       },
+
       {
         text: 'Take the longer route home',
         tags: {
@@ -640,15 +648,16 @@ const questions = [
           continuation: 1,
         },
       },
+
       {
-        text: 'Stay outside a little longer',
+        text: 'Find a new route',
         tags: {
           warmth: 2,
           night: 2,
           continuation: 3,
         },
       },
-    ],
+    ]
   },
 
   {
@@ -1091,10 +1100,10 @@ const questions = [
 
   {
     id: 35,
-    text: 'The last convenience store on the empty street still keeps its lights on after midnight',
+    text: 'Walking through the cold rain at night, you notice a neon sign where there was never one before',
     answers: [
       {
-        text: 'Step inside for no particular reason',
+        text: 'Step inside without hesitation',
         tags: {
           transcendence: 2,
           warmth: 1,
@@ -1102,24 +1111,25 @@ const questions = [
           night: 1,
         },
       },
+
       {
-        text: 'Pause outside and listen to the silence',
+        text: 'Catch a passing taxi',
         tags: {
-          reflection: 2,
+          movement: 2,
+          continuation: 2,
           solitude: 1,
-          night: 2,
         },
       },
 
       {
-        text: 'Continue walking beneath the flickering signs',
+        text: 'Shake your head, and the sign disappears',
         tags: {
-          noir: 2,
-          movement: 1,
-          solitude: 1,
+          dreamlike: 3,
+          uncertainty: 2,
+          reflection: 1,
         },
-      }
-    ],
+      },
+    ]
   },
   {
     id: 36,
