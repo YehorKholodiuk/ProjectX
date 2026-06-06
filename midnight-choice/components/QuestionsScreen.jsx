@@ -1139,7 +1139,103 @@ const questions = [
     ],
   },
 
+  {
+    id: 37,
+    text: 'Your friends are preparing for a journey around the world and invite you to join them',
+    answers: [
+      {
+        text: 'You agree almost immediately',
+        tags: {
+          movement: 2,
+          continuation: 2,
+          transcendence: 1,
+        },
+      },
 
+      {
+        text: 'You agree, but only if a close friend comes with you',
+        tags: {
+          warmth: 2,
+          humanity: 2,
+          movement: 1,
+        },
+      },
+
+      {
+        text: 'You want to go, but cannot bring yourself to decide',
+        tags: {
+          uncertainty: 2,
+          reflection: 1,
+          longing: 2,
+        },
+      }
+    ],
+  },
+  {
+    id: 38,
+    text: 'A bird suddenly flies into your apartment through an open window',
+    answers: [
+      {
+        text: 'You carefully try to catch it and let it back outside',
+        tags: {
+          warmth: 2,
+          humanity: 2,
+          resilience: 1,
+        },
+      },
+
+      {
+        text: 'You freeze for a moment and call someone for help',
+        tags: {
+          uncertainty: 2,
+          solitude: 1,
+          humanity: 1,
+        },
+      },
+
+      {
+        text: 'You begin wondering what the bird might eat',
+        tags: {
+          reflection: 2,
+          warmth: 1,
+          dreamlike: 1,
+        },
+      }
+    ],
+  },
+
+  {
+    id: 39,
+    text: 'While walking along the evening embankment, you suddenly come face to face with your favorite actor',
+    answers: [
+      {
+        text: 'You lose the ability to speak and can hardly believe it',
+        tags: {
+          dreamlike: 2,
+          transcendence: 2,
+          uncertainty: 1,
+        },
+      },
+
+      {
+        text: 'You excitedly ask for a photograph together',
+        tags: {
+          warmth: 2,
+          humanity: 2,
+          longing: 1,
+        },
+      },
+
+      {
+        text: 'You politely nod and continue walking',
+        tags: {
+          solitude: 2,
+          reflection: 2,
+          night: 1,
+        },
+      }
+    ],
+  },
 
 
 ];
