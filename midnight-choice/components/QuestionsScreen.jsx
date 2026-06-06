@@ -267,30 +267,32 @@ const questions = [
     text: 'You wake up before the alarm',
     answers: [
       {
-        text: 'Watch the ceiling quietly',
+        text: 'Close your eyes and drift back slowly',
         tags: {
           reflection: 3,
           solitude: 2,
           nostalgia: 1,
         },
       },
+
       {
-        text: 'Go outside immediately',
+        text: 'Get out of bed without hesitation',
         tags: {
           movement: 3,
           continuation: 2,
           resilience: 1,
         },
       },
+
       {
-        text: 'Listen to the city waking up',
+        text: 'Try to understand what woke you up',
         tags: {
           reflection: 2,
+          uncertainty: 1,
           night: 1,
-          humanity: 1,
         },
       },
-    ],
+    ]
   },
 
   {
@@ -336,23 +338,25 @@ const questions = [
           continuation: 1,
         },
       },
+
       {
-        text: 'Watch until the train disappears',
+        text: 'Watch the train disappear without reacting',
         tags: {
           longing: 3,
           reflection: 2,
           nostalgia: 1,
         },
       },
+
       {
-        text: 'Pretend you know them',
+        text: 'Turn away from the passing train',
         tags: {
-          dreamlike: 2,
-          nostalgia: 2,
-          longing: 1,
+          solitude: 2,
+          uncertainty: 1,
+          reflection: 1,
         },
       },
-    ],
+    ]
   },
 
 
