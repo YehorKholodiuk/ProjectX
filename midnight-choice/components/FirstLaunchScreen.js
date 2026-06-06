@@ -256,9 +256,7 @@ export default function FirstLaunchScreen({
                     }
                 >
 
-                    <Animated.Text
-                        style={styles.aboutText}
-                    >
+                    <Animated.Text style={styles.aboutText}>
                         Midnight Choice is a nocturnal
                         recommendation experience
                         built around atmosphere,
@@ -282,16 +280,20 @@ export default function FirstLaunchScreen({
 
                         Some passages are meant
                         to appear briefly,
-                        and disappear quietly.
+                        and disappear quietly ...
+
+                        {'\n'}
+
+                        <Text style={styles.restartText}>
+                            you can always restart it at the end
+                        </Text>
 
                         {'\n\n'}
 
                         <Text style={styles.aboutSignature}>
                             crafted without AI
                         </Text>
-
                     </Animated.Text>
-
                 </TouchableOpacity>
 
             )}
@@ -327,7 +329,7 @@ const styles = StyleSheet.create({
         color: '#bbb',
         fontSize: 16,
         lineHeight: 32,
-        textAlign: 'center',
+        textAlign: 'left',
         fontFamily: 'serif',
         opacity: 0.82,
         letterSpacing: 1,
