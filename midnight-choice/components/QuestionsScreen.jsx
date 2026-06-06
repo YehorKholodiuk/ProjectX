@@ -23,14 +23,16 @@ const questions = [
           uncertainty: 1,
         },
       },
+
       {
-        text: 'Look outside',
+        text: 'Step outside for a moment',
         tags: {
           movement: 2,
           uncertainty: 1,
-          longing: 1
+          longing: 1,
         },
       },
+
       {
         text: 'Leave the carriage',
         tags: {
@@ -39,7 +41,7 @@ const questions = [
           continuation: 1,
         },
       },
-    ],
+    ]
   },
 
 
@@ -76,33 +78,35 @@ const questions = [
 
   {
     id: 3,
-    text: 'You hear footsteps above you',
+    text: 'Late at night, laughter echoes from the apartment above you',
     answers: [
       {
-        text: 'Ignore them',
+        text: 'Try not to think about it',
         tags: {
           solitude: 2,
           reflection: 1,
           uncertainty: 1,
         },
       },
+
       {
-        text: 'Follow the sound',
+        text: 'Go upstairs to see what is happening',
         tags: {
           movement: 2,
           uncertainty: 2,
           dreamlike: 1,
         },
       },
+
       {
-        text: 'Wait for silence',
+        text: 'Realize it is New Year\'s Eve',
         tags: {
           reflection: 3,
           night: 2,
           solitude: 1,
         },
       },
-    ],
+    ]
   },
 
   {
