@@ -170,33 +170,35 @@ const questions = [
 
   {
     id: 6,
-    text: 'A voice says your name incorrectly',
+    text: 'For a moment, you think someone called your name',
     answers: [
       {
-        text: 'Do not correct them',
+        text: 'Look around to find the voice',
         tags: {
           humanity: 2,
           warmth: 1,
           reflection: 2,
         },
       },
+
       {
-        text: 'Remain silent for a moment',
+        text: 'Keep walking without reacting',
         tags: {
           solitude: 3,
           uncertainty: 2,
           longing: 1,
         },
       },
+
       {
-        text: 'Wonder if you were the right person',
+        text: 'Wake up suddenly',
         tags: {
           dreamlike: 3,
           uncertainty: 2,
           reflection: 2,
         },
       },
-    ],
+    ]
   },
 
   {
@@ -243,6 +245,7 @@ const questions = [
           dreamlike: 1,
         },
       },
+
       {
         text: 'Press the button again',
         tags: {
@@ -251,17 +254,17 @@ const questions = [
           reflection: 1,
         },
       },
+
       {
-        text: 'Stay there for a moment',
+        text: 'Realize you entered the wrong building',
         tags: {
           reflection: 3,
           dreamlike: 2,
           solitude: 2,
         },
       },
-    ],
+    ]
   },
-
   {
     id: 9,
     text: 'You wake up before the alarm',
