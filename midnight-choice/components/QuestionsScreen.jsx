@@ -107,7 +107,7 @@ const questions = [
 
   {
     id: 4,
-    text: 'The sea is unusually calm tonight',
+    text: 'The sea is still tonight, and moonlight stretches across the water',
     answers: [
       {
         text: 'Stay by the shore',
@@ -117,55 +117,59 @@ const questions = [
           reflection: 2,
         },
       },
+
       {
-        text: 'Walk into the mist',
+        text: 'Swim beneath the moonlight',
         tags: {
           movement: 3,
           uncertainty: 3,
           longing: 2,
         },
       },
+
       {
-        text: 'Watch the horizon',
+        text: 'Walk slowly along the shore',
         tags: {
           reflection: 3,
           transcendence: 1,
           longing: 1,
         },
       },
-    ],
+    ]
   },
 
 
   {
     id: 5,
-    text: 'An empty chair faces the street',
+    text: 'A cat rests quietly in a chair facing the street',
     answers: [
       {
-        text: 'Sit down for a while',
+        text: 'Sit quietly beside the cat',
         tags: {
           solitude: 3,
           nostalgia: 2,
           reflection: 2,
         },
       },
+
       {
-        text: 'Passing by it slowly',
+        text: 'Gently pet the cat while passing by',
         tags: {
           movement: 3,
           resilience: 2,
           continuation: 2,
         },
       },
+
       {
-        text: 'Feel uncomfortable standing there',
+        text: 'Just walk past it',
         tags: {
           longing: 2,
           reflection: 3,
           dreamlike: 1,
         },
       },
-    ],
+    ]
   },
 
   {
