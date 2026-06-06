@@ -657,6 +657,70 @@
         "dreamlike": 3,
         "humanity": 5
       }
+    },
+    {
+      "title": "The Abyss",
+      "year": 1989,
+      "trailerUrl": "https://www.imdb.com/video/vi472565529/?playlistId=tt0096754&ref_=ext_shr_lnk",
+      "tags": {
+        "solitude": 9,
+        "reflection": 8,
+        "uncertainty": 8,
+        "resilience": 8,
+        "warmth": 7,
+        "continuation": 6,
+        "movement": 5,
+        "nostalgia": 4,
+        "night": 3
+      }
+    },
+    {
+      "title": "Les Visiteurs",
+      "year": 1993,
+      "trailerUrl": "https://www.imdb.com/video/vi1780334105/?ref_=ext_shr_lnk",
+      "tags": {
+        "movement": 8,
+        "uncertainty": 7,
+        "warmth": 6,
+        "nostalgia": 6,
+        "continuation": 5,
+        "reflection": 3,
+        "solitude": 2,
+        "night": 1,
+        "resilience": 1
+      }
+    },
+    {
+      "title": "Dirk Gently's Holistic Detective Agency",
+      "year": 2016,
+      "trailerUrl": "https://www.imdb.com/video/vi691911961/?ref_=ext_shr_lnk",
+      "tags": {
+        "uncertainty": 10,
+        "movement": 8,
+        "warmth": 7,
+        "continuation": 7,
+        "reflection": 6,
+        "solitude": 4,
+        "night": 4,
+        "nostalgia": 2,
+        "resilience": 2
+      }
+    },
+    {
+      "title": "Uncovered",
+      "year": 1994,
+      "trailerUrl": "https://www.imdb.com/video/vi1374276377/?playlistId=tt0111549&ref_=ext_shr_lnk",
+      "tags": {
+        "uncertainty": 10,
+        "reflection": 8,
+        "solitude": 7,
+        "nostalgia": 6,
+        "night": 5,
+        "continuation": 5,
+        "resilience": 4,
+        "warmth": 3,
+        "movement": 2
+      }
     }
 
   ],
