@@ -1103,12 +1103,12 @@ const questions = [
     text: 'Walking through the cold rain at night, you notice a neon sign where there was never one before',
     answers: [
       {
-        text: 'Step inside without hesitation',
+        text: 'Open the door and step inside',
         tags: {
           transcendence: 2,
-          warmth: 1,
+          warmth: 2,
           humanity: 1,
-          night: 1,
+          uncertainty: 1,
         },
       },
 
@@ -1122,11 +1122,11 @@ const questions = [
       },
 
       {
-        text: 'Shake your head, and the sign disappears',
+        text: 'Look away for a moment, and the sign is gone',
         tags: {
           dreamlike: 3,
-          uncertainty: 2,
-          reflection: 1,
+          uncertainty: 3,
+          reflection: 2,
         },
       },
     ]
