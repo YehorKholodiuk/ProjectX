@@ -266,11 +266,7 @@ export default function FirstLaunchScreen({
                         {'\n\n'}
 
                         Through questions,
-                        music,
-                        trailers,
-                        and cinematic fragments,
-                        the experience explores solitude,
-                        wonder,
+                        it explores solitude,
                         memory,
                         night,
                         movement,
@@ -281,6 +277,11 @@ export default function FirstLaunchScreen({
                         Some passages are meant
                         to appear briefly,
                         and disappear quietly ...
+
+                        {'\n\n'}
+
+                        When a question appears,
+                        follow the answer that feels most natural.
 
                         {'\n'}
 
