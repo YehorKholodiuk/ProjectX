@@ -17,6 +17,7 @@
     },
     "android": {
       "package": "com.yehorkholodiuk.midnightchoice",
+      "versionCode": 3,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#000000"
